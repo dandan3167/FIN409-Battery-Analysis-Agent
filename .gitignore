@@ -1,0 +1,29 @@
+# Local generated research runs; immutable evidence remains tracked.
+/runs_en/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+*.tmp
+*.log
+# Account configuration and credentials must never enter this package.
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+.ssh/
+*.pem
+*.key
+credentials.json
+token.json
+client_secret*.json
+*.zip

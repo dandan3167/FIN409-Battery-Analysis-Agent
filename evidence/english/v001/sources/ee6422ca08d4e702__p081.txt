@@ -1,0 +1,30 @@
+Global EV Outlook 2024 Trends in electric vehicle batteries 
+PAGE | 81  
+IEA. CC BY 4.0. 
+the most prevalent chemistry in the Chinese electric car market, while NMC 
+batteries are more common in the European and American electric car markets. 
+China’s current leading role in battery production, however, comes at the cost of 
+high levels of overcapacity . In 2023, excluding portable electronics , China used 
+less than 40%  of its maximum cell output, 20  and cathode and anode active 
+material installed manufacturing capacity was almost 4 and 9 times greater than 
+global EV cell demand in 2023. To take advantage of some of this excess capacity, 
+China is the biggest exporter of EV cells, cathodes and anodes globally. However, 
+this has significantly decreased producers’ margins, which may put some at risk if 
+they do not find enough customers outside of China.  
+Global trade flows for lithium-ion batteries and electric cars, 2023 
+ 
+IEA. CC BY 4.0. 
+Notes: EV = electric vehicle; RoW = Rest of the world. The unit is GWh. Flows represent battery packs produced and sold 
+as EVs. Battery net trade is simulated accounting for the battery needs of each region for  each battery manufacturer, and 
+assuming that domestic production is prioritised over  imports. The eventual gap between domestic production and battery 
+needs is filled through imports, which is assigned as a function of the unused manufacturing capacity of the other regions 
+after satisfying their internal demand. This analysis does not consider battery production for stationary or portable electronics 
+applications or stockpiling. 
+Sources: IEA analysis based on data from Benchmark Mineral Intelligence and EV Volumes. 
+ 
+In 2023, the installed b attery cell manufacturing capacity was up by more than 
+45% in both China and the United States relative to 2022, and by nearly 25% in 
+Europe. If current trends continue, backed by policies like the US IRA, by the end 
+ 
+ 
+20 Maximum output refers to an average utilisation factor of 85%. 

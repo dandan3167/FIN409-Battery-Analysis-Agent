@@ -1,0 +1,20 @@
+{
+  "entry_point": "workflow/en/START_NEW_SESSION_EN.md",
+  "formal_instructions": [
+    "workflow/en/MASTER_PROMPT_EN.md",
+    "workflow/en/METHOD_EN.md",
+    "workflow/en/README_EN.md",
+    "workflow/en/task_en.json",
+    "workflow/en/output_contract_en.json"
+  ],
+  "formal_evidence": [
+    "evidence/english/v001/facts.jsonl",
+    "evidence/english/v001/manifest.json",
+    "evidence/english/v001/README_EN.md"
+  ],
+  "source_assets": "Only the files listed in evidence/english/v001/manifest.json under source_assets, copied unchanged into that package's sources directory. Original Chinese documents and source extracts are retained.",
+  "deterministic_tools": ["workflow/en/run_en.py", "workflow/en/deterministic.py"],
+  "created_per_run": ["runs_en/<id>/inputs", "runs_en/<id>/input_manifest.json", "runs_en/<id>/runtime_manifest.json", "runs_en/<id>/calculations.json", "runs_en/<id>/evidence_digest.md", "runs_en/<id>/events.jsonl"],
+  "not_formal_inputs": ["Historical report prose", "Past ratings and judgment files", "Historical analysis or source-mapping narratives containing verdicts", "Chinese acceptance and closeout verdicts", "Archived fixed-prose exporters", "Preparation-only quarantine/audit records"],
+  "scope_note": "An existing curated evidence run, not a claim of fresh comprehensive retrieval or PDF extraction."
+}

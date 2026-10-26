@@ -1,0 +1,2408 @@
+[
+  {
+    "claim_id": "C001",
+    "kind": "fact",
+    "text": "Domestic installations were 387.7, 548.4 and 769.7 GWh in 2023, 2024 and 2025.",
+    "evidence_ids": [
+      "IND-2023",
+      "IND-2024",
+      "IND-2025"
+    ],
+    "scope": "China installations",
+    "limitations": "Excludes storage sales and exports; not revenue.",
+    "reported_metrics": [
+      {
+        "evidence_id": "IND-2023",
+        "name": "total_gwh",
+        "value": "387.7"
+      },
+      {
+        "evidence_id": "IND-2024",
+        "name": "total_gwh",
+        "value": "548.4"
+      },
+      {
+        "evidence_id": "IND-2025",
+        "name": "total_gwh",
+        "value": "769.7"
+      }
+    ],
+    "source_locators": [
+      {
+        "evidence_id": "IND-2023",
+        "sources": [
+          {
+            "url": "https://www.itdcw.com/news/top/01111392392024.html",
+            "publisher": "电池网/电池百人会",
+            "publication_date": "2024-01-11 15:07",
+            "source_file": "evidence/english/v001/sources/406555469a82cc90__2023.html",
+            "source_level": "二手来源，明确引用联盟",
+            "original_source_file": "output/industry_rivalry/sources/2023.html"
+          }
+        ],
+        "period": "2023",
+        "geography": "中国境内",
+        "unit": [
+          "GWh",
+          "%"
+        ],
+        "business_scope": "全年动力电池装车，不含储能销量/出口",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "不是全球业务销量或收入；分母范围差异另见排名。"
+        ]
+      },
+      {
+        "evidence_id": "IND-2024",
+        "sources": [
+          {
+            "url": "https://www.itdcw.com/news/top/0114145a62025.html",
+            "publisher": "电池网/电池百人会",
+            "publication_date": "2025-01-14 15:38",
+            "source_file": "evidence/english/v001/sources/22ae60265573adfc__2024.html",
+            "source_level": "二手来源，明确引用联盟",
+            "original_source_file": "output/industry_rivalry/sources/2024.html"
+          }
+        ],
+        "period": "2024",
+        "geography": "中国境内",
+        "unit": [
+          "GWh",
+          "%"
+        ],
+        "business_scope": "全年动力电池装车，不含储能销量/出口",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "不是全球业务销量或收入；分母范围差异另见排名。"
+        ]
+      },
+      {
+        "evidence_id": "IND-2025",
+        "sources": [
+          {
+            "url": "https://www.cnfin.com/kx/detail/20260116/4366695_1.html",
+            "publisher": "新华财经/中国金融信息网",
+            "publication_date": "2026-01-16",
+            "source_file": "evidence/english/v001/sources/a07d3f18d5f7af2c__2025_verified_web_excerpt.txt",
+            "source_level": "二手引用联盟",
+            "original_source_file": "output/industry_rivalry/sources/2025_verified_web_excerpt.txt"
+          }
+        ],
+        "period": "2025",
+        "geography": "中国境内",
+        "unit": [
+          "GWh",
+          "%"
+        ],
+        "business_scope": "全年动力电池装车，不含储能销量/出口",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "不是全球业务销量或收入；分母范围差异另见排名。"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C002",
+    "kind": "fact",
+    "text": "CATL's reported 2025 ranking share was 43.42%.",
+    "evidence_ids": [
+      "RANK-2025-01"
+    ],
+    "scope": "China ranking",
+    "limitations": "Secondary alliance-based ranking; denominator differs from total installation series; cross-year consistency unresolved.",
+    "reported_metrics": [
+      {
+        "evidence_id": "RANK-2025-01",
+        "name": "share_reported",
+        "value": "43.42"
+      }
+    ],
+    "source_locators": [
+      {
+        "evidence_id": "RANK-2025-01",
+        "sources": [
+          {
+            "url": "https://www.itdcw.com/news/top/011G531L2026.html",
+            "publisher": "电池网/电池百人会",
+            "publication_date": "2026-01-17 10:39",
+            "source_file": "evidence/english/v001/sources/2225ef80681fc521__2025_itdcw_rank.jpg",
+            "source_level": "二手来源，图注明联盟数据，电池网制表",
+            "location": "完整年度TOP15排名原图，第1行",
+            "original_source_file": "output/industry_rivalry/sources/2025_itdcw_rank.jpg"
+          }
+        ],
+        "period": "2025",
+        "geography": "中国境内",
+        "unit": [
+          "名",
+          "GWh",
+          "%"
+        ],
+        "business_scope": "年度排名原图口径",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "2024排名脚注明确排除半固态/钠离子等；2025分母差异未完全解释；跨年严格一致性待确认",
+          "来源份额机械差分；跨年分母边界待确认，不视作已确认同口径变化"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C003",
+    "kind": "fact",
+    "text": "CATL reported traction margins of 23.94% in 2024 and 23.84% in 2025, and a 2024 comparative improvement of 5.81 percentage points.",
+    "evidence_ids": [
+      "FIN-CATL-2024",
+      "FIN-CATL-2025",
+      "CMP-CATL-2023"
+    ],
+    "scope": "Global product business",
+    "limitations": "Original 2023 layer cannot be spliced; adjusted cost remains null.",
+    "reported_metrics": [
+      {
+        "evidence_id": "FIN-CATL-2024",
+        "name": "margin_disclosed",
+        "value": "23.94%"
+      },
+      {
+        "evidence_id": "FIN-CATL-2025",
+        "name": "margin_disclosed",
+        "value": "23.84%"
+      },
+      {
+        "evidence_id": "FIN-CATL-2024",
+        "name": "margin_change_reported_pp",
+        "value": "5.81%"
+      },
+      {
+        "evidence_id": "CMP-CATL-2023",
+        "name": "adjusted_cost_direct",
+        "value": null
+      }
+    ],
+    "source_locators": [
+      {
+        "evidence_id": "FIN-CATL-2024",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/b4f1713d7b821eb0__宁德时代2024年度报告.pdf",
+            "source_sha256": "b4f1713d7b821eb076c102711d177fe942ccc2bc8dd171ae5d7a95799a65b0ad",
+            "report_year": 2024,
+            "pdf_page_1_based": 20,
+            "original_source_file": "宁德时代年度报告/宁德时代2024年度报告.pdf"
+          }
+        ],
+        "period": "2024",
+        "geography": "集团境内外",
+        "unit": [
+          "千元",
+          "%",
+          "亿元",
+          "百分点"
+        ],
+        "business_scope": "独立披露动力电池业务，地域和产品组合保留",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "2023原报成本与毛利率不得直接接2024比较口径。",
+          "集团全球收入不与中国装车相除。"
+        ]
+      },
+      {
+        "evidence_id": "FIN-CATL-2025",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/6850b3d22ec2427c__宁德时代2025年度报告.pdf",
+            "source_sha256": "6850b3d22ec2427ceb8cccd8321ecf59658db21746dd99d330fcbe324efddd3f",
+            "report_year": 2025,
+            "pdf_page_1_based": 25,
+            "original_source_file": "宁德时代年度报告/宁德时代2025年度报告.pdf"
+          }
+        ],
+        "period": "2025",
+        "geography": "集团境内外",
+        "unit": [
+          "千元",
+          "%",
+          "亿元",
+          "百分点"
+        ],
+        "business_scope": "独立披露动力电池业务，地域和产品组合保留",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "2023原报成本与毛利率不得直接接2024比较口径。",
+          "集团全球收入不与中国装车相除。"
+        ]
+      },
+      {
+        "evidence_id": "CMP-CATL-2023",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/b4f1713d7b821eb0__宁德时代2024年度报告.pdf",
+            "pdf_page_1_based": 20,
+            "original_source_file": "宁德时代年度报告/宁德时代2024年度报告.pdf"
+          }
+        ],
+        "period": "2023",
+        "geography": "集团境内外",
+        "unit": [
+          "%",
+          "原币",
+          "百分点"
+        ],
+        "business_scope": "2024年报目标业务比较口径",
+        "evidence_type": "inferred_approximation",
+        "limitations": [
+          "约数由两个已四舍五入百分数相减而来，非直接披露。",
+          "不据约数反推精确成本；未找到不等于不存在。"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C004",
+    "kind": "fact",
+    "text": "TrendForce reports December 2023 EV-cell category ASP declines of 6–10%, linking low-price selling to orders and cash flow.",
+    "evidence_ids": [
+      "SRC-TF-202312"
+    ],
+    "scope": "China EV cells; one month",
+    "limitations": "Source assessment; raw materials also matter; not matched products.",
+    "reported_metrics": [
+      {
+        "evidence_id": "SRC-TF-202312",
+        "name": "monthly_decline_reported_percent_range",
+        "value": "6–10"
+      }
+    ],
+    "source_locators": [
+      {
+        "evidence_id": "SRC-TF-202312",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/aec4f16295058cf6__trendforce2023.html",
+            "text_file": "evidence/english/v001/sources/604b4c5cecf02d33__trendforce2023.txt",
+            "url": "https://www.trendforce.com/presscenter/news/20240104-11985.html",
+            "publisher": "TrendForce",
+            "publication_date": "2024-01-04",
+            "pdf_page_1_based": null,
+            "original_source_file": "output/project_review/sources/trendforce2023.html",
+            "original_text_file": "output/project_review/sources/trendforce2023.txt"
+          }
+        ],
+        "period": "2023年12月；2023回顾",
+        "geography": "中国（按原文范围）",
+        "unit": [
+          "%（阈值/范围依原文）",
+          "CNY/Wh"
+        ],
+        "business_scope": "2023年12月中国EV动力电芯；方形三元、LFP、软包三元类别ASP；不是相同型号配对价，也不是电池包。",
+        "evidence_type": "source_assessment",
+        "limitations": [
+          "同时记录碳酸锂降价和材料成本下降；不引用后续ESS低于0.40元/Wh的招标价，不把2024预测作事实。"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C005",
+    "kind": "inference",
+    "text": "EVE attributes project profitability effects jointly to competition and material-price fluctuations. Gotion reports delivery progress and technical renewal requirements; those observations do not independently establish high rivalry.",
+    "evidence_ids": [
+      "SRC-EVE-PROJECT-2025",
+      "SRC-GOTION-DELIVERY-2025",
+      "SRC-GOTION-SPEC-2025"
+    ],
+    "scope": "2025 global/project disclosures",
+    "limitations": "Management explanations; no isolated loss estimate or China-specific project volumes.",
+    "source_locators": [
+      {
+        "evidence_id": "SRC-EVE-PROJECT-2025",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/3bee0ca9a6232c60__亿纬锂能_2025年年度报告.pdf",
+            "text_file": "evidence/english/v001/sources/10b5953fe14b86d7__p069.txt",
+            "url": "",
+            "publisher": "亿纬锂能",
+            "publication_date": "2026年发布2025年报",
+            "pdf_page_1_based": 69,
+            "original_source_file": "竞争对手年度报告/亿纬锂能_2025年年度报告.pdf",
+            "original_text_file": "output/project_review/sources/RV_EVE25/p069.txt"
+          }
+        ],
+        "period": "2025",
+        "geography": "集团/特定项目，销售地域未拆分",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "2025公司乘用车动力电池项目（三期）、乘用车锂离子动力项目、HBF16GWh项目当期盈利；原页未拆销售地域。",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "项目级管理层归因，不是全行业量化因果；竞争和材料价格影响不能分离。"
+        ]
+      },
+      {
+        "evidence_id": "SRC-GOTION-DELIVERY-2025",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/2a255f70026f280d__国轩高科_2025年年度报告.pdf",
+            "text_file": "evidence/english/v001/sources/4a9b599f5571869b__p018.txt",
+            "url": "",
+            "publisher": "国轩高科",
+            "publication_date": "2026年发布2025年报",
+            "pdf_page_1_based": 18,
+            "original_source_file": "竞争对手年度报告/国轩高科_2025年年度报告.pdf",
+            "original_text_file": "output/project_review/sources/RV_GOTION25/p018.txt"
+          }
+        ],
+        "period": "2025",
+        "geography": "集团/特定项目，销售地域未拆分",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "既有电池厂商客户开发和已披露标准电芯交付；集团口径，不确认同车型双供或排他性。",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "The source paragraph overlaps Q-BUY-004 and Q-ENT-006; do not count them as independent observations. The disclosed supplier already existed; distinguish its expansion from a genuinely new supplier."
+        ]
+      },
+      {
+        "evidence_id": "SRC-GOTION-SPEC-2025",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/2a255f70026f280d__国轩高科_2025年年度报告.pdf",
+            "text_file": "evidence/english/v001/sources/87c6b9f468ef8620__p103.txt",
+            "url": "",
+            "publisher": "国轩高科",
+            "publication_date": "2026年发布2025年报",
+            "pdf_page_1_based": 103,
+            "original_source_file": "竞争对手年度报告/国轩高科_2025年年度报告.pdf",
+            "original_text_file": "output/project_review/sources/RV_GOTION25/p103.txt"
+          }
+        ],
+        "period": "2025",
+        "geography": "集团/特定项目，销售地域未拆分",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "公司特定募投项目工艺和设计升级；2026预定日期只作计划。",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "The disclosed project concerns design/process changes and planned timing. It does not quantify exit costs or establish delivery status for every project. Interpret commercial mechanisms afresh."
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C006",
+    "kind": "fact",
+    "text": "EVE and Gotion disclosed 2025 traction margins of 15.50% and 14.39%.",
+    "evidence_ids": [
+      "FIN-EVE-2025",
+      "FIN-GOTION-2025"
+    ],
+    "scope": "Global product businesses",
+    "limitations": "Different product mixes; not domestic industry profitability.",
+    "reported_metrics": [
+      {
+        "evidence_id": "FIN-EVE-2025",
+        "name": "margin_disclosed",
+        "value": "15.50%"
+      },
+      {
+        "evidence_id": "FIN-GOTION-2025",
+        "name": "margin_disclosed",
+        "value": "14.39%"
+      }
+    ],
+    "source_locators": [
+      {
+        "evidence_id": "FIN-EVE-2025",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/3bee0ca9a6232c60__亿纬锂能_2025年年度报告.pdf",
+            "source_sha256": "3bee0ca9a6232c60c53f195d078446a45fd4941bd997258b474cebe835eea3b8",
+            "report_year": 2025,
+            "pdf_page_1_based": 20,
+            "original_source_file": "竞争对手年度报告/亿纬锂能_2025年年度报告.pdf"
+          }
+        ],
+        "period": "2025",
+        "geography": "集团境内外",
+        "unit": [
+          "元",
+          "%",
+          "亿元",
+          "百分点"
+        ],
+        "business_scope": "独立披露动力电池业务，地域和产品组合保留",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "2023原报成本与毛利率不得直接接2024比较口径。",
+          "集团全球收入不与中国装车相除。"
+        ]
+      },
+      {
+        "evidence_id": "FIN-GOTION-2025",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/2a255f70026f280d__国轩高科_2025年年度报告.pdf",
+            "source_sha256": "2a255f70026f280deb60691a7937b662615a1b1addb2ce379a56e95698e358fb",
+            "report_year": 2025,
+            "pdf_page_1_based": 20,
+            "original_source_file": "竞争对手年度报告/国轩高科_2025年年度报告.pdf"
+          }
+        ],
+        "period": "2025",
+        "geography": "集团境内外",
+        "unit": [
+          "元",
+          "%",
+          "亿元",
+          "百分点"
+        ],
+        "business_scope": "独立披露动力电池业务，地域和产品组合保留",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "2023原报成本与毛利率不得直接接2024比较口径。",
+          "集团全球收入不与中国装车相除。"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C007",
+    "kind": "fact",
+    "text": "IEA describes a nearly 30% Chinese regional pack-price decline in 2024.",
+    "evidence_ids": [
+      "SRC-IEA-PRICE-2024"
+    ],
+    "scope": "Regional average including EV/storage and imports",
+    "limitations": "Auxiliary; no matched-product or traction-only causal estimate.",
+    "source_locators": [
+      {
+        "evidence_id": "SRC-IEA-PRICE-2024",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/7522f23a3844c6a5__GlobalEVOutlook2025.pdf",
+            "text_file": "evidence/english/v001/sources/d33321bae4990732__p138.txt",
+            "url": "https://www.iea.org/reports/global-ev-outlook-2025/electric-vehicle-batteries",
+            "publisher": "IEA",
+            "publication_date": "2025-05-14；PDF为7月修订",
+            "pdf_page_1_based": 138,
+            "original_source_file": "output/substitute_power/sources/web/GlobalEVOutlook2025.pdf",
+            "original_text_file": "output/project_review/sources/RV_IEA25/p138.txt"
+          }
+        ],
+        "period": "2024",
+        "geography": "中国（按原文范围）",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "2024中国区域电池包均价，按本页Notes含EV与储能、当地生产及进口；非中国车用动力专属均价。",
+        "evidence_type": "source_assessment",
+        "limitations": [
+          "近30%不能写成同型号动力包降价；作者将竞争、材料价格、制造效率及技术组合共同讨论，不分摊各自贡献。"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C008",
+    "kind": "inference",
+    "text": "BYD's internal development and production and Gotion's delivered standard cell make buyer alternatives credible.",
+    "evidence_ids": [
+      "Q-BUY-005",
+      "SRC-GOTION-DELIVERY-2025"
+    ],
+    "scope": "Company cases",
+    "limitations": "Not all automakers; not same-platform immediate dual supply.",
+    "source_locators": [
+      {
+        "evidence_id": "Q-BUY-005",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/e9c2d7fdd088e151__比亚迪_2024年年度报告.pdf",
+            "source_sha256": "e9c2d7fdd088e151ccb6c8ad3d95587b2b014b10f2c9731508d23ce07fde4de3",
+            "report_year": 2024,
+            "pdf_page_1_based": 23,
+            "text_file": "evidence/english/v001/sources/df02386ef41fe2a3__page_023.txt",
+            "screenshot": "evidence/english/v001/sources/31b8439f3d75beee__page_023.png",
+            "source_level": "公司原始年报，管理层业务描述或财务披露",
+            "original_source_file": "竞争对手年度报告/比亚迪_2024年年度报告.pdf",
+            "original_text_file": "output/buyer_power/sources/比亚迪_2024年年度报告/page_023.txt",
+            "original_screenshot": "output/buyer_power/sources/比亚迪_2024年年度报告/page_023.png"
+          }
+        ],
+        "period": "2024",
+        "geography": "依原文；集团或海外不得自动外推中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "原文业务/项目/合同范围，需据内容辨别",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "此条仅为来源原文，不导入旧机制解释。",
+          "管理层性能评价不是独立测试；定点、发布、投产和交付须分开。"
+        ]
+      },
+      {
+        "evidence_id": "SRC-GOTION-DELIVERY-2025",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/2a255f70026f280d__国轩高科_2025年年度报告.pdf",
+            "text_file": "evidence/english/v001/sources/4a9b599f5571869b__p018.txt",
+            "url": "",
+            "publisher": "国轩高科",
+            "publication_date": "2026年发布2025年报",
+            "pdf_page_1_based": 18,
+            "original_source_file": "竞争对手年度报告/国轩高科_2025年年度报告.pdf",
+            "original_text_file": "output/project_review/sources/RV_GOTION25/p018.txt"
+          }
+        ],
+        "period": "2025",
+        "geography": "集团/特定项目，销售地域未拆分",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "既有电池厂商客户开发和已披露标准电芯交付；集团口径，不确认同车型双供或排他性。",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "The source paragraph overlaps Q-BUY-004 and Q-ENT-006; do not count them as independent observations. The disclosed supplier already existed; distinguish its expansion from a genuinely new supplier."
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C009",
+    "kind": "fact",
+    "text": "Some CATL contracts include sales rebates.",
+    "evidence_ids": [
+      "Q-BUY-001"
+    ],
+    "scope": "2024 group contracts",
+    "limitations": "No concession amount or bargaining dominance established.",
+    "source_locators": [
+      {
+        "evidence_id": "Q-BUY-001",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/b4f1713d7b821eb0__宁德时代2024年度报告.pdf",
+            "source_sha256": "b4f1713d7b821eb076c102711d177fe942ccc2bc8dd171ae5d7a95799a65b0ad",
+            "report_year": 2024,
+            "pdf_page_1_based": 155,
+            "text_file": "evidence/english/v001/sources/2a70942e661dae97__page_155.txt",
+            "screenshot": "evidence/english/v001/sources/8d6bf98570f2d5b1__page_155.png",
+            "source_level": "公司原始年报，管理层业务描述或财务披露",
+            "original_source_file": "宁德时代年度报告/宁德时代2024年度报告.pdf",
+            "original_text_file": "output/buyer_power/sources/宁德时代2024年度报告/page_155.txt",
+            "original_screenshot": "output/buyer_power/sources/宁德时代2024年度报告/page_155.png"
+          }
+        ],
+        "period": "2024",
+        "geography": "依原文；集团或海外不得自动外推中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "原文业务/项目/合同范围，需据内容辨别",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "此条仅为来源原文，不导入旧机制解释。",
+          "管理层性能评价不是独立测试；定点、发布、投产和交付须分开。"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C010",
+    "kind": "inference",
+    "text": "Customisation, joint development and strategic relationships can create mutual dependence.",
+    "evidence_ids": [
+      "Q-BUY-009",
+      "Q-BUY-017"
+    ],
+    "scope": "CATL group relationships",
+    "limitations": "Inference; no proof of exclusivity; source includes nonautomotive/global scope.",
+    "source_locators": [
+      {
+        "evidence_id": "Q-BUY-009",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/b4f1713d7b821eb0__宁德时代2024年度报告.pdf",
+            "source_sha256": "b4f1713d7b821eb076c102711d177fe942ccc2bc8dd171ae5d7a95799a65b0ad",
+            "report_year": 2024,
+            "pdf_page_1_based": 14,
+            "text_file": "evidence/english/v001/sources/538ef2a05996d582__page_014.txt",
+            "screenshot": "evidence/english/v001/sources/944d54920c25fcd6__page_014.png",
+            "source_level": "公司原始年报，管理层业务描述或财务披露",
+            "original_source_file": "宁德时代年度报告/宁德时代2024年度报告.pdf",
+            "original_text_file": "output/buyer_power/sources/宁德时代2024年度报告/page_014.txt",
+            "original_screenshot": "output/buyer_power/sources/宁德时代2024年度报告/page_014.png"
+          }
+        ],
+        "period": "2024",
+        "geography": "依原文；集团或海外不得自动外推中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "原文业务/项目/合同范围，需据内容辨别",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "此条仅为来源原文，不导入旧机制解释。",
+          "管理层性能评价不是独立测试；定点、发布、投产和交付须分开。"
+        ]
+      },
+      {
+        "evidence_id": "Q-BUY-017",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/b4f1713d7b821eb0__宁德时代2024年度报告.pdf",
+            "source_sha256": "b4f1713d7b821eb076c102711d177fe942ccc2bc8dd171ae5d7a95799a65b0ad",
+            "report_year": 2024,
+            "pdf_page_1_based": 16,
+            "text_file": "evidence/english/v001/sources/d5c2aa597c340e09__page_016.txt",
+            "screenshot": "evidence/english/v001/sources/1b98fd566f915bcc__page_016.png",
+            "source_level": "公司原始年报，管理层业务描述或财务披露",
+            "original_source_file": "宁德时代年度报告/宁德时代2024年度报告.pdf",
+            "original_text_file": "output/buyer_power/sources/宁德时代2024年度报告/page_016.txt",
+            "original_screenshot": "output/buyer_power/sources/宁德时代2024年度报告/page_016.png"
+          }
+        ],
+        "period": "2024",
+        "geography": "依原文；集团或海外不得自动外推中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "原文业务/项目/合同范围，需据内容辨别",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "此条仅为来源原文，不导入旧机制解释。",
+          "管理层性能评价不是独立测试；定点、发布、投产和交付须分开。"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C011",
+    "kind": "inference",
+    "text": "CATL's short-cycle low-adaptation-cost solutions suggest technology can also ease adoption.",
+    "evidence_ids": [
+      "Q-BUY-016"
+    ],
+    "scope": "2025 group passenger products",
+    "limitations": "Management description; no quantified switching cost.",
+    "source_locators": [
+      {
+        "evidence_id": "Q-BUY-016",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/6850b3d22ec2427c__宁德时代2025年度报告.pdf",
+            "source_sha256": "6850b3d22ec2427ceb8cccd8321ecf59658db21746dd99d330fcbe324efddd3f",
+            "report_year": 2025,
+            "pdf_page_1_based": 21,
+            "text_file": "evidence/english/v001/sources/346a7426f1268752__page_021.txt",
+            "screenshot": "evidence/english/v001/sources/0cd5b951165a8637__page_021.png",
+            "source_level": "公司原始年报，管理层业务描述或财务披露",
+            "original_source_file": "宁德时代年度报告/宁德时代2025年度报告.pdf",
+            "original_text_file": "output/buyer_power/sources/宁德时代2025年度报告/page_021.txt",
+            "original_screenshot": "output/buyer_power/sources/宁德时代2025年度报告/page_021.png"
+          }
+        ],
+        "period": "2025",
+        "geography": "依原文；集团或海外不得自动外推中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "原文业务/项目/合同范围，需据内容辨别",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "此条仅为来源原文，不导入旧机制解释。",
+          "管理层性能评价不是独立测试；定点、发布、投产和交付须分开。"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C012",
+    "kind": "fact",
+    "text": "Aion's timeline records YinPai completion and commissioning on 12 December 2023.",
+    "evidence_ids": [
+      "CASE-YINPAI-20231212"
+    ],
+    "scope": "China automaker-supported factory",
+    "limitations": "Event date differs from unknown publication date; no sustained deliveries or displaced purchases proven.",
+    "source_locators": [
+      {
+        "evidence_id": "CASE-YINPAI-20231212",
+        "sources": [
+          {
+            "url": "https://gacne.com.cn/show/about_us",
+            "publisher": "广汽埃安新能源汽车股份有限公司",
+            "publication_date": null,
+            "source_file": "evidence/english/v001/sources/75ff7d1aa8ba4316__aion_timeline.html",
+            "event_date": "2023-12-12",
+            "original_source_file": "output/entrant_power/sources/web/aion_timeline.html"
+          }
+        ],
+        "period": "2023-12-12",
+        "geography": "中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "车企支持的电池项目",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "事件日期不是动态网页发布日期。",
+          "竣工投产不证明车型交付、外购替代或持续规模。"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C013",
+    "kind": "inference",
+    "text": "Supplier qualification and technical cooperation can constrain immediate substitution of materials and equipment.",
+    "evidence_ids": [
+      "Q-SUP-004",
+      "Q-SUP-017"
+    ],
+    "scope": "CATL practices; industry mechanism",
+    "limitations": "No sector-wide replacement lead times or input-specific vendor concentration.",
+    "source_locators": [
+      {
+        "evidence_id": "Q-SUP-004",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/6081f0377617dddb__宁德时代2023年度报告.pdf",
+            "source_sha256": "6081f0377617dddb82f900569d6458c278a7ab26697b34c87684188eac083471",
+            "report_year": 2023,
+            "pdf_page_1_based": 13,
+            "text_file": "evidence/english/v001/sources/fc0ed9979adfef26__page_013.txt",
+            "screenshot": "evidence/english/v001/sources/ec5206b06f909a0c__page_013.png",
+            "original_source_file": "宁德时代年度报告/宁德时代2023年度报告.pdf",
+            "original_text_file": "output/supplier_power/sources/宁德时代2023年度报告/page_013.txt",
+            "original_screenshot": "output/supplier_power/sources/宁德时代2023年度报告/page_013.png"
+          }
+        ],
+        "period": "2023",
+        "geography": "依原文；集团或海外不得自动外推中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "原文业务/项目/合同范围，需据内容辨别",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "此条仅为来源原文，不导入旧机制解释。",
+          "管理层性能评价不是独立测试；定点、发布、投产和交付须分开。"
+        ]
+      },
+      {
+        "evidence_id": "Q-SUP-017",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/b4f1713d7b821eb0__宁德时代2024年度报告.pdf",
+            "source_sha256": "b4f1713d7b821eb076c102711d177fe942ccc2bc8dd171ae5d7a95799a65b0ad",
+            "report_year": 2024,
+            "pdf_page_1_based": 15,
+            "text_file": "evidence/english/v001/sources/00c3d1f6c81a26fa__page_015.txt",
+            "screenshot": "evidence/english/v001/sources/ded694a07faaf8b5__page_015.png",
+            "original_source_file": "宁德时代年度报告/宁德时代2024年度报告.pdf",
+            "original_text_file": "output/supplier_power/sources/宁德时代2024年度报告/page_015.txt",
+            "original_screenshot": "output/supplier_power/sources/宁德时代2024年度报告/page_015.png"
+          }
+        ],
+        "period": "2024",
+        "geography": "依原文；集团或海外不得自动外推中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "原文业务/项目/合同范围，需据内容辨别",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "此条仅为来源原文，不导入旧机制解释。",
+          "管理层性能评价不是独立测试；定点、发布、投产和交付须分开。"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C014",
+    "kind": "fact",
+    "text": "Material share fell from 76.48% to 71.79% while amount rose from RMB 202.723479 billion to RMB 221.152510 billion; the report displays approximately RMB 202.723 billion and RMB 221.153 billion.",
+    "evidence_ids": [
+      "MAT-02",
+      "MAT-04"
+    ],
+    "scope": "2024–2025 CATL battery-industry main-business costs",
+    "limitations": "Not standalone traction material costs; share does not measure dependence.",
+    "reported_metrics": [
+      {
+        "evidence_id": "MAT-02",
+        "name": "share_reported",
+        "value": "76.48%"
+      },
+      {
+        "evidence_id": "MAT-04",
+        "name": "share_reported",
+        "value": "71.79%"
+      },
+      {
+        "evidence_id": "MAT-02",
+        "name": "material_cost_original",
+        "value": "202,723,479"
+      },
+      {
+        "evidence_id": "MAT-04",
+        "name": "material_cost_original",
+        "value": "221,152,510"
+      }
+    ],
+    "source_locators": [
+      {
+        "evidence_id": "MAT-02",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/b4f1713d7b821eb0__宁德时代2024年度报告.pdf",
+            "source_sha256": "b4f1713d7b821eb076c102711d177fe942ccc2bc8dd171ae5d7a95799a65b0ad",
+            "report_year": 2024,
+            "pdf_page_1_based": 22,
+            "text_file": "evidence/english/v001/sources/7a3cefae118b83fe__page_022.txt",
+            "screenshot": "evidence/english/v001/sources/8accd8a72c4a5cbf__page_022.png",
+            "original_source_file": "宁德时代年度报告/宁德时代2024年度报告.pdf",
+            "original_text_file": "output/supplier_power/sources/宁德时代2024年度报告/page_022.txt",
+            "original_screenshot": "output/supplier_power/sources/宁德时代2024年度报告/page_022.png"
+          }
+        ],
+        "period": "2024",
+        "geography": "集团境内外",
+        "unit": [
+          "千元",
+          "亿元",
+          "%"
+        ],
+        "business_scope": "公司电池行业成本口径；2024表头及2025脚注明确主营业务；不是独立动力电池或储能业务，也不等同集团全部业务直接材料总额。",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "非独立动力材料成本；占比和金额分别检查；2023原报/后报分层。"
+        ]
+      },
+      {
+        "evidence_id": "MAT-04",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/6850b3d22ec2427c__宁德时代2025年度报告.pdf",
+            "source_sha256": "6850b3d22ec2427ceb8cccd8321ecf59658db21746dd99d330fcbe324efddd3f",
+            "report_year": 2025,
+            "pdf_page_1_based": 27,
+            "text_file": "evidence/english/v001/sources/ddbf0e35164e48c5__page_027.txt",
+            "screenshot": "evidence/english/v001/sources/e037b318f2380826__page_027.png",
+            "original_source_file": "宁德时代年度报告/宁德时代2025年度报告.pdf",
+            "original_text_file": "output/supplier_power/sources/宁德时代2025年度报告/page_027.txt",
+            "original_screenshot": "output/supplier_power/sources/宁德时代2025年度报告/page_027.png"
+          }
+        ],
+        "period": "2025",
+        "geography": "集团境内外",
+        "unit": [
+          "千元",
+          "亿元",
+          "%"
+        ],
+        "business_scope": "公司电池行业成本口径；2024表头及2025脚注明确主营业务；不是独立动力电池或储能业务，也不等同集团全部业务直接材料总额。",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "非独立动力材料成本；占比和金额分别检查；2023原报/后报分层。"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C015",
+    "kind": "fact",
+    "text": "IEA reports leading-country refining share averages excluding rare earths of 70% in 2023 and 72% in 2025.",
+    "evidence_ids": [
+      "MIN-I2026"
+    ],
+    "scope": "Global country concentration",
+    "limitations": "2026 publication observing research years; not vendor concentration or CATL dependence.",
+    "reported_metrics": [
+      {
+        "evidence_id": "MIN-I2026",
+        "name": "最大精炼国家平均份额（不含稀土）_2023",
+        "value": "70%"
+      },
+      {
+        "evidence_id": "MIN-I2026",
+        "name": "最大精炼国家平均份额（不含稀土）_2025",
+        "value": "72%"
+      }
+    ],
+    "source_locators": [
+      {
+        "evidence_id": "MIN-I2026",
+        "sources": [
+          {
+            "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary",
+            "publisher": "International Energy Agency (IEA)",
+            "publication_date": "2026-07-16",
+            "source_file": "evidence/english/v001/sources/394a644f86b25e8c__iea_executive_pages_opened.json",
+            "original_source_file": "output/supplier_power/sources/web/iea_executive_pages_opened.json"
+          }
+        ],
+        "period": "2023,2025",
+        "geography": "全球",
+        "unit": [
+          "%"
+        ],
+        "business_scope": "商品/国家精炼集中度，非企业采购",
+        "evidence_type": "source_assessment",
+        "limitations": [
+          "只使用2023—2025观察事实。2030/2035等情景预测，以及2026报告混合2025至2026年4月的价格涨幅，均不当作2025全年事实。",
+          "CR1/CR3与矿种集合不同不拼接，不使用跨2026混合价格区间。"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C016",
+    "kind": "inference",
+    "text": "Supply agreements, resource activity, hedging and recycling offer risk-management mechanisms without proving self-sufficiency. Recycling disclosures convert to 210,000 tonnes processed and 24,000 tonnes of regenerated lithium salts.",
+    "evidence_ids": [
+      "Q-SUP-009",
+      "Q-SUP-011",
+      "Q-SUP-014",
+      "REC-04",
+      "REC-05"
+    ],
+    "scope": "CATL group; 2024–2025",
+    "limitations": "21.0 ten-thousand tonnes processed differs from 2.4 ten-thousand tonnes salts; no lithium metal/self-sufficiency conversion.",
+    "reported_metrics": [
+      {
+        "evidence_id": "REC-04",
+        "name": "废旧电池及材料综合回收量",
+        "value": "21.0"
+      },
+      {
+        "evidence_id": "REC-05",
+        "name": "再生锂盐",
+        "value": "2.4"
+      }
+    ],
+    "source_locators": [
+      {
+        "evidence_id": "Q-SUP-009",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/b4f1713d7b821eb0__宁德时代2024年度报告.pdf",
+            "source_sha256": "b4f1713d7b821eb076c102711d177fe942ccc2bc8dd171ae5d7a95799a65b0ad",
+            "report_year": 2024,
+            "pdf_page_1_based": 40,
+            "text_file": "evidence/english/v001/sources/d472a22656dc0fcb__page_040.txt",
+            "screenshot": "evidence/english/v001/sources/459a65014238e19d__page_040.png",
+            "original_source_file": "宁德时代年度报告/宁德时代2024年度报告.pdf",
+            "original_text_file": "output/supplier_power/sources/宁德时代2024年度报告/page_040.txt",
+            "original_screenshot": "output/supplier_power/sources/宁德时代2024年度报告/page_040.png"
+          }
+        ],
+        "period": "2024",
+        "geography": "依原文；集团或海外不得自动外推中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "原文业务/项目/合同范围，需据内容辨别",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "此条仅为来源原文，不导入旧机制解释。",
+          "管理层性能评价不是独立测试；定点、发布、投产和交付须分开。"
+        ]
+      },
+      {
+        "evidence_id": "Q-SUP-011",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/b4f1713d7b821eb0__宁德时代2024年度报告.pdf",
+            "source_sha256": "b4f1713d7b821eb076c102711d177fe942ccc2bc8dd171ae5d7a95799a65b0ad",
+            "report_year": 2024,
+            "pdf_page_1_based": 31,
+            "text_file": "evidence/english/v001/sources/65ec2ebb306ce54e__page_031.txt",
+            "screenshot": "evidence/english/v001/sources/a5d57574babb5536__page_031.png",
+            "original_source_file": "宁德时代年度报告/宁德时代2024年度报告.pdf",
+            "original_text_file": "output/supplier_power/sources/宁德时代2024年度报告/page_031.txt",
+            "original_screenshot": "output/supplier_power/sources/宁德时代2024年度报告/page_031.png"
+          }
+        ],
+        "period": "2024",
+        "geography": "依原文；集团或海外不得自动外推中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "原文业务/项目/合同范围，需据内容辨别",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "此条仅为来源原文，不导入旧机制解释。",
+          "管理层性能评价不是独立测试；定点、发布、投产和交付须分开。"
+        ]
+      },
+      {
+        "evidence_id": "Q-SUP-014",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/6850b3d22ec2427c__宁德时代2025年度报告.pdf",
+            "source_sha256": "6850b3d22ec2427ceb8cccd8321ecf59658db21746dd99d330fcbe324efddd3f",
+            "report_year": 2025,
+            "pdf_page_1_based": 24,
+            "text_file": "evidence/english/v001/sources/d286ccc015eda912__page_024.txt",
+            "screenshot": "evidence/english/v001/sources/f21e4c4f154bf795__page_024.png",
+            "original_source_file": "宁德时代年度报告/宁德时代2025年度报告.pdf",
+            "original_text_file": "output/supplier_power/sources/宁德时代2025年度报告/page_024.txt",
+            "original_screenshot": "output/supplier_power/sources/宁德时代2025年度报告/page_024.png"
+          }
+        ],
+        "period": "2025",
+        "geography": "依原文；集团或海外不得自动外推中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "原文业务/项目/合同范围，需据内容辨别",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "此条仅为来源原文，不导入旧机制解释。",
+          "管理层性能评价不是独立测试；定点、发布、投产和交付须分开。"
+        ]
+      },
+      {
+        "evidence_id": "REC-04",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/6850b3d22ec2427c__宁德时代2025年度报告.pdf",
+            "pdf_page_1_based": 24,
+            "original_source_file": "宁德时代年度报告/宁德时代2025年度报告.pdf"
+          }
+        ],
+        "period": "2025",
+        "geography": "集团披露，地域依原文",
+        "unit": [
+          "万吨"
+        ],
+        "business_scope": "公司资源回收业务",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "当年实际综合处理量",
+          "处理量、再生锂盐、锂金属和自给率不能等同。"
+        ]
+      },
+      {
+        "evidence_id": "REC-05",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/6850b3d22ec2427c__宁德时代2025年度报告.pdf",
+            "pdf_page_1_based": 24,
+            "original_source_file": "宁德时代年度报告/宁德时代2025年度报告.pdf"
+          }
+        ],
+        "period": "2025",
+        "geography": "集团披露，地域依原文",
+        "unit": [
+          "万吨"
+        ],
+        "business_scope": "公司资源回收业务",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "当年再生盐量，非锂金属量",
+          "处理量、再生锂盐、锂金属和自给率不能等同。"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C017",
+    "kind": "inference",
+    "text": "Manufacturing, engineering and quality capability requirements create barriers to reliable commercial entry.",
+    "evidence_ids": [
+      "Q-ENT-003"
+    ],
+    "scope": "Battery manufacturing mechanism",
+    "limitations": "Incumbent assessment, not independently measured minimum cost.",
+    "source_locators": [
+      {
+        "evidence_id": "Q-ENT-003",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/b4f1713d7b821eb0__宁德时代2024年度报告.pdf",
+            "source_sha256": "b4f1713d7b821eb076c102711d177fe942ccc2bc8dd171ae5d7a95799a65b0ad",
+            "report_year": 2024,
+            "pdf_page_1_based": 16,
+            "text_file": "evidence/english/v001/sources/d5c2aa597c340e09__page_016.txt",
+            "screenshot": "evidence/english/v001/sources/c1eab76c266735d7__page_016.png",
+            "original_source_file": "宁德时代年度报告/宁德时代2024年度报告.pdf",
+            "original_text_file": "output/entrant_power/sources/宁德时代2024年度报告/page_016.txt",
+            "original_screenshot": "output/entrant_power/sources/宁德时代2024年度报告/page_016.png"
+          }
+        ],
+        "period": "2024",
+        "geography": "依原文；集团或海外不得自动外推中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "原文业务/项目/合同范围，需据内容辨别",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "此条仅为来源原文，不导入旧机制解释。",
+          "管理层性能评价不是独立测试；定点、发布、投产和交付须分开。"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C018",
+    "kind": "inference",
+    "text": "Equipment delays, staged investment and continuing warranty responsibility show execution and endurance requirements.",
+    "evidence_ids": [
+      "Q-ENT-011",
+      "Q-ENT-007"
+    ],
+    "scope": "Incumbent project and CATL contracts",
+    "limitations": "Gotion is established; warranty source includes storage; no startup cash threshold.",
+    "source_locators": [
+      {
+        "evidence_id": "Q-ENT-011",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/865d69b0da6dfa05__国轩高科_2023年年度报告.pdf",
+            "source_sha256": "865d69b0da6dfa059de2c924e16eb8a4e5b11fabc1b19c985769baf44c94739d",
+            "report_year": 2023,
+            "pdf_page_1_based": 27,
+            "text_file": "evidence/english/v001/sources/af67b2cf445d7391__page_027.txt",
+            "screenshot": "evidence/english/v001/sources/be3dbe793e31fb85__page_027.png",
+            "original_source_file": "竞争对手年度报告/国轩高科_2023年年度报告.pdf",
+            "original_text_file": "output/entrant_power/sources/国轩高科_2023年年度报告/page_027.txt",
+            "original_screenshot": "output/entrant_power/sources/国轩高科_2023年年度报告/page_027.png"
+          }
+        ],
+        "period": "2023",
+        "geography": "依原文；集团或海外不得自动外推中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "原文业务/项目/合同范围，需据内容辨别",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "此条仅为来源原文，不导入旧机制解释。",
+          "管理层性能评价不是独立测试；定点、发布、投产和交付须分开。"
+        ]
+      },
+      {
+        "evidence_id": "Q-ENT-007",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/6850b3d22ec2427c__宁德时代2025年度报告.pdf",
+            "source_sha256": "6850b3d22ec2427ceb8cccd8321ecf59658db21746dd99d330fcbe324efddd3f",
+            "report_year": 2025,
+            "pdf_page_1_based": 151,
+            "text_file": "evidence/english/v001/sources/02ddeff4d7227429__page_151.txt",
+            "screenshot": "evidence/english/v001/sources/08c9231f504bdcc3__page_151.png",
+            "original_source_file": "宁德时代年度报告/宁德时代2025年度报告.pdf",
+            "original_text_file": "output/entrant_power/sources/宁德时代2025年度报告/page_151.txt",
+            "original_screenshot": "output/entrant_power/sources/宁德时代2025年度报告/page_151.png"
+          }
+        ],
+        "period": "2025",
+        "geography": "依原文；集团或海外不得自动外推中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "原文业务/项目/合同范围，需据内容辨别",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "此条仅为来源原文，不导入旧机制解释。",
+          "管理层性能评价不是独立测试；定点、发布、投产和交付须分开。"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C019",
+    "kind": "inference",
+    "text": "Joint factories and licensing illustrate organisational routes that may help supported entry.",
+    "evidence_ids": [
+      "Q-ENT-015"
+    ],
+    "scope": "CATL global expansion",
+    "limitations": "Incumbent expansion alone is rivalry; new supplier identity must be established.",
+    "source_locators": [
+      {
+        "evidence_id": "Q-ENT-015",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/6850b3d22ec2427c__宁德时代2025年度报告.pdf",
+            "source_sha256": "6850b3d22ec2427ceb8cccd8321ecf59658db21746dd99d330fcbe324efddd3f",
+            "report_year": 2025,
+            "pdf_page_1_based": 16,
+            "text_file": "evidence/english/v001/sources/e86a55af377e6103__page_016.txt",
+            "screenshot": "evidence/english/v001/sources/e738002034916e7f__page_016.png",
+            "original_source_file": "宁德时代年度报告/宁德时代2025年度报告.pdf",
+            "original_text_file": "output/entrant_power/sources/宁德时代2025年度报告/page_016.txt",
+            "original_screenshot": "output/entrant_power/sources/宁德时代2025年度报告/page_016.png"
+          }
+        ],
+        "period": "2025",
+        "geography": "依原文；集团或海外不得自动外推中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "原文业务/项目/合同范围，需据内容辨别",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "此条仅为来源原文，不导入旧机制解释。",
+          "管理层性能评价不是独立测试；定点、发布、投产和交付须分开。"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C020",
+    "kind": "judgment",
+    "text": "Rivalry is High, low-to-medium confidence: the order-related selling assessment and explicit project competition attribution outweigh growth and margin resilience. Monthly/project evidence limits generalisation; specifications alone do not establish intensity.",
+    "evidence_ids": [
+      "SRC-TF-202312",
+      "SRC-EVE-PROJECT-2025",
+      "SRC-GOTION-SPEC-2025",
+      "IND-2025",
+      "FIN-CATL-2025"
+    ],
+    "scope": "China industry, 2023–2025",
+    "limitations": "No causal profit-loss estimate; heterogeneous and partly global evidence.",
+    "source_locators": [
+      {
+        "evidence_id": "SRC-TF-202312",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/aec4f16295058cf6__trendforce2023.html",
+            "text_file": "evidence/english/v001/sources/604b4c5cecf02d33__trendforce2023.txt",
+            "url": "https://www.trendforce.com/presscenter/news/20240104-11985.html",
+            "publisher": "TrendForce",
+            "publication_date": "2024-01-04",
+            "pdf_page_1_based": null,
+            "original_source_file": "output/project_review/sources/trendforce2023.html",
+            "original_text_file": "output/project_review/sources/trendforce2023.txt"
+          }
+        ],
+        "period": "2023年12月；2023回顾",
+        "geography": "中国（按原文范围）",
+        "unit": [
+          "%（阈值/范围依原文）",
+          "CNY/Wh"
+        ],
+        "business_scope": "2023年12月中国EV动力电芯；方形三元、LFP、软包三元类别ASP；不是相同型号配对价，也不是电池包。",
+        "evidence_type": "source_assessment",
+        "limitations": [
+          "同时记录碳酸锂降价和材料成本下降；不引用后续ESS低于0.40元/Wh的招标价，不把2024预测作事实。"
+        ]
+      },
+      {
+        "evidence_id": "SRC-EVE-PROJECT-2025",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/3bee0ca9a6232c60__亿纬锂能_2025年年度报告.pdf",
+            "text_file": "evidence/english/v001/sources/10b5953fe14b86d7__p069.txt",
+            "url": "",
+            "publisher": "亿纬锂能",
+            "publication_date": "2026年发布2025年报",
+            "pdf_page_1_based": 69,
+            "original_source_file": "竞争对手年度报告/亿纬锂能_2025年年度报告.pdf",
+            "original_text_file": "output/project_review/sources/RV_EVE25/p069.txt"
+          }
+        ],
+        "period": "2025",
+        "geography": "集团/特定项目，销售地域未拆分",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "2025公司乘用车动力电池项目（三期）、乘用车锂离子动力项目、HBF16GWh项目当期盈利；原页未拆销售地域。",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "项目级管理层归因，不是全行业量化因果；竞争和材料价格影响不能分离。"
+        ]
+      },
+      {
+        "evidence_id": "SRC-GOTION-SPEC-2025",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/2a255f70026f280d__国轩高科_2025年年度报告.pdf",
+            "text_file": "evidence/english/v001/sources/87c6b9f468ef8620__p103.txt",
+            "url": "",
+            "publisher": "国轩高科",
+            "publication_date": "2026年发布2025年报",
+            "pdf_page_1_based": 103,
+            "original_source_file": "竞争对手年度报告/国轩高科_2025年年度报告.pdf",
+            "original_text_file": "output/project_review/sources/RV_GOTION25/p103.txt"
+          }
+        ],
+        "period": "2025",
+        "geography": "集团/特定项目，销售地域未拆分",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "公司特定募投项目工艺和设计升级；2026预定日期只作计划。",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "The disclosed project concerns design/process changes and planned timing. It does not quantify exit costs or establish delivery status for every project. Interpret commercial mechanisms afresh."
+        ]
+      },
+      {
+        "evidence_id": "IND-2025",
+        "sources": [
+          {
+            "url": "https://www.cnfin.com/kx/detail/20260116/4366695_1.html",
+            "publisher": "新华财经/中国金融信息网",
+            "publication_date": "2026-01-16",
+            "source_file": "evidence/english/v001/sources/a07d3f18d5f7af2c__2025_verified_web_excerpt.txt",
+            "source_level": "二手引用联盟",
+            "original_source_file": "output/industry_rivalry/sources/2025_verified_web_excerpt.txt"
+          }
+        ],
+        "period": "2025",
+        "geography": "中国境内",
+        "unit": [
+          "GWh",
+          "%"
+        ],
+        "business_scope": "全年动力电池装车，不含储能销量/出口",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "不是全球业务销量或收入；分母范围差异另见排名。"
+        ]
+      },
+      {
+        "evidence_id": "FIN-CATL-2025",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/6850b3d22ec2427c__宁德时代2025年度报告.pdf",
+            "source_sha256": "6850b3d22ec2427ceb8cccd8321ecf59658db21746dd99d330fcbe324efddd3f",
+            "report_year": 2025,
+            "pdf_page_1_based": 25,
+            "original_source_file": "宁德时代年度报告/宁德时代2025年度报告.pdf"
+          }
+        ],
+        "period": "2025",
+        "geography": "集团境内外",
+        "unit": [
+          "千元",
+          "%",
+          "亿元",
+          "百分点"
+        ],
+        "business_scope": "独立披露动力电池业务，地域和产品组合保留",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "2023原报成本与毛利率不得直接接2024比较口径。",
+          "集团全球收入不与中国装车相除。"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C021",
+    "kind": "judgment",
+    "text": "Buyer power is Medium, medium confidence, because alternatives coexist with implementation dependence.",
+    "evidence_ids": [
+      "Q-BUY-005",
+      "SRC-GOTION-DELIVERY-2025",
+      "Q-BUY-009",
+      "Q-BUY-016"
+    ],
+    "scope": "China industry; CATL implications",
+    "limitations": "Missing platform switching terms.",
+    "source_locators": [
+      {
+        "evidence_id": "Q-BUY-005",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/e9c2d7fdd088e151__比亚迪_2024年年度报告.pdf",
+            "source_sha256": "e9c2d7fdd088e151ccb6c8ad3d95587b2b014b10f2c9731508d23ce07fde4de3",
+            "report_year": 2024,
+            "pdf_page_1_based": 23,
+            "text_file": "evidence/english/v001/sources/df02386ef41fe2a3__page_023.txt",
+            "screenshot": "evidence/english/v001/sources/31b8439f3d75beee__page_023.png",
+            "source_level": "公司原始年报，管理层业务描述或财务披露",
+            "original_source_file": "竞争对手年度报告/比亚迪_2024年年度报告.pdf",
+            "original_text_file": "output/buyer_power/sources/比亚迪_2024年年度报告/page_023.txt",
+            "original_screenshot": "output/buyer_power/sources/比亚迪_2024年年度报告/page_023.png"
+          }
+        ],
+        "period": "2024",
+        "geography": "依原文；集团或海外不得自动外推中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "原文业务/项目/合同范围，需据内容辨别",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "此条仅为来源原文，不导入旧机制解释。",
+          "管理层性能评价不是独立测试；定点、发布、投产和交付须分开。"
+        ]
+      },
+      {
+        "evidence_id": "SRC-GOTION-DELIVERY-2025",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/2a255f70026f280d__国轩高科_2025年年度报告.pdf",
+            "text_file": "evidence/english/v001/sources/4a9b599f5571869b__p018.txt",
+            "url": "",
+            "publisher": "国轩高科",
+            "publication_date": "2026年发布2025年报",
+            "pdf_page_1_based": 18,
+            "original_source_file": "竞争对手年度报告/国轩高科_2025年年度报告.pdf",
+            "original_text_file": "output/project_review/sources/RV_GOTION25/p018.txt"
+          }
+        ],
+        "period": "2025",
+        "geography": "集团/特定项目，销售地域未拆分",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "既有电池厂商客户开发和已披露标准电芯交付；集团口径，不确认同车型双供或排他性。",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "The source paragraph overlaps Q-BUY-004 and Q-ENT-006; do not count them as independent observations. The disclosed supplier already existed; distinguish its expansion from a genuinely new supplier."
+        ]
+      },
+      {
+        "evidence_id": "Q-BUY-009",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/b4f1713d7b821eb0__宁德时代2024年度报告.pdf",
+            "source_sha256": "b4f1713d7b821eb076c102711d177fe942ccc2bc8dd171ae5d7a95799a65b0ad",
+            "report_year": 2024,
+            "pdf_page_1_based": 14,
+            "text_file": "evidence/english/v001/sources/538ef2a05996d582__page_014.txt",
+            "screenshot": "evidence/english/v001/sources/944d54920c25fcd6__page_014.png",
+            "source_level": "公司原始年报，管理层业务描述或财务披露",
+            "original_source_file": "宁德时代年度报告/宁德时代2024年度报告.pdf",
+            "original_text_file": "output/buyer_power/sources/宁德时代2024年度报告/page_014.txt",
+            "original_screenshot": "output/buyer_power/sources/宁德时代2024年度报告/page_014.png"
+          }
+        ],
+        "period": "2024",
+        "geography": "依原文；集团或海外不得自动外推中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "原文业务/项目/合同范围，需据内容辨别",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "此条仅为来源原文，不导入旧机制解释。",
+          "管理层性能评价不是独立测试；定点、发布、投产和交付须分开。"
+        ]
+      },
+      {
+        "evidence_id": "Q-BUY-016",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/6850b3d22ec2427c__宁德时代2025年度报告.pdf",
+            "source_sha256": "6850b3d22ec2427ceb8cccd8321ecf59658db21746dd99d330fcbe324efddd3f",
+            "report_year": 2025,
+            "pdf_page_1_based": 21,
+            "text_file": "evidence/english/v001/sources/346a7426f1268752__page_021.txt",
+            "screenshot": "evidence/english/v001/sources/0cd5b951165a8637__page_021.png",
+            "source_level": "公司原始年报，管理层业务描述或财务披露",
+            "original_source_file": "宁德时代年度报告/宁德时代2025年度报告.pdf",
+            "original_text_file": "output/buyer_power/sources/宁德时代2025年度报告/page_021.txt",
+            "original_screenshot": "output/buyer_power/sources/宁德时代2025年度报告/page_021.png"
+          }
+        ],
+        "period": "2025",
+        "geography": "依原文；集团或海外不得自动外推中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "原文业务/项目/合同范围，需据内容辨别",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "此条仅为来源原文，不导入旧机制解释。",
+          "管理层性能评价不是独立测试；定点、发布、投产和交付须分开。"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C022",
+    "kind": "judgment",
+    "text": "Supplier power is Medium, low-to-medium confidence: input dependence is moderated by supply organisation.",
+    "evidence_ids": [
+      "Q-SUP-004",
+      "Q-SUP-009",
+      "Q-SUP-017",
+      "MAT-04",
+      "MIN-I2026"
+    ],
+    "scope": "China industry; CATL auxiliary evidence",
+    "limitations": "Country/vendor difference and firm-to-industry extrapolation constrain confidence.",
+    "source_locators": [
+      {
+        "evidence_id": "Q-SUP-004",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/6081f0377617dddb__宁德时代2023年度报告.pdf",
+            "source_sha256": "6081f0377617dddb82f900569d6458c278a7ab26697b34c87684188eac083471",
+            "report_year": 2023,
+            "pdf_page_1_based": 13,
+            "text_file": "evidence/english/v001/sources/fc0ed9979adfef26__page_013.txt",
+            "screenshot": "evidence/english/v001/sources/ec5206b06f909a0c__page_013.png",
+            "original_source_file": "宁德时代年度报告/宁德时代2023年度报告.pdf",
+            "original_text_file": "output/supplier_power/sources/宁德时代2023年度报告/page_013.txt",
+            "original_screenshot": "output/supplier_power/sources/宁德时代2023年度报告/page_013.png"
+          }
+        ],
+        "period": "2023",
+        "geography": "依原文；集团或海外不得自动外推中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "原文业务/项目/合同范围，需据内容辨别",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "此条仅为来源原文，不导入旧机制解释。",
+          "管理层性能评价不是独立测试；定点、发布、投产和交付须分开。"
+        ]
+      },
+      {
+        "evidence_id": "Q-SUP-009",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/b4f1713d7b821eb0__宁德时代2024年度报告.pdf",
+            "source_sha256": "b4f1713d7b821eb076c102711d177fe942ccc2bc8dd171ae5d7a95799a65b0ad",
+            "report_year": 2024,
+            "pdf_page_1_based": 40,
+            "text_file": "evidence/english/v001/sources/d472a22656dc0fcb__page_040.txt",
+            "screenshot": "evidence/english/v001/sources/459a65014238e19d__page_040.png",
+            "original_source_file": "宁德时代年度报告/宁德时代2024年度报告.pdf",
+            "original_text_file": "output/supplier_power/sources/宁德时代2024年度报告/page_040.txt",
+            "original_screenshot": "output/supplier_power/sources/宁德时代2024年度报告/page_040.png"
+          }
+        ],
+        "period": "2024",
+        "geography": "依原文；集团或海外不得自动外推中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "原文业务/项目/合同范围，需据内容辨别",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "此条仅为来源原文，不导入旧机制解释。",
+          "管理层性能评价不是独立测试；定点、发布、投产和交付须分开。"
+        ]
+      },
+      {
+        "evidence_id": "Q-SUP-017",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/b4f1713d7b821eb0__宁德时代2024年度报告.pdf",
+            "source_sha256": "b4f1713d7b821eb076c102711d177fe942ccc2bc8dd171ae5d7a95799a65b0ad",
+            "report_year": 2024,
+            "pdf_page_1_based": 15,
+            "text_file": "evidence/english/v001/sources/00c3d1f6c81a26fa__page_015.txt",
+            "screenshot": "evidence/english/v001/sources/ded694a07faaf8b5__page_015.png",
+            "original_source_file": "宁德时代年度报告/宁德时代2024年度报告.pdf",
+            "original_text_file": "output/supplier_power/sources/宁德时代2024年度报告/page_015.txt",
+            "original_screenshot": "output/supplier_power/sources/宁德时代2024年度报告/page_015.png"
+          }
+        ],
+        "period": "2024",
+        "geography": "依原文；集团或海外不得自动外推中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "原文业务/项目/合同范围，需据内容辨别",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "此条仅为来源原文，不导入旧机制解释。",
+          "管理层性能评价不是独立测试；定点、发布、投产和交付须分开。"
+        ]
+      },
+      {
+        "evidence_id": "MAT-04",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/6850b3d22ec2427c__宁德时代2025年度报告.pdf",
+            "source_sha256": "6850b3d22ec2427ceb8cccd8321ecf59658db21746dd99d330fcbe324efddd3f",
+            "report_year": 2025,
+            "pdf_page_1_based": 27,
+            "text_file": "evidence/english/v001/sources/ddbf0e35164e48c5__page_027.txt",
+            "screenshot": "evidence/english/v001/sources/e037b318f2380826__page_027.png",
+            "original_source_file": "宁德时代年度报告/宁德时代2025年度报告.pdf",
+            "original_text_file": "output/supplier_power/sources/宁德时代2025年度报告/page_027.txt",
+            "original_screenshot": "output/supplier_power/sources/宁德时代2025年度报告/page_027.png"
+          }
+        ],
+        "period": "2025",
+        "geography": "集团境内外",
+        "unit": [
+          "千元",
+          "亿元",
+          "%"
+        ],
+        "business_scope": "公司电池行业成本口径；2024表头及2025脚注明确主营业务；不是独立动力电池或储能业务，也不等同集团全部业务直接材料总额。",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "非独立动力材料成本；占比和金额分别检查；2023原报/后报分层。"
+        ]
+      },
+      {
+        "evidence_id": "MIN-I2026",
+        "sources": [
+          {
+            "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary",
+            "publisher": "International Energy Agency (IEA)",
+            "publication_date": "2026-07-16",
+            "source_file": "evidence/english/v001/sources/394a644f86b25e8c__iea_executive_pages_opened.json",
+            "original_source_file": "output/supplier_power/sources/web/iea_executive_pages_opened.json"
+          }
+        ],
+        "period": "2023,2025",
+        "geography": "全球",
+        "unit": [
+          "%"
+        ],
+        "business_scope": "商品/国家精炼集中度，非企业采购",
+        "evidence_type": "source_assessment",
+        "limitations": [
+          "只使用2023—2025观察事实。2030/2035等情景预测，以及2026报告混合2025至2026年4月的价格涨幅，均不当作2025全年事实。",
+          "CR1/CR3与矿种集合不同不拼接，不使用跨2026混合价格区间。"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C023",
+    "kind": "fact",
+    "text": "The cited normative conditions are guidance without mandatory approval-prerequisite status.",
+    "evidence_ids": [
+      "Q-ENT-020"
+    ],
+    "scope": "Specific MIIT document",
+    "limitations": "Publication date null; does not remove other requirements.",
+    "source_locators": [
+      {
+        "evidence_id": "Q-ENT-020",
+        "sources": [
+          {
+            "pdf_page_1_based": 1,
+            "url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/20246/1b2c425b31524352a0ea0571b51f1d9b.pdf",
+            "publisher": "工业和信息化部",
+            "publication_date": null,
+            "text_file": "evidence/english/v001/sources/7d23b7847099a813__miit_page_001.txt",
+            "screenshot": "evidence/english/v001/sources/18b657cb0cbb08dd__miit-01.png",
+            "original_text_file": "output/entrant_power/sources/web/miit_page_001.txt",
+            "original_screenshot": "output/entrant_power/sources/web/miit-01.png"
+          }
+        ],
+        "period": "原文期间未单列",
+        "geography": "依原文；集团或海外不得自动外推中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "原文业务/项目/合同范围，需据内容辨别",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "此条仅为来源原文，不导入旧机制解释。",
+          "管理层性能评价不是独立测试；定点、发布、投产和交付须分开。"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C024",
+    "kind": "judgment",
+    "text": "Entry threat is Medium, low-to-medium confidence; supported routes matter despite substantial capability barriers.",
+    "evidence_ids": [
+      "CASE-YINPAI-20231212",
+      "Q-ENT-003",
+      "Q-ENT-011",
+      "Q-ENT-015"
+    ],
+    "scope": "China industry",
+    "limitations": "One commissioning event does not establish industry-wide substitution.",
+    "source_locators": [
+      {
+        "evidence_id": "CASE-YINPAI-20231212",
+        "sources": [
+          {
+            "url": "https://gacne.com.cn/show/about_us",
+            "publisher": "广汽埃安新能源汽车股份有限公司",
+            "publication_date": null,
+            "source_file": "evidence/english/v001/sources/75ff7d1aa8ba4316__aion_timeline.html",
+            "event_date": "2023-12-12",
+            "original_source_file": "output/entrant_power/sources/web/aion_timeline.html"
+          }
+        ],
+        "period": "2023-12-12",
+        "geography": "中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "车企支持的电池项目",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "事件日期不是动态网页发布日期。",
+          "竣工投产不证明车型交付、外购替代或持续规模。"
+        ]
+      },
+      {
+        "evidence_id": "Q-ENT-003",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/b4f1713d7b821eb0__宁德时代2024年度报告.pdf",
+            "source_sha256": "b4f1713d7b821eb076c102711d177fe942ccc2bc8dd171ae5d7a95799a65b0ad",
+            "report_year": 2024,
+            "pdf_page_1_based": 16,
+            "text_file": "evidence/english/v001/sources/d5c2aa597c340e09__page_016.txt",
+            "screenshot": "evidence/english/v001/sources/c1eab76c266735d7__page_016.png",
+            "original_source_file": "宁德时代年度报告/宁德时代2024年度报告.pdf",
+            "original_text_file": "output/entrant_power/sources/宁德时代2024年度报告/page_016.txt",
+            "original_screenshot": "output/entrant_power/sources/宁德时代2024年度报告/page_016.png"
+          }
+        ],
+        "period": "2024",
+        "geography": "依原文；集团或海外不得自动外推中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "原文业务/项目/合同范围，需据内容辨别",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "此条仅为来源原文，不导入旧机制解释。",
+          "管理层性能评价不是独立测试；定点、发布、投产和交付须分开。"
+        ]
+      },
+      {
+        "evidence_id": "Q-ENT-011",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/865d69b0da6dfa05__国轩高科_2023年年度报告.pdf",
+            "source_sha256": "865d69b0da6dfa059de2c924e16eb8a4e5b11fabc1b19c985769baf44c94739d",
+            "report_year": 2023,
+            "pdf_page_1_based": 27,
+            "text_file": "evidence/english/v001/sources/af67b2cf445d7391__page_027.txt",
+            "screenshot": "evidence/english/v001/sources/be3dbe793e31fb85__page_027.png",
+            "original_source_file": "竞争对手年度报告/国轩高科_2023年年度报告.pdf",
+            "original_text_file": "output/entrant_power/sources/国轩高科_2023年年度报告/page_027.txt",
+            "original_screenshot": "output/entrant_power/sources/国轩高科_2023年年度报告/page_027.png"
+          }
+        ],
+        "period": "2023",
+        "geography": "依原文；集团或海外不得自动外推中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "原文业务/项目/合同范围，需据内容辨别",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "此条仅为来源原文，不导入旧机制解释。",
+          "管理层性能评价不是独立测试；定点、发布、投产和交付须分开。"
+        ]
+      },
+      {
+        "evidence_id": "Q-ENT-015",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/6850b3d22ec2427c__宁德时代2025年度报告.pdf",
+            "source_sha256": "6850b3d22ec2427ceb8cccd8321ecf59658db21746dd99d330fcbe324efddd3f",
+            "report_year": 2025,
+            "pdf_page_1_based": 16,
+            "text_file": "evidence/english/v001/sources/e86a55af377e6103__page_016.txt",
+            "screenshot": "evidence/english/v001/sources/e738002034916e7f__page_016.png",
+            "original_source_file": "宁德时代年度报告/宁德时代2025年度报告.pdf",
+            "original_text_file": "output/entrant_power/sources/宁德时代2025年度报告/page_016.txt",
+            "original_screenshot": "output/entrant_power/sources/宁德时代2025年度报告/page_016.png"
+          }
+        ],
+        "period": "2025",
+        "geography": "依原文；集团或海外不得自动外推中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "原文业务/项目/合同范围，需据内容辨别",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "此条仅为来源原文，不导入旧机制解释。",
+          "管理层性能评价不是独立测试；定点、发布、投产和交付须分开。"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C025",
+    "kind": "inference",
+    "text": "Chemistries remain internal competition; swapping and charging complement battery use.",
+    "evidence_ids": [
+      "SUB-Q01",
+      "SUB-Q04"
+    ],
+    "scope": "Broad automotive battery boundary",
+    "limitations": "No independently verified convenience benefit or demand increment.",
+    "source_locators": [
+      {
+        "evidence_id": "SUB-Q01",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/6850b3d22ec2427c__宁德时代2025年度报告.pdf",
+            "url": null,
+            "publisher": "宁德时代",
+            "publication_date": null,
+            "pdf_page_1_based": 14,
+            "location": null,
+            "original_source_file": "宁德时代年度报告/宁德时代2025年度报告.pdf"
+          }
+        ],
+        "period": "2025年",
+        "geography": "集团或特定车型，未按地域拆分",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "集团产品；换电网络为公司自报中国布局",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "仅在原文车型、期间与价格定义范围内使用；不估算净需求替代量。"
+        ]
+      },
+      {
+        "evidence_id": "SUB-Q04",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/6850b3d22ec2427c__宁德时代2025年度报告.pdf",
+            "url": null,
+            "publisher": "宁德时代",
+            "publication_date": null,
+            "pdf_page_1_based": 22,
+            "location": null,
+            "original_source_file": "宁德时代年度报告/宁德时代2025年度报告.pdf"
+          }
+        ],
+        "period": "2025年",
+        "geography": "集团或特定车型，未按地域拆分",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "集团产品；换电网络为公司自报中国布局",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "仅在原文车型、期间与价格定义范围内使用；不估算净需求替代量。"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C026",
+    "kind": "fact",
+    "text": "NEV domestic sales were 50.8% of domestic auto sales in 2025.",
+    "evidence_ids": [
+      "VEH-2025-nev_share_domestic_reported"
+    ],
+    "scope": "China enterprise domestic sales; passenger/commercial",
+    "limitations": "Not retail; non-NEV not all pure combustion; counts not GWh.",
+    "reported_metrics": [
+      {
+        "evidence_id": "VEH-2025-nev_share_domestic_reported",
+        "name": "nev_share_domestic_reported",
+        "value": "50.8"
+      }
+    ],
+    "source_locators": [
+      {
+        "evidence_id": "VEH-2025-nev_share_domestic_reported",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/e9006ff5447243ba__caam_2025.decoded.html",
+            "url": "https://www.evcipa.org.cn/newsinfo/10944358.html",
+            "publisher": "中国汽车工业协会",
+            "publication_date": "2026-01-15 14:42（转载页）",
+            "location": "原图image_31.jpg；印刷第29页",
+            "original_source_file": "output/substitute_power/sources/web/caam_2025.decoded.html"
+          }
+        ],
+        "period": "2025",
+        "geography": "中国汽车企业销量；内销另列",
+        "unit": [
+          "%"
+        ],
+        "business_scope": "企业销量含出口（auto/nev_domestic及国内占比除外）；非零售；乘用车和商用车合计",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "含出口与国内列分开；不作消费者零售比例；车辆数不直接换算GWh。",
+          "2023类型数量未取得，不用舍入份额反推精确数量。"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C027",
+    "kind": "fact",
+    "text": "IEA finds close to two-thirds of Chinese BEV cars sold cheaper than combustion equivalents in 2024.",
+    "evidence_ids": [
+      "SUB-Q11"
+    ],
+    "scope": "Passenger segment-based purchase-price benchmark",
+    "limitations": "Sales-weighted ICE segment means; inflation and registration-tax adjustment; not TCO or matched configurations.",
+    "source_locators": [
+      {
+        "evidence_id": "SUB-Q11",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/7522f23a3844c6a5__GlobalEVOutlook2025.pdf",
+            "url": "https://www.iea.org/reports/global-ev-outlook-2025",
+            "publisher": "IEA",
+            "publication_date": "2025-05-14",
+            "pdf_page_1_based": 51,
+            "location": null,
+            "original_source_file": "output/substitute_power/sources/web/GlobalEVOutlook2025.pdf"
+          }
+        ],
+        "period": "本次采用2024年中国乘用车价格观察",
+        "geography": "中国乘用车",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "中国乘用车；同细分市场销售加权燃油车平均价格基准，非同配置配对；不混用网页与PDF税费方法",
+        "evidence_type": "source_assessment",
+        "limitations": [
+          "仅在原文车型、期间与价格定义范围内使用；不估算净需求替代量。",
+          "2024中国乘用车购置价格，按同细分市场燃油车销量加权均价比较，电动车加10%调整登记税豁免并作通胀调整；非TCO。"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C028",
+    "kind": "inference",
+    "text": "Heavy-truck adoption conditions differ, and disclosed fuel-cell and PHEV configurations retain batteries.",
+    "evidence_ids": [
+      "SUB-Q07",
+      "SUB-Q08",
+      "SUB-Q10"
+    ],
+    "scope": "Specific BYD and Yutong products",
+    "limitations": "Manufacturer descriptions; not all fuel-cell vehicles; no displaced GWh estimate.",
+    "source_locators": [
+      {
+        "evidence_id": "SUB-Q07",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/e9c2d7fdd088e151__比亚迪_2024年年度报告.pdf",
+            "url": null,
+            "publisher": "比亚迪",
+            "publication_date": null,
+            "pdf_page_1_based": 29,
+            "location": null,
+            "original_source_file": "竞争对手年度报告/比亚迪_2024年年度报告.pdf"
+          }
+        ],
+        "period": "2024年",
+        "geography": "集团或特定车型，未按地域拆分",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "集团产品技术；不替代独立电池财务数据",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "仅在原文车型、期间与价格定义范围内使用；不估算净需求替代量。"
+        ]
+      },
+      {
+        "evidence_id": "SUB-Q08",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/19cbdefe7230dfce__yutong_2024.rendered.html",
+            "url": "https://www.yutong.com.cn/news/new/1778385770667708416.shtml",
+            "publisher": "宇通",
+            "publication_date": "2024-04-10 19:33:02",
+            "pdf_page_1_based": null,
+            "location": "180kW氢燃料牵引车章节",
+            "original_source_file": "output/substitute_power/sources/web/yutong_2024.rendered.html"
+          }
+        ],
+        "period": "产品发布2024；销售回顾2023",
+        "geography": "集团或特定车型，未按地域拆分",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "特定重卡产品；厂商参数和销量自述，非独立道路测试",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "仅在原文车型、期间与价格定义范围内使用；不估算净需求替代量。"
+        ]
+      },
+      {
+        "evidence_id": "SUB-Q10",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/19cbdefe7230dfce__yutong_2024.rendered.html",
+            "url": "https://www.yutong.com.cn/news/new/1778385770667708416.shtml",
+            "publisher": "宇通",
+            "publication_date": "2024-04-10 19:33:02",
+            "pdf_page_1_based": null,
+            "location": "文章开头行业痛点段",
+            "original_source_file": "output/substitute_power/sources/web/yutong_2024.rendered.html"
+          }
+        ],
+        "period": "产品发布2024；销售回顾2023",
+        "geography": "集团或特定车型，未按地域拆分",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "特定重卡产品；厂商参数和销量自述，非独立道路测试",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "仅在原文车型、期间与价格定义范围内使用；不估算净需求替代量。"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C029",
+    "kind": "inference",
+    "text": "CATL's product breadth offers adaptation options as applications change.",
+    "evidence_ids": [
+      "SUB-Q01",
+      "SUB-Q04"
+    ],
+    "scope": "CATL position",
+    "limitations": "Not proof of superiority or measured reduction in substitution.",
+    "source_locators": [
+      {
+        "evidence_id": "SUB-Q01",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/6850b3d22ec2427c__宁德时代2025年度报告.pdf",
+            "url": null,
+            "publisher": "宁德时代",
+            "publication_date": null,
+            "pdf_page_1_based": 14,
+            "location": null,
+            "original_source_file": "宁德时代年度报告/宁德时代2025年度报告.pdf"
+          }
+        ],
+        "period": "2025年",
+        "geography": "集团或特定车型，未按地域拆分",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "集团产品；换电网络为公司自报中国布局",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "仅在原文车型、期间与价格定义范围内使用；不估算净需求替代量。"
+        ]
+      },
+      {
+        "evidence_id": "SUB-Q04",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/6850b3d22ec2427c__宁德时代2025年度报告.pdf",
+            "url": null,
+            "publisher": "宁德时代",
+            "publication_date": null,
+            "pdf_page_1_based": 22,
+            "location": null,
+            "original_source_file": "宁德时代年度报告/宁德时代2025年度报告.pdf"
+          }
+        ],
+        "period": "2025年",
+        "geography": "集团或特定车型，未按地域拆分",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "集团产品；换电网络为公司自报中国布局",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "仅在原文车型、期间与价格定义范围内使用；不估算净需求替代量。"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C030",
+    "kind": "judgment",
+    "text": "Substitution is Medium, medium confidence, as external alternatives coexist with electrification and retained battery functions.",
+    "evidence_ids": [
+      "SUB-Q07",
+      "SUB-Q08",
+      "SUB-Q10",
+      "SUB-Q11",
+      "VEH-2025-nev_share_domestic_reported"
+    ],
+    "scope": "China industry",
+    "limitations": "Net demand effects and shared/public transport effects unverified.",
+    "source_locators": [
+      {
+        "evidence_id": "SUB-Q07",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/e9c2d7fdd088e151__比亚迪_2024年年度报告.pdf",
+            "url": null,
+            "publisher": "比亚迪",
+            "publication_date": null,
+            "pdf_page_1_based": 29,
+            "location": null,
+            "original_source_file": "竞争对手年度报告/比亚迪_2024年年度报告.pdf"
+          }
+        ],
+        "period": "2024年",
+        "geography": "集团或特定车型，未按地域拆分",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "集团产品技术；不替代独立电池财务数据",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "仅在原文车型、期间与价格定义范围内使用；不估算净需求替代量。"
+        ]
+      },
+      {
+        "evidence_id": "SUB-Q08",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/19cbdefe7230dfce__yutong_2024.rendered.html",
+            "url": "https://www.yutong.com.cn/news/new/1778385770667708416.shtml",
+            "publisher": "宇通",
+            "publication_date": "2024-04-10 19:33:02",
+            "pdf_page_1_based": null,
+            "location": "180kW氢燃料牵引车章节",
+            "original_source_file": "output/substitute_power/sources/web/yutong_2024.rendered.html"
+          }
+        ],
+        "period": "产品发布2024；销售回顾2023",
+        "geography": "集团或特定车型，未按地域拆分",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "特定重卡产品；厂商参数和销量自述，非独立道路测试",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "仅在原文车型、期间与价格定义范围内使用；不估算净需求替代量。"
+        ]
+      },
+      {
+        "evidence_id": "SUB-Q10",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/19cbdefe7230dfce__yutong_2024.rendered.html",
+            "url": "https://www.yutong.com.cn/news/new/1778385770667708416.shtml",
+            "publisher": "宇通",
+            "publication_date": "2024-04-10 19:33:02",
+            "pdf_page_1_based": null,
+            "location": "文章开头行业痛点段",
+            "original_source_file": "output/substitute_power/sources/web/yutong_2024.rendered.html"
+          }
+        ],
+        "period": "产品发布2024；销售回顾2023",
+        "geography": "集团或特定车型，未按地域拆分",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "特定重卡产品；厂商参数和销量自述，非独立道路测试",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "仅在原文车型、期间与价格定义范围内使用；不估算净需求替代量。"
+        ]
+      },
+      {
+        "evidence_id": "SUB-Q11",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/7522f23a3844c6a5__GlobalEVOutlook2025.pdf",
+            "url": "https://www.iea.org/reports/global-ev-outlook-2025",
+            "publisher": "IEA",
+            "publication_date": "2025-05-14",
+            "pdf_page_1_based": 51,
+            "location": null,
+            "original_source_file": "output/substitute_power/sources/web/GlobalEVOutlook2025.pdf"
+          }
+        ],
+        "period": "本次采用2024年中国乘用车价格观察",
+        "geography": "中国乘用车",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "中国乘用车；同细分市场销售加权燃油车平均价格基准，非同配置配对；不混用网页与PDF税费方法",
+        "evidence_type": "source_assessment",
+        "limitations": [
+          "仅在原文车型、期间与价格定义范围内使用；不估算净需求替代量。",
+          "2024中国乘用车购置价格，按同细分市场燃油车销量加权均价比较，电动车加10%调整登记税豁免并作通胀调整；非TCO。"
+        ]
+      },
+      {
+        "evidence_id": "VEH-2025-nev_share_domestic_reported",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/e9006ff5447243ba__caam_2025.decoded.html",
+            "url": "https://www.evcipa.org.cn/newsinfo/10944358.html",
+            "publisher": "中国汽车工业协会",
+            "publication_date": "2026-01-15 14:42（转载页）",
+            "location": "原图image_31.jpg；印刷第29页",
+            "original_source_file": "output/substitute_power/sources/web/caam_2025.decoded.html"
+          }
+        ],
+        "period": "2025",
+        "geography": "中国汽车企业销量；内销另列",
+        "unit": [
+          "%"
+        ],
+        "business_scope": "企业销量含出口（auto/nev_domestic及国内占比除外）；非零售；乘用车和商用车合计",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "含出口与国内列分开；不作消费者零售比例；车辆数不直接换算GWh。",
+          "2023类型数量未取得，不用舍入份额反推精确数量。"
+        ]
+      }
+    ]
+  },
+  {
+    "claim_id": "C031",
+    "kind": "judgment",
+    "text": "The industry is moderately unattractive overall for sustained value capture, with low-to-medium confidence: competitive pressure outweighs uneven protective capabilities. CATL has a strong relative position, with medium confidence, without proven pricing or cost leadership.",
+    "evidence_ids": [
+      "RANK-2025-01",
+      "FIN-CATL-2025",
+      "Q-BUY-009",
+      "Q-SUP-009",
+      "SRC-GOTION-SPEC-2025"
+    ],
+    "scope": "Separate industry and CATL conclusions",
+    "limitations": "Industry confidence low-to-medium; CATL-position confidence medium. Domestic returns, matched prices, switching costs and sustained entrant substitution remain missing. No measured typical-producer return is available.",
+    "source_locators": [
+      {
+        "evidence_id": "RANK-2025-01",
+        "sources": [
+          {
+            "url": "https://www.itdcw.com/news/top/011G531L2026.html",
+            "publisher": "电池网/电池百人会",
+            "publication_date": "2026-01-17 10:39",
+            "source_file": "evidence/english/v001/sources/2225ef80681fc521__2025_itdcw_rank.jpg",
+            "source_level": "二手来源，图注明联盟数据，电池网制表",
+            "location": "完整年度TOP15排名原图，第1行",
+            "original_source_file": "output/industry_rivalry/sources/2025_itdcw_rank.jpg"
+          }
+        ],
+        "period": "2025",
+        "geography": "中国境内",
+        "unit": [
+          "名",
+          "GWh",
+          "%"
+        ],
+        "business_scope": "年度排名原图口径",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "2024排名脚注明确排除半固态/钠离子等；2025分母差异未完全解释；跨年严格一致性待确认",
+          "来源份额机械差分；跨年分母边界待确认，不视作已确认同口径变化"
+        ]
+      },
+      {
+        "evidence_id": "FIN-CATL-2025",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/6850b3d22ec2427c__宁德时代2025年度报告.pdf",
+            "source_sha256": "6850b3d22ec2427ceb8cccd8321ecf59658db21746dd99d330fcbe324efddd3f",
+            "report_year": 2025,
+            "pdf_page_1_based": 25,
+            "original_source_file": "宁德时代年度报告/宁德时代2025年度报告.pdf"
+          }
+        ],
+        "period": "2025",
+        "geography": "集团境内外",
+        "unit": [
+          "千元",
+          "%",
+          "亿元",
+          "百分点"
+        ],
+        "business_scope": "独立披露动力电池业务，地域和产品组合保留",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "2023原报成本与毛利率不得直接接2024比较口径。",
+          "集团全球收入不与中国装车相除。"
+        ]
+      },
+      {
+        "evidence_id": "Q-BUY-009",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/b4f1713d7b821eb0__宁德时代2024年度报告.pdf",
+            "source_sha256": "b4f1713d7b821eb076c102711d177fe942ccc2bc8dd171ae5d7a95799a65b0ad",
+            "report_year": 2024,
+            "pdf_page_1_based": 14,
+            "text_file": "evidence/english/v001/sources/538ef2a05996d582__page_014.txt",
+            "screenshot": "evidence/english/v001/sources/944d54920c25fcd6__page_014.png",
+            "source_level": "公司原始年报，管理层业务描述或财务披露",
+            "original_source_file": "宁德时代年度报告/宁德时代2024年度报告.pdf",
+            "original_text_file": "output/buyer_power/sources/宁德时代2024年度报告/page_014.txt",
+            "original_screenshot": "output/buyer_power/sources/宁德时代2024年度报告/page_014.png"
+          }
+        ],
+        "period": "2024",
+        "geography": "依原文；集团或海外不得自动外推中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "原文业务/项目/合同范围，需据内容辨别",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "此条仅为来源原文，不导入旧机制解释。",
+          "管理层性能评价不是独立测试；定点、发布、投产和交付须分开。"
+        ]
+      },
+      {
+        "evidence_id": "Q-SUP-009",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/b4f1713d7b821eb0__宁德时代2024年度报告.pdf",
+            "source_sha256": "b4f1713d7b821eb076c102711d177fe942ccc2bc8dd171ae5d7a95799a65b0ad",
+            "report_year": 2024,
+            "pdf_page_1_based": 40,
+            "text_file": "evidence/english/v001/sources/d472a22656dc0fcb__page_040.txt",
+            "screenshot": "evidence/english/v001/sources/459a65014238e19d__page_040.png",
+            "original_source_file": "宁德时代年度报告/宁德时代2024年度报告.pdf",
+            "original_text_file": "output/supplier_power/sources/宁德时代2024年度报告/page_040.txt",
+            "original_screenshot": "output/supplier_power/sources/宁德时代2024年度报告/page_040.png"
+          }
+        ],
+        "period": "2024",
+        "geography": "依原文；集团或海外不得自动外推中国",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "原文业务/项目/合同范围，需据内容辨别",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "此条仅为来源原文，不导入旧机制解释。",
+          "管理层性能评价不是独立测试；定点、发布、投产和交付须分开。"
+        ]
+      },
+      {
+        "evidence_id": "SRC-GOTION-SPEC-2025",
+        "sources": [
+          {
+            "source_file": "evidence/english/v001/sources/2a255f70026f280d__国轩高科_2025年年度报告.pdf",
+            "text_file": "evidence/english/v001/sources/87c6b9f468ef8620__p103.txt",
+            "url": "",
+            "publisher": "国轩高科",
+            "publication_date": "2026年发布2025年报",
+            "pdf_page_1_based": 103,
+            "original_source_file": "竞争对手年度报告/国轩高科_2025年年度报告.pdf",
+            "original_text_file": "output/project_review/sources/RV_GOTION25/p103.txt"
+          }
+        ],
+        "period": "2025",
+        "geography": "集团/特定项目，销售地域未拆分",
+        "unit": [
+          "不适用／定性原文"
+        ],
+        "business_scope": "公司特定募投项目工艺和设计升级；2026预定日期只作计划。",
+        "evidence_type": "direct_disclosure",
+        "limitations": [
+          "The disclosed project concerns design/process changes and planned timing. It does not quantify exit costs or establish delivery status for every project. Interpret commercial mechanisms afresh."
+        ]
+      }
+    ]
+  }
+]

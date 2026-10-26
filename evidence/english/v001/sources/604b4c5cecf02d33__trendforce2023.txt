@@ -1,0 +1,184 @@
+EV Battery Prices Dropped Significantly in December but are Expected to Stabilize by 2Q24, Says TrendForce
+Research Report
+Back
+Research Report
+AI & Smart Terminals
+AI Server / Data Center
+Consumer Electronics
+Robot
+Semiconductors
+Memory & Storage
+IC Design
+Wafer Fabrication / Foundry
+Semiconductor Device
+IC Testing & Packaging
+Optoelectronics & Displays
+Display Applications
+Display Panel
+LED Lighting
+LED Display
+Specialty LED
+Emerging Technologies & Applications
+Automotive / EV
+Green Energy & Storage
+Selected Topics
+Semiconductors
+Telecommunications
+Computer System
+Consumer Electronics
+Automotive / EV
+Green Energy & Storage
+Display Panel & LED
+Economics
+Selected Topics
+Membership
+Back
+Semiconductor
+N
+Display
+Optoelectronics
+Green Energy
+ICT Applications Research
+Selected Topics
+Price Trends
+Back
+DRAM
+DRAM Spot Price
+DRAM Contract Price
+Module Spot Price
+GDDR Spot Price
+LPDDR Spot Price
+Mobile DRAM Contract Price
+NAND Flash
+NAND Flash Spot Price
+NAND Flash Contract Price
+Wafer Spot Price
+Memory Card Spot Price
+PC-Client OEM SSD Contract Price
+SSD Street Price
+NAND Flash Wafer Contract Price
+eMMC Spot Price
+eMMC/UFS Contract Price
+TFT-LCD
+Large Size Panel Price
+LCD Smartphone Panel Price
+Street Price
+Large Size Panel Shipment
+PV
+Polysilicon
+Wafer
+Cell
+Module
+PV Glass
+Li-Ion Battery
+Battery Cell & Pack
+Precursor & Cathode Material
+Anode Material
+Separator
+Electrolyte
+Li & Co & Ni
+Other
+Insights
+Back
+Industry Insights
+News
+Press Center
+Roadshow
+Discover
+Back
+DataTrack
+AI Agent
+Data Center Tracker
+Sign In
+Get Support
+Popular Keywords
+#DRAM
+#Foundry
+#AI Server
+#HBM
+#FOPLP
+#CoWoS
+#NAND Flash
+#Automotive
+#MLCC
+#Server
+#Micro LED
+#IC Design
+Shopping List
+0 items
+Your cart is empty
+Total
+USD 0
+View Cart
+Sign In
+Press Center
+Home
+Press Center
+EV Battery Prices Dropped Significantly in December but are Expected to Stabilize by 2Q24, Says TrendForce
+4 January 2024
+Energy
+TrendForce
+The EV battery market in December pursued its inventory reduction strategy, resulting in a further decrease in cell demand. A combination of a lack of market orders and the suppliers’ need to stabilize cash flow led to widespread low-price sales strategies. This caused a continuous decline in prices across various product categories.
+TrendForce
+reveals that the ASP of Chinese EV cells saw a 6–10% decrease in December. The prices for EV square ternary cells, LFP cells, and pouch ternary power cells fell to CNY 0.51/Wh, CNY 0.45/Wh, and CNY 0.55/Wh, respectively.
+In the ESS cell sector, a combination of lower-than-expected market demand and rapid capacity expansion led to oversupply and significant inventory build-up, evident since the third quarter of 2023. This resulted in the ASP of Chinese ESS cells dropping to CNY 0.45/Wh in December—a monthly decline of about 4%. Moreover, intense competition in the bidding process pushed centralized procurement prices (bulk orders negotiated on price) below CNY 0.40/Wh, undercutting the production costs of some manufacturers.
+In the consumer cell segment, demand continued to cool in December, with cell manufacturers offloading their inventory at low prices to actively reduce stock, keeping the operating rate low. The ASP of LCO cells dropped by approximately 8%, down to CNY 5.77/Ah. With the ongoing price decrease in raw material lithium carbonate, the cost of LCO cells is also on a downward trajectory. Looking toward the off-season demand in 1Q24, cell prices are expected to continue declining in January. However, with a recent slight increase in cobalt raw material prices, the drop in consumer cell prices might slow down in January.
+TrendForce notes that in 2023, the Li-ion battery industry experienced a significant release of capacity. However, due to slowing end demand, the industry entered an oversupply cycle, leading to a significant reduction in the prices of lithium battery raw materials. By the end of 2023, the price of lithium carbonate had fallen below CNY 100,000/ton, contributing to a continuous decrease in cell material costs.
+Compared to the beginning of 2023, by December, the ASP of power cells had fallen by more than 50%. The EV battery market is projected to continue growing in 2024, with an estimated annual growth rate of about 15-20%. As inventory across the supply chain gradually normalizes, stock levels are expected to return to healthy levels by the second quarter, leading to a stabilization in lithium battery product prices.
+For more information on reports and market data from TrendForce’s Department of Green Energy Research
+, please click
+here
+, or email the Sales Department at
+GER_MI@trendforce.com
+For additional insights from TrendForce analysts on the latest tech industry news, trends, and forecasts, please visit our blog at
+https://www.trendforce.com/news/
+Previous Article
+DRAM Contract Prices Projected to Increase 13–18% in 1Q24 as Price Surge Continues, Says TrendForce
+Next Article
+LCD TV Panel Market Heads Toward Profitability and Fuels Increased Production; 2024 Shipments Estimated at Approximately 242 Million Units, Says TrendForce
+Subject
+Press Releases
+Subscribe to Newsletters
+Attribution Guide
+RSS Subscription
+In-Depth Analyses
+Infographics
+Videos
+Related Articles
+ASSBs Enter Engineering Validation Phase as Japanese, Korean, and Chinese Suppliers Accelerating Auto Testing and Broaden beyond Auto to New Frontiers, Says TrendForce
+2026.08.12
+Japan Accelerates Development of ASSBs and Supply Chain Buildout, with Government Subsidies Reaching $660 Million, Says TrendForce
+2026.06.24
+Global Solid-State Battery Funding Exceeds US$1.3 Billion in 2025–1Q26, Advancing Toward Pre-Commercialization, Says TrendForce
+2026.04.29
+Related Reports
+China Li-Ion Battery Industry Chain Prices Trend_Jul
+2023.08.08
+PV Monthly Report_Jun_23
+2023.07.26
+China Li-Ion Battery  Industry Chain Production Database_Jun
+2023.07.21
+About Us
+Research Report
+Tags
+Industry Insights
+Terms of Use
+Privacy Policy
+Membership Terms & Conditions
+Contact Us
+Subscribe to Industry Insights
+Subscribe
+English
+繁體中文
+简体中文
+© 2026 TrendForce Corp. All rights reserved
+Get in touch with us
+Your Email
+Message
+Send
+Cancel
+Get in touch with us
+Your Email
+Message
+Send
+Cancel

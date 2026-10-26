@@ -1,0 +1,1178 @@
+
+
+    <!--  -->
+<style>
+    .scd-maintenance-icon {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+        background: #fff;
+        box-shadow: 0 0 16px #51627433;
+        border-radius: 30px;
+        width: 36px;
+        padding: 8px 3px 12px;
+        color: #231d0d;
+        position: fixed;
+        left: 45px;
+        bottom: 16px;
+        z-index: 2147483600;
+        line-height: 1.4;
+    }
+    .scd-maintenance-icon-text {
+        width: 14px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .scd-maintenance-icon[hidden] { display: none !important; }
+</style>
+<div id="scdMaintenanceIcon" class="scd-maintenance-icon" hidden>
+    <img src="/Administration/Content/images/ai-timing-loader.png" alt="计时中" width="30" height="30" />
+    <span class="scd-maintenance-icon-text">计时中</span>
+</div>
+<script type="text/javascript">
+    (function () {
+        // 第二道防线：服务端去重守卫已经能挡住所有走 partial 的重复渲染；
+        // 这里再兜一层，以防有人手抄同段 HTML 到页面里造成 window.MaintenanceIcon 被覆盖。
+        if (window.MaintenanceIcon && window.MaintenanceIcon.__mounted) return;
+
+        // iframe 内一律 no-op，仅 top frame 实例驱动 icon 显隐
+        var isTop = true;
+        try { isTop = (window.top === window.self); } catch (e) { isTop = false; }
+        if (!isTop) {
+            window.MaintenanceIcon = window.MaintenanceIcon || {
+                show: function () { }, hide: function () { }
+            };
+            return;
+        }
+
+        var el = document.getElementById('scdMaintenanceIcon');
+        window.MaintenanceIcon = {
+            __mounted: true,
+            show: function () { if (el) el.hidden = false; },
+            hide: function () { if (el) el.hidden = true; }
+        };
+    })();
+</script>
+
+
+    <input type="hidden" id="pageinfo"
+           value="1133604"
+           data-type="2"
+           data-device="Pc"
+           data-entityid="10944358" />
+    <input id="txtDeviceSwitchEnabled" value="show" type="hidden" />
+
+
+
+
+    
+
+
+    
+<!-- 在 mainContentWrapper 的下一层的三个div上设置了zindex。把页头页尾所在的层级调整高于中间内容，以防止中间内容遮盖页头页尾 -->
+
+<div id="mainContentWrapper" style="background-color: transparent; background-image: none; background-repeat: no-repeat;background-position:0 0; background:-moz-linear-gradient(top, none, none);background:-webkit-gradient(linear, left top, left bottom, from(none), to(none));background:-o-linear-gradient(top, none, none);background:-ms-linear-gradient(top, none, none);background:linear-gradient(top, none, none);;
+     position: relative; width: 100%;min-width:1220px;background-size: auto;" bgScroll="none">
+    
+    <div style="background-color: rgb(255, 255, 255); background-image: none; background-repeat: repeat;background-position:50% 50%; background:-moz-linear-gradient(top, none, none);background:-webkit-gradient(linear, left top, left bottom, from(none), to(none));background:-o-linear-gradient(top, none, none);background:-ms-linear-gradient(top, none, none);background:linear-gradient(top, none, none);;
+         position: relative; width: 100%;min-width:1220px;background-size: auto; z-index:auto;" bgScroll="none">
+        <div class=" header" cpid="72358" id="smv_Area0" style="width: 1220px; height: 142px;  position: relative; margin: 0 auto">
+            <div id="smv_tem_79_1" ctype="banner"  class="esmartMargin smartAbs " cpid="72358" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="True" pvid="" tareaId="Area0"  re-direction="y" daxis="Y" isdeletable="True" style="height: 143px; width: 100%; left: 0px; top: 0px;z-index:1007;"><div class="yibuFrameContent tem_79_1  banner_Style1  " style="overflow:visible;;" ><div class="fullcolumn-inner smAreaC" id="smc_Area0" cid="tem_79_1" style="width:1220px">
+    <div id="smv_tem_162_6" ctype="area"  class="esmartMargin smartAbs " cpid="72358" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="True" pvid="tem_79_1" tareaId="Area0"  re-direction="all" daxis="All" isdeletable="True" style="height: 88px; width: 1200px; left: 10px; top: 0px;z-index:0;"><div class="yibuFrameContent tem_162_6  area_Style1  " style="overflow:visible;;" ><div class="w-container" data-effect-name="enterTop">
+    <div class="smAreaC" id="smc_Area0" cid="tem_162_6">
+        <div id="smv_tem_155_0" ctype="image"  class="esmartMargin smartAbs " cpid="72358" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="False" pvid="tem_162_6" tareaId="Area0"  re-direction="all" daxis="All" isdeletable="True" style="height: 69px; width: 263px; left: 0px; top: 11px;z-index:1011;"><div class="yibuFrameContent tem_155_0  image_Style1  " style="overflow:visible;;" >
+    <div class="w-image-box image-clip-wrap" data-fillType="1" id="div_tem_155_0">
+        <a target="_self" href="/sy">
+            <img loading="lazy" 
+                 src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/56209590.png" 
+                 alt="" 
+                 title="" 
+                 id="img_smv_tem_155_0" 
+                 style="width: 261px; height:67px;"
+                 class=""
+             >
+        </a>
+    </div>
+
+    <script type="text/javascript">
+        $(function () {
+            
+                InitImageSmv("tem_155_0", "261", "69", "1");
+            
+                 });
+    </script>
+
+</div></div><div id="smv_tem_189_59" ctype="code"  class="esmartMargin smartAbs " cpid="72358" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="False" pvid="tem_162_6" tareaId="Area0"  re-direction="all" daxis="All" isdeletable="True" style="height: 20px; width: 200px; left: 708px; top: 7px;z-index:1012;"><div class="yibuFrameContent tem_189_59  code_Style1  " style="overflow:hidden;;" ><!--w-code-->
+<div class="w-code">
+    <div id='code_tem_189_59'><script type="text/javascript">
+
+ $(function () {
+     $(".w-searchkey-item a").css("display","none")
+$(".w-searchkey").css("border","0")
+});
+
+</script></div>
+</div>
+<!--/w-code--></div></div>    </div>
+</div></div></div><div id="smv_tem_185_46" ctype="code"  class="esmartMargin smartAbs " cpid="72358" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="False" pvid="tem_79_1" tareaId="Area0"  re-direction="all" daxis="All" isdeletable="True" style="height: 100px; width: 104px; left: 420px; top: 17px;z-index:1012;"><div class="yibuFrameContent tem_185_46  code_Style1  " style="overflow:hidden;;" ><!--w-code-->
+<div class="w-code">
+    <div id='code_tem_185_46'><style>        @media(max-width:500px) {            body {                max-width: 500px !important;            }            #smv_Area0 .slicknav_nav li,            #smv_Area0 .slicknav_nav li span{                color: #000 !important;            }        }     </style> </div>
+</div>
+<!--/w-code--></div></div><div id="smv_tem_187_29" ctype="nav"  class="esmartMargin smartAbs " cpid="72358" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="False" pvid="tem_79_1" tareaId="Area0"  re-direction="all" daxis="All" isdeletable="True" style="height: 20px; width: 1200px; left: 10px; top: 108px;z-index:1004;"><div class="yibuFrameContent tem_187_29  nav_Style1  " style="overflow:visible;;" ><div id="nav_tem_187_29" class="nav_pc_t_1">
+    <ul class="w-nav" navstyle="style1">
+                <li class="w-nav-inner" style="height:20px;line-height:20px;width:25%;">
+                    <div class="w-nav-item">
+                        <i class="w-nav-item-line"></i>
+                                <a href="/sy" target="_self" class="w-nav-item-link">
+                                    <span class="mw-iconfont"></span>
+                                    <span class="w-link-txt">首页</span>
+                                </a>
+                       
+                    </div>
+                </li>
+                <li class="w-nav-inner" style="height:20px;line-height:20px;width:25%;">
+                    <div class="w-nav-item">
+                        <i class="w-nav-item-line"></i>
+                                <a href="/gylm" target="_self" class="w-nav-item-link">
+                                    <span class="mw-iconfont"></span>
+                                    <span class="w-link-txt">关于联盟</span>
+                                </a>
+                       
+                    </div>
+                </li>
+                <li class="w-nav-inner" style="height:20px;line-height:20px;width:25%;">
+                    <div class="w-nav-item">
+                        <i class="w-nav-item-line"></i>
+                                <a href="/hyfw" target="_self" class="w-nav-item-link">
+                                    <span class="mw-iconfont"></span>
+                                    <span class="w-link-txt">会员服务</span>
+                                </a>
+                       
+                    </div>
+                </li>
+                <li class="w-nav-inner" style="height:20px;line-height:20px;width:25%;">
+                    <div class="w-nav-item">
+                        <i class="w-nav-item-line"></i>
+                                <a href="/lmgz" target="_self" class="w-nav-item-link">
+                                    <span class="mw-iconfont"></span>
+                                    <span class="w-link-txt">联盟工作</span>
+                                </a>
+                       
+                    </div>
+                </li>
+
+    </ul>
+</div>
+<script>
+    $(function () {
+        var $nav = $("#smv_tem_187_29 .w-nav");
+        var $inner = $("#smv_tem_187_29 .w-nav-inner");
+        var rightBorder = parseInt($nav.css("border-right-width"));
+        var leftBorder = parseInt($nav.css("border-left-width"));
+        var topBorder = parseInt($nav.css("border-top-width"));
+        var bottomBorder = parseInt($nav.css("border-bottom-width"));
+        var height = $("#smv_tem_187_29").height();
+        var width = $('#smv_tem_187_29').width();
+        $nav.height(height - topBorder - bottomBorder);
+        $nav.width(width - leftBorder - rightBorder);
+        $inner.height(height - topBorder - bottomBorder).css("line-height", height - topBorder - bottomBorder+"px");
+
+
+        $('#nav_tem_187_29').find('.w-subnav').hide();
+        var $this, item, itemAll;
+        $('#nav_tem_187_29').off('mouseenter').on('mouseenter', '.w-nav-inner', function () {
+            itemAll = $('#nav_tem_187_29').find('.w-subnav');
+            $this = $(this);
+            item = $this.find('.w-subnav');
+            item.slideDown();
+        }).off('mouseleave').on('mouseleave', '.w-nav-inner', function () {
+            item = $(this).find('.w-subnav');
+            item.stop().slideUp(function () {
+                ////设置回调，防止slidUp自动加上height和width导致在子导航中设置height和width无效
+                //item.css({
+                //    height: '',
+                //    width: ''
+                //})
+            });
+        });
+        SetNavSelectedStyle('nav_tem_187_29');//选中当前导航
+    });
+
+</script></div></div><div id="smv_tem_188_5" ctype="button"  class="esmartMargin smartAbs " cpid="72358" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="False" pvid="tem_79_1" tareaId="Area0"  re-direction="all" daxis="All" isdeletable="True" style="height: 53px; width: 174px; left: 1042px; top: 30px;z-index:5;"><div class="yibuFrameContent tem_188_5  button_Style1  " style="overflow:visible;;" ><a target="_self" href="http://evcipa.com" class="w-button f-ellipsis" style="width: 174px; height: 53px; line-height: 53px;">
+    <span class="w-button-position">
+        <em class="w-button-text f-ellipsis">
+            <i class="mw-iconfont w-button-icon w-icon-hide"></i>
+            <span class="mw-txt">&gt;&gt; 开放服务平台 &lt;&lt;</span>
+        </em>
+    </span>
+</a>
+    <script type="text/javascript">
+        $(function () {
+        });
+    </script>
+</div></div></div>
+<div id="bannerWrap_tem_79_1" class="fullcolumn-outer" style="position: absolute; top: 0; bottom: 0;">
+</div>
+
+<script type="text/javascript">
+
+    $(function () {
+        var resize = function () {
+            $("#smv_tem_79_1 >.yibuFrameContent>.fullcolumn-inner").width($("#smv_tem_79_1").parent().width());
+            $('#bannerWrap_tem_79_1').fullScreen(function (t) {
+                if (VisitFromMobile()) {
+                    t.css("min-width", t.parent().width())
+                }
+            });
+        }
+        if (typeof (LayoutConverter) !== "undefined") {
+            LayoutConverter.CtrlJsVariableList.push({
+                CtrlId: "tem_79_1",
+                ResizeFunc: resize,
+            });
+        } else {
+            $(window).resize(function (e) {
+                if (e.target == this) {
+                    resize();
+                }
+            });
+        }
+
+        resize();
+    });
+</script>
+</div></div>
+        </div>
+    </div>
+
+    <div class="main-layout-wrapper" id="smv_AreaMainWrapper" style="background-color: rgb(246, 247, 250); background-image: none;
+         background-repeat: no-repeat;background-position:0 0; background:-moz-linear-gradient(top, none, none);background:-webkit-gradient(linear, left top, left bottom, from(none), to(none));background:-o-linear-gradient(top, none, none);background:-ms-linear-gradient(top, none, none);background:linear-gradient(top, none, none);;background-size: auto; z-index:auto;"
+         bgScroll="none">
+        <div class="main-layout" id="tem-main-layout11" style="width: 100%;">
+            <div style="display: none">
+                
+            </div>
+            <div class="" id="smv_MainContent" rel="mainContentWrapper" style="width: 100%; min-height: 300px; position: relative; ">
+                
+                <div class="smvWrapper"  style="width: 100%;  position: relative; background-color: rgb(255, 255, 255); background-image: none; background-repeat: repeat; background:-moz-linear-gradient(top, none, none);background:-webkit-gradient(linear, left top, left bottom, from(none), to(none));background:-o-linear-gradient(top, none, none);background:-ms-linear-gradient(top, none, none);background:linear-gradient(top, none, none);;background-position:50% 50%;background-size:auto;"><div class="smvContainer" id="smv_Main" cpid="1133604" style="min-height:200px;width:1220px;height:623px;  position: relative; "><div id="smv_tem_47_25" ctype="area"  class="esmartMargin smartAbs " cpid="1133604" cstyle="Style1" ccolor="Item0" areaId="" isContainer="True" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 50px; width: 1200px; left: 10px; top: 20px;z-index:2;"><div class="yibuFrameContent tem_47_25  area_Style1  " style="overflow:visible;;" ><div class="w-container" data-effect-name="enterTop">
+    <div class="smAreaC" id="smc_Area0" cid="tem_47_25">
+        <div id="smv_tem_49_25" ctype="newsItemCrumbsBind"  class="smartRecpt esmartMargin smartAbs " cpid="1133604" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="False" pvid="tem_47_25" tareaId=""  re-direction="x" daxis="All" isdeletable="True" style="min-height: 34px; width: 1124px; left: 10px; top: 8px;z-index:0;"><div class="yibuFrameContent tem_49_25  newsItemCrumbsBind_Style1  " style="overflow:visible;;" ><!--crumbs-->
+<div class="w-crumbs">
+    <a href="/" class="w-crumbs-item">首页</a>
+      
+                    <span class="w-crumbs-category f-hide">&nbsp;</span><i class="w-arrowicon mw-iconfont w-crumbs-category f-hide">&#xa132;</i>
+                <span class="w-crumbs-category f-hide">&nbsp;</span><a href="/NewsInfoCategory?categoryId=587071,587071" class="w-crumbs-item w-crumbs-category f-hide">行业新闻</a>
+                            <span class="w-crumbs-caption ">&nbsp;</span><i class="w-arrowicon mw-iconfont w-crumbs-caption">&#xa132;</i>
+            <span class="w-crumbs-caption">&nbsp;</span><span class="w-crumbs-caption">信息发布丨2025年12月中国汽车工业经济运行情况</span>
+</div>
+<!--/crumbs-->
+<script type="text/javascript">
+    $(function () {
+        $('#smv_tem_49_25').smartNPCrumbsControl({ controlId: 'smv_tem_49_25', languageId:2,isHideTitle:false });
+    });
+</script></div></div>    </div>
+</div></div></div><div id="smv_tem_57_18" ctype="area"  class="esmartMargin smartAbs " cpid="1133604" cstyle="Style1" ccolor="Item0" areaId="Main" isContainer="True" pvid="" tareaId="Main"  re-direction="all" daxis="All" isdeletable="True" style="height: 441px; width: 843px; left: 10px; top: 82px;z-index:10;"><div class="yibuFrameContent tem_57_18  area_Style1  " style="overflow:visible;;" ><div class="w-container" data-effect-name="enterTop">
+    <div class="smAreaC" id="smc_Area0" cid="tem_57_18">
+        <div id="smv_tem_62_13" ctype="newsItemTitleBind"  class="smartRecpt esmartMargin smartAbs " cpid="1133604" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="False" pvid="tem_57_18" tareaId=""  re-direction="x" daxis="All" isdeletable="True" style="min-height: 34px; width: 804px; left: 19px; top: 16px;z-index:14;"><div class="yibuFrameContent tem_62_13  newsItemTitleBind_Style1  " style="overflow:visible;;" ><h1 class="w-title">信息发布丨2025年12月中国汽车工业经济运行情况</h1></div></div><div id="smv_tem_63_31" ctype="newsItemCreatedDatetimeBind"  class="esmartMargin smartAbs " cpid="1133604" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="False" pvid="tem_57_18" tareaId="Main"  re-direction="x" daxis="All" isdeletable="True" style="height: 16px; width: 262px; left: 19px; top: 63px;z-index:15;"><div class="yibuFrameContent tem_63_31  newsItemCreatedDatetimeBind_Style1  " style="overflow:visible;;" ><!--product createtime-->
+<div class="w-createtime"><span class="w-createtime-item w-createtime-caption">创建时间：</span><span class="w-createtime-item w-createtime-date">2026-01-15</span> <span class="w-createtime-item w-createtime-time">14:42</span></div>
+<!--/product createtime--></div></div><div id="smv_tem_64_46" ctype="line"  class="esmartMargin smartAbs " cpid="1133604" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="False" pvid="tem_57_18" tareaId="Main"  re-direction="x" daxis="All" isdeletable="True" style="height: 20px; width: 804px; left: 20px; top: 81px;z-index:16;"><div class="yibuFrameContent tem_64_46  line_Style1  " style="overflow:visible;;" ><!-- w-line -->
+<div style="position:relative; height:100%">
+    <div class="w-line" style="position:absolute;top:50%;" linetype="horizontal"></div>
+</div>
+</div></div><div id="smv_tem_65_7" ctype="newsItemContentBind"  class="smartRecpt esmartMargin smartAbs " cpid="1133604" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="False" pvid="tem_57_18" tareaId="Main"  re-direction="all" daxis="All" isdeletable="True" style="min-height: 179px; width: 804px; left: 20px; top: 116px;z-index:0;"><div class="yibuFrameContent tem_65_7  newsItemContentBind_Style1  " style="overflow:visible;;" ><style>
+    .w-detail ul, .w-detail li, .w-detail ol {
+        list-style: revert;
+        margin:0;
+    }
+
+    .w-detail ul, .w-detail ol {
+        padding-left: 40px;
+    }
+</style>
+<!--article detail-->
+<div id="tem_65_7_txt" class="w-detailcontent">
+    <div class="w-detail"><div class='centerBox' style='margin-top: 0; margin-bottom: 0; margin-left: auto; margin-right: auto; max-width: 677px; font-size: 16px; letter-spacing: 0.034em;'><p style="margin-bottom: 16px;text-align: center;" data-pm-slice="0 0 []"><span style="font-family: 宋体;"><span leaf=""><img class="rich_pages wxw-img" data-aistatus="1" data-backh="43" data-backw="557" data-imgfileid="100035940" data-ratio="0.0765625" src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627274.gif" data-type="gif" data-w="640" style="text-indent: 37px;line-height: 25.6px;font-family: 仿宋;visibility: visible !important;width: 670px !important;" width="100%"></span></span></p><p style="margin-bottom: 8px;line-height: 1.6em;margin-top: 0px;text-indent: 2em;" data-pm-slice="0 0 []"><span style="text-indent: 2em;font-size: 17px;letter-spacing: 0.5px;"><span style="text-indent: 2em;font-size: 17px;letter-spacing: 0.5px;"><span leaf="" style="text-indent: 2em;font-size: 17px;letter-spacing: 0.5px;"><span textstyle="" style="font-size: 16px;">据中国汽车工业协</span></span><span leaf="" style="text-indent: 2em;font-size: 17px;letter-spacing: 0.5px;"><span textstyle="" style="font-size: 16px;">会</span></span><span leaf="" style="text-indent: 2em;font-size: 17px;letter-spacing: 0.5px;"><span textstyle="" style="font-size: 16px;">分</span></span><span leaf="" style="text-indent: 2em;font-size: 17px;letter-spacing: 0.5px;"><span textstyle="" style="font-size: 16px;">析</span></span><span leaf="" style="text-indent: 2em;font-size: 17px;letter-spacing: 0.5px;"><span textstyle="" style="font-size: 16px;">，</span></span><span data-pm-slice="0 0 []"><span leaf="" style="text-indent: 2em;font-size: 17px;letter-spacing: 0.5px;"><span textstyle="" style="font-size: 16px;">2025</span></span></span><span leaf="" style="text-indent: 2em;font-size: 17px;letter-spacing: 0.5px;"><span textstyle="" style="font-size: 16px;">年，汽车产销累计完成</span></span><span leaf="" style="text-indent: 2em;font-size: 17px;letter-spacing: 0.5px;"><span textstyle="" style="font-size: 16px;">3453.1</span></span><span leaf="" style="text-indent: 2em;font-size: 17px;letter-spacing: 0.5px;"><span textstyle="" style="font-size: 16px;">万辆和</span></span><span leaf="" style="text-indent: 2em;font-size: 17px;letter-spacing: 0.5px;"><span textstyle="" style="font-size: 16px;">3440</span></span><span leaf="" style="text-indent: 2em;font-size: 17px;letter-spacing: 0.5px;"><span textstyle="" style="font-size: 16px;">万辆，产销量再创历史新高，连续</span></span><span leaf="" style="text-indent: 2em;font-size: 17px;letter-spacing: 0.5px;"><span textstyle="" style="font-size: 16px;">17</span></span><span leaf="" style="text-indent: 2em;font-size: 17px;letter-spacing: 0.5px;"><span textstyle="" style="font-size: 16px;">年稳居全球第一。其中，乘用车市场稳健增长，作为汽车消费的核心组成部分，有效拉动汽车市场的整体增长；商用车市场回暖向好，产销实现</span></span><span leaf="" style="text-indent: 2em;font-size: 17px;letter-spacing: 0.5px;"><span textstyle="" style="font-size: 16px;">10%</span></span><span leaf="" style="text-indent: 2em;font-size: 17px;letter-spacing: 0.5px;"><span textstyle="" style="font-size: 16px;">以上增长，回归</span></span><span leaf="" style="text-indent: 2em;font-size: 17px;letter-spacing: 0.5px;"><span textstyle="" style="font-size: 16px;">400</span></span><span leaf="" style="text-indent: 2em;font-size: 17px;letter-spacing: 0.5px;"><span textstyle="" style="font-size: 16px;">万辆以上；</span><span textstyle="" style="font-size: 16px;font-weight: bold;">新动能加快释放，新能源汽车产销超</span></span><span leaf="" style="text-indent: 2em;font-size: 17px;letter-spacing: 0.5px;"><span textstyle="" style="font-size: 16px;font-weight: bold;">1600</span></span><span leaf="" style="text-indent: 2em;font-size: 17px;letter-spacing: 0.5px;"><span textstyle="" style="font-size: 16px;font-weight: bold;">万辆，国内新车销量占比超</span></span><span leaf="" style="text-indent: 2em;font-size: 17px;letter-spacing: 0.5px;"><span textstyle="" style="font-size: 16px;font-weight: bold;">50%</span></span><span leaf="" style="text-indent: 2em;font-size: 17px;letter-spacing: 0.5px;"><span textstyle="" style="font-size: 16px;font-weight: bold;">，成为我国汽车市场主导力量；对外贸易呈现出较强韧性，汽车出口超</span></span><span leaf="" style="text-indent: 2em;font-size: 17px;letter-spacing: 0.5px;"><span textstyle="" style="font-size: 16px;font-weight: bold;">700</span></span><span leaf="" style="text-indent: 2em;font-size: 17px;letter-spacing: 0.5px;"><span textstyle="" style="font-size: 16px;font-weight: bold;">万辆，新能源汽车出口达</span></span><span leaf="" style="text-indent: 2em;font-size: 17px;letter-spacing: 0.5px;"><span textstyle="" style="font-size: 16px;font-weight: bold;">261.5</span></span><span leaf="" style="text-indent: 2em;font-size: 17px;letter-spacing: 0.5px;"><span textstyle="" style="font-size: 16px;font-weight: bold;">万辆，出口规模再上新台阶。</span></span></span></span></p><section style="text-align: center;" nodeleaf=""><img alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-aistatus="1" data-imgfileid="100023247" data-ratio="0.562037037037037" data-s="300,640" src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627275.jpeg" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block"></section><section style="text-align: center;" nodeleaf=""><img alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-aistatus="1" data-imgfileid="100023251" data-ratio="0.562037037037037" data-s="300,640" src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627282.jpeg" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block"></section><section style="text-align: center;" nodeleaf=""><img alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-aistatus="1" data-imgfileid="100023250" data-ratio="0.562037037037037" data-s="300,640" src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627281.jpeg" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627277.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023249" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627280.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023248" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-aistatus="1" data-imgfileid="100023254" data-ratio="0.562037037037037" data-s="300,640" src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627285.jpeg" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block"></section><section style="text-align: center;" nodeleaf=""><img alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-aistatus="1" data-imgfileid="100023252" data-ratio="0.562037037037037" data-s="300,640" src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627284.jpeg" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627286.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023253" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627283.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023255" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627294.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023257" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627292.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023256" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627296.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023259" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627299.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023258" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627301.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023260" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627302.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023261" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627304.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023262" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627303.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023263" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627293.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023264" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627306.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023266" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627307.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023267" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627309.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023265" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627310.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023268" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627312.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023270" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627313.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023269" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627308.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023271" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627311.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023272" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627315.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023274" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627314.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023273" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627316.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023277" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627320.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023278" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627329.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023276" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627317.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023275" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627324.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023279" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627322.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023282" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627330.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023281" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627318.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023280" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627326.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023283" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627319.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023284" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627325.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023286" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627321.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023293" data-aistatus="1"></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627327.jpeg" alt="图片" class="rich_pages wxw-img js_insertlocalimg" data-ratio="0.562037037037037" data-s="300,640" data-type="jpeg" data-w="1080" style="height: auto !important;visibility: visible !important;width: 677px !important;" type="block" data-imgfileid="100023294" data-aistatus="1"></section><hr style="outline: 0px;max-width: 100%;color: rgb(34, 34, 34);font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;letter-spacing: 0.544px;white-space: normal;background-color: rgb(255, 255, 255);border-style: solid;border-right-width: 0px;border-bottom-width: 0px;border-left-width: 0px;border-color: rgba(0, 0, 0, 0.1);transform-origin: 0px 0px;transform: scale(1, 0.5);box-sizing: border-box !important;overflow-wrap: break-word !important;"><p style="outline: 0px;max-width: 100%;color: rgb(34, 34, 34);font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;letter-spacing: 0.544px;white-space: normal;background-color: rgb(255, 255, 255);margin-bottom: 16px;box-sizing: border-box !important;overflow-wrap: break-word !important;"><span style="outline: 0px;max-width: 100%;color: rgb(178, 178, 178);box-sizing: border-box !important;overflow-wrap: break-word !important;"><span leaf="">来源：</span><span style="color: rgb(178, 178, 178);font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;letter-spacing: 0.544px;background-color: rgb(255, 255, 255);"><span leaf="">中汽协会行业信息部</span></span></span></p><section style="margin-bottom: 0px;font-size: medium;line-height: 25.6px;height: 50px;text-align: center;"><section data-order="1" style="margin-right: auto;margin-left: auto;width: 48px;height: 48px;color: rgb(255, 255, 255);line-height: 48px;display: inline-block;background-image: url("https://mmbiz.qpic.cn/mmbiz_gif/yLgqehIa5CCjFsQRibxhX3POYLI9HmzkJ39uqKcgYX25e1nUXWpGN8B2ia9To3U0ztVJldQICUFhwibCM9ib30pIeQ/s640?wx_fmt=jpeg");background-size: 100%;background-position: 0px 50%;background-repeat: no-repeat;"><p style="font-weight: bold;text-align: left;text-indent: 0px;"><span style="font-size: 14px;"><span leaf="">   </span><span style="font-size: 12px;"><span style="letter-spacing: 0.5px;"><span leaf=""><span textstyle="" style="letter-spacing: normal;">end</span></span></span></span></span><span leaf=""><br></span></p></section><section style="margin-top: -26px;height: 2px;background-color: rgb(34, 33, 33);"><span leaf=""><br></span></section></section><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627323.png" class="rich_pages wxw-img" data-ratio="0.8962025316455696" data-s="300,640" data-type="png" data-w="790" type="block" data-imgfileid="100039272" data-aistatus="1"></section><section data-id="87417" data-tools="135编辑器" style="margin-bottom: 0px;font-size: medium;line-height: 25.6px;border-width: 0px;border-color: currentcolor;font-family: 微软雅黑;"><section label="Powered by 135editor.com" data-role="outer"><section data-id="87417" data-tools="135编辑器" style="border-width: 0px;border-color: currentcolor;"><section style="text-align: center;" nodeleaf=""><img src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/174627328.gif" class="rich_pages wxw-img" data-ratio="0.45454545454545453" data-type="gif" data-w="22" style="display: inline;height: 10px !important;visibility: visible !important;width: 22px !important;" title="音符" width="auto" data-imgfileid="100035938" data-aistatus="1"></section></section></section></section><section style="margin-bottom: 0px;font-size: medium;line-height: 25.6px;"><section powered-by="xiumi.us"><section style="margin-top: 0.5em;margin-bottom: 0.5em;text-align: center;"><section style="vertical-align: top;display: inline-block;"><section style="width: 86px;height: 2px;background-color: rgb(0, 0, 0);"><span leaf=""><br></span></section><section style="margin-top: 4px;padding-right: 5px;padding-left: 5px;color: rgb(255, 255, 255);font-size: 19.2px;background-color: rgb(45, 158, 165);"><p style="text-align: left;"><span style="font-size: 14px;"><span leaf="">  关于转载</span></span></p></section></section></section></section></section><p style="margin-bottom: 0px;font-size: medium;line-height: 25.6px;"><span leaf=""><br></span></p><p style="margin-bottom: 0px;font-size: medium;line-height: 25.6px;"><span leaf="">如需转载， 无原创标识文章请在开篇显著位置注明作者和出处（转自：中国充电联盟 | EVCIPA）， 并在文章结尾放置醒目二维码，转载后请将链接发送给我们；有原创标识文章，请发送【文章名称-待授权公众号名称及ID】给我们申请白名单授权。未经许可的转载以及改编者，我们将依法追究其法律责任。联系邮箱：songhuaqin@evcipa.org.cn。</span></p><p style="display: none;"><mp-style-type data-value="3"></mp-style-type></p></div></div>
+</div>
+<!--/article detail-->
+<script type="text/javascript">
+
+    $(function () {
+        var contentWidth = parseInt($('#smv_tem_65_7').css("width"));
+          ///长图自适应屏幕
+        
+
+        $('#smv_tem_65_7 table').each(function () {
+            $(this).removeAttr("width");
+            if ($(this).width() > contentWidth) {
+                $(this).css("width", "100%");
+            }
+        });
+        var splitLength = $('#tem_65_7_txt').find("div").html().split("_ueditor_page_break_tag_");
+        if (splitLength.length > 1) {
+            pagination('tem_65_7_txt', "首页", "末页", "上一页", "下一页", function (hisHeight) {
+                if (typeof hisHeight == 'undefined')
+                {
+                    $('#smv_tem_65_7').smrecompute();
+                }
+                else
+                {
+                    var tabContentHeight = $('#tem_65_7_txt').height();
+                    $('#smv_tem_65_7').smrecompute("recomputeTo", [tabContentHeight, hisHeight]);
+                }
+                $('#smv_tem_65_7 img').each(function () {
+                    var src = $(this).attr("src");
+                    if (typeof src != 'undefined' && src != "") {
+                        $(this).attr("src", "");
+                        $(this)[0].onload = function () {
+                            $('#smv_tem_65_7').smrecompute();
+                        };
+                        $(this).attr("src", src);
+                    }
+                });
+                showBigImg_tem_65_7();
+            });
+        }
+        else
+        {
+            $('#smv_tem_65_7 img').each(function () {
+                var src = $(this).attr("src");
+                if (typeof src != 'undefined' && src != "") {
+                    $(this).attr("src", "");
+                    $(this)[0].onload = function () {
+                        var width = $(this).width();
+                        if (width > contentWidth) {
+                            $(this).css("cssText", 'max-width:' + contentWidth + 'px !important;height:auto !important;');
+                        }
+                        $('#smv_tem_65_7').smrecompute();
+                    };
+                    $(this).attr("src", src);
+                }
+            });
+            showBigImg_tem_65_7();
+        }
+        xwezhan.cssUeditorTale();
+    });
+
+    function showBigImg_tem_65_7()
+    {
+        if (false)
+        {
+            var bigImageArray = [];
+            $('#smv_tem_65_7 img').each(function () {
+                if ($(this).parents("a").length == 0) {
+                    var srcStr = $(this).attr("src");
+                   $(this).lzpreview({
+                        cssLink: '/Content/css/atlas-preview.css',
+                        pageSize: 1,//每页最大图片数
+                        imgUrl: [srcStr],
+                        imgAlt: [''],
+                        imgLink: ['javascript:void(0)'],
+                        imgTarget: [''],
+                        itemSelect: $(this),
+                        arrow: false,
+                        thumbnail: false
+                    });
+                }
+            });
+        }
+    }
+</script></div></div><div id="smv_tem_66_19" ctype="line"  class="esmartMargin smartAbs " cpid="1133604" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="False" pvid="tem_57_18" tareaId="Main"  re-direction="x" daxis="All" isdeletable="True" style="height: 20px; width: 804px; left: 20px; top: 323px;z-index:16;"><div class="yibuFrameContent tem_66_19  line_Style1  " style="overflow:visible;;" ><!-- w-line -->
+<div style="position:relative; height:100%">
+    <div class="w-line" style="position:absolute;top:50%;" linetype="horizontal"></div>
+</div>
+</div></div><div id="smv_tem_67_47" ctype="newsItemPreviousBind"  class="smartRecpt esmartMargin smartAbs " cpid="1133604" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="False" pvid="tem_57_18" tareaId="Main"  re-direction="x" daxis="All" isdeletable="True" style="min-height: 26px; width: 804px; left: 20px; top: 352px;z-index:17;"><div class="yibuFrameContent tem_67_47  newsItemPreviousBind_Style1  " style="overflow:visible;;" ><!--previous-->
+<a href="javascript:void(0)" class="w-previous" target="_self">
+    <span class="w-previous-left"><i class="w-arrowicon mw-iconfont ">&#xa134;</i><span class="w-previous-caption">前一个：</span></span>
+    <span class="w-previous-title ">无</span>
+</a>
+<!--/previous--></div></div><div id="smv_tem_68_12" ctype="newsItemNextBind"  class="smartRecpt esmartMargin smartAbs " cpid="1133604" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="False" pvid="tem_57_18" tareaId="Main"  re-direction="x" daxis="All" isdeletable="True" style="min-height: 25px; width: 804px; left: 20px; top: 387px;z-index:18;"><div class="yibuFrameContent tem_68_12  newsItemNextBind_Style1  " style="overflow:visible;;" ><!--next  w-hide 控制隐藏标题和图标-->
+<a href="javascript:void(0)" class="w-next" target="_self">
+    <span class="w-next-left"><i class="w-arrowicon mw-iconfont ">&#xa132;</i><span class="w-next-caption">后一个：</span></span>
+    <span class="w-next-title ">无</span>
+</a></div></div>    </div>
+</div></div></div><div id="smv_tem_69_58" ctype="area"  class="esmartMargin smartAbs " cpid="1133604" cstyle="Style1" ccolor="Item0" areaId="Main" isContainer="True" pvid="" tareaId="Main"  re-direction="all" daxis="All" isdeletable="True" style="height: 441px; width: 343px; left: 867px; top: 82px;z-index:10;"><div class="yibuFrameContent tem_69_58  area_Style1  " style="overflow:visible;;" ><div class="w-container" data-effect-name="enterTop">
+    <div class="smAreaC" id="smc_Area0" cid="tem_69_58">
+        <div id="smv_tem_77_40" ctype="listnews"  class="esmartMargin smartAbs " cpid="1133604" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="False" pvid="tem_69_58" tareaId="Main"  re-direction="all" daxis="All" isdeletable="True" style="height: 373px; width: 301px; left: 21px; top: 17px;z-index:6;"><div class="yibuFrameContent tem_77_40  listnews_Style1  " style="overflow:visible;;" >    <ul class="w-article-list w-list xn-resize w-nodate w-noicon" id="ulList_tem_77_40">
+            <li class="w-list-item" onclick="updateList(event)" data-list-title="2024年全国电动汽车充换电基础设施运行情况" data-list-picurl="//img.wanwang.xin/contents/sitefiles2072/10361753/images/56118373.png" data-list-id="8137834" data-control-id="smv_tem_77_40">
+                <span class="w-list-date">2025-01-23</span>
+                <div class="w-list-inner f-clearfix">
+                    <i class="w-list-icon mw-iconfont"></i>
+                    <a href="/newsinfo/8137834.html" target="_self" class="w-list-link">2024年全国电动汽车充换电基础设施运行情况</a>
+                </div>
+            </li>
+            <li class="w-list-item" onclick="updateList(event)" data-list-title="2025年一季度全国公共充电基础设施增长情况分析" data-list-picurl="//img.wanwang.xin/contents/sitefiles2072/10361753/images/57122548.png" data-list-id="8310587" data-control-id="smv_tem_77_40">
+                <span class="w-list-date">2025-04-16</span>
+                <div class="w-list-inner f-clearfix">
+                    <i class="w-list-icon mw-iconfont"></i>
+                    <a href="/newsinfo/8310587.html" target="_self" class="w-list-link">2025年一季度全国公共充电基础设施增长情况分析</a>
+                </div>
+            </li>
+            <li class="w-list-item" onclick="updateList(event)" data-list-title="2025年4月全国电动汽车充换电基础设施运行情况" data-list-picurl="//img.wanwang.xin/contents/sitefiles2072/10361753/images/57290719.png" data-list-id="8341298" data-control-id="smv_tem_77_40">
+                <span class="w-list-date">2025-05-12</span>
+                <div class="w-list-inner f-clearfix">
+                    <i class="w-list-icon mw-iconfont"></i>
+                    <a href="/newsinfo/8341298.html" target="_self" class="w-list-link">2025年4月全国电动汽车充换电基础设施运行情况</a>
+                </div>
+            </li>
+            <li class="w-list-item" onclick="updateList(event)" data-list-title="2025年上半年全国新能源汽车保有量达3689万辆，纯电动汽车保有量2553.9万辆" data-list-picurl="https://img.wanwang.xin/Content/Member/images/productNoPicture.png?_version=20250709210034" data-list-id="8535476" data-control-id="smv_tem_77_40">
+                <span class="w-list-date">2025-07-15</span>
+                <div class="w-list-inner f-clearfix">
+                    <i class="w-list-icon mw-iconfont"></i>
+                    <a href="/newsinfo/8535476.html" target="_self" class="w-list-link">2025年上半年全国新能源汽车保有量达3689万辆，纯电动汽车保有量2553.9万辆</a>
+                </div>
+            </li>
+            <li class="w-list-item" onclick="updateList(event)" data-list-title="聚焦行业发展｜中国充电联盟2025年度工作会议在杭州顺利召开！" data-list-picurl="//img.wanwang.xin/contents/sitefiles2072/10361753/images/57254212.jpg" data-list-id="8285630" data-control-id="smv_tem_77_40">
+                <span class="w-list-date">2025-04-04</span>
+                <div class="w-list-inner f-clearfix">
+                    <i class="w-list-icon mw-iconfont"></i>
+                    <a href="/newsinfo/8285630.html" target="_self" class="w-list-link">聚焦行业发展｜中国充电联盟2025年度工作会议在杭州顺利召开！</a>
+                </div>
+            </li>
+            <li class="w-list-item" onclick="updateList(event)" data-list-title="2025年2月全国电动汽车充换电基础设施运行情况" data-list-picurl="//img.wanwang.xin/contents/sitefiles2072/10361753/images/56117030.png" data-list-id="8137618" data-control-id="smv_tem_77_40">
+                <span class="w-list-date">2025-03-11</span>
+                <div class="w-list-inner f-clearfix">
+                    <i class="w-list-icon mw-iconfont"></i>
+                    <a href="/newsinfo/8137618.html" target="_self" class="w-list-link">2025年2月全国电动汽车充换电基础设施运行情况</a>
+                </div>
+            </li>
+    </ul>
+</div></div>    </div>
+</div></div></div></div></div><input type='hidden' value='XYzqGbNFSUBxPPkmuOLmqywoz6kTYWlBpmTjq2d0Cg0q2j0CyWgayex37nZ8jDt4hDMMOvPORyRE4QarVA1a4J0kDNFfPiyhqtoOV-lmFiI1' />
+            </div>
+        </div>
+    </div>
+
+    <div style="background-color: rgb(0, 0, 0); background-image: none; background-repeat: no-repeat;background-position:50% 50%; background:-moz-linear-gradient(top, none, none);background:-webkit-gradient(linear, left top, left bottom, from(none), to(none));background:-o-linear-gradient(top, none, none);background:-ms-linear-gradient(top, none, none);background:linear-gradient(top, none, none);;
+         position: relative; width: 100%;min-width:1220px;background-size: auto; z-index:auto;" bgScroll="none">
+        <div class=" footer" cpid="72358" id="smv_Area3" style="width: 1220px; height: 195px; position: relative; margin: 0 auto;">
+            <div id="smv_tem_149_3" ctype="area"  class="esmartMargin smartAbs " cpid="72358" cstyle="Style1" ccolor="Item0" areaId="Area3" isContainer="True" pvid="" tareaId="Area3"  re-direction="all" daxis="All" isdeletable="True" style="height: 149px; width: 986px; left: 4px; top: 32px;z-index:1017;"><div class="yibuFrameContent tem_149_3  area_Style1  " style="overflow:visible;;" ><div class="w-container" data-effect-name="enterTop">
+    <div class="smAreaC" id="smc_Area0" cid="tem_149_3">
+        <div id="smv_tem_151_23" ctype="area"  class="esmartMargin smartAbs " cpid="72358" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="True" pvid="tem_149_3" tareaId="Area3"  re-direction="all" daxis="All" isdeletable="True" style="height: 153px; width: 381px; left: 0px; top: 0px;z-index:1017;"><div class="yibuFrameContent tem_151_23  area_Style1  " style="overflow:visible;;" ><div class="w-container" data-effect-name="enterTop">
+    <div class="smAreaC" id="smc_Area0" cid="tem_151_23">
+        <div id="smv_tem_139_54" ctype="image"  class="esmartMargin smartAbs " cpid="72358" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="False" pvid="tem_151_23" tareaId="Area3"  re-direction="all" daxis="All" isdeletable="True" style="height: 82px; width: 300px; left: 10px; top: 0px;z-index:1013;"><div class="yibuFrameContent tem_139_54  image_Style1  " style="overflow:visible;;" >
+    <div class="w-image-box image-clip-wrap" data-fillType="0" id="div_tem_139_54">
+        <a target="_self" href="">
+            <img loading="lazy" 
+                 src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/56209537.png" 
+                 alt="" 
+                 title="" 
+                 id="img_smv_tem_139_54" 
+                 style="width: 298px; height:80px;"
+                 class=""
+             >
+        </a>
+    </div>
+
+    <script type="text/javascript">
+        $(function () {
+            
+                InitImageSmv("tem_139_54", "298", "82", "0");
+            
+                 });
+    </script>
+
+</div></div><div id="smv_tem_169_42" ctype="companyinfo"  class="esmartMargin smartAbs " cpid="72358" cstyle="Style4" ccolor="Item0" areaId="Area0" isContainer="False" pvid="tem_151_23" tareaId="Area3"  re-direction="all" daxis="All" isdeletable="True" style="height: 30px; width: 361px; left: 10px; top: 81px;z-index:1014;"><div class="yibuFrameContent tem_169_42  companyinfo_Style4  " style="overflow:hidden;;" ><div class="w-company-info iconStyle1">
+        <span class="company-info-item">
+            <a href="javascript:void(0)" >
+                <span class="icon company-info-icon    mw-icon-hide ">
+                    <i class="ltd-icon gs-gongsi"></i>
+                </span>
+                <span class="company-info-title"style="white-space:pre">版权所有 &#169;</span>
+                <span class="company-info-text">中国电动汽车充电基础设施促进联盟</span>
+            </a>
+        </span>
+</div></div></div><div id="smv_tem_186_26" ctype="text"  class="esmartMargin smartAbs " cpid="72358" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="False" pvid="tem_151_23" tareaId="Area3"  re-direction="all" daxis="All" isdeletable="True" style="height: 47px; width: 358px; left: 10px; top: 104px;z-index:1018;"><div class="yibuFrameContent tem_186_26  text_Style1  " style="overflow:hidden;;" ><div id='txt_tem_186_26' style="height: 100%;">
+    <div class="editableContent" id="txtc_tem_186_26" style="height: 100%; word-wrap:break-word;">
+        <p><span style="line-height:2"><span style="color:#ffffff">沪ICP备2025130339号</span></span></p>
+
+<p><span style="line-height:2"><span style="color:#ffffff">沪公网安备31011402021336号</span></span></p>
+
+<p>&nbsp;</p>
+
+    </div>
+</div>
+
+<script>
+    var tables = $(' #smv_tem_186_26').find('table')
+    for (var i = 0; i < tables.length; i++) {
+        var tab = tables[i]
+        var borderWidth = $(tab).attr('border')
+        if (borderWidth <= 0 || !borderWidth) {
+            console.log(tab)
+            $(tab).addClass('hidden-border')
+            $(tab).children("tbody").children("tr").children("td").addClass('hidden-border')
+            $(tab).children("tbody").children("tr").children("th").addClass('hidden-border')
+            $(tab).children("thead").children("tr").children("td").addClass('hidden-border')
+            $(tab).children("thead").children("tr").children("th").addClass('hidden-border')
+            $(tab).children("tfoot").children("tr").children("td").addClass('hidden-border')
+            $(tab).children("tfoot").children("tr").children("th").addClass('hidden-border')
+        }
+    }
+</script></div></div>    </div>
+</div></div></div><div id="smv_tem_170_10" ctype="area"  class="esmartMargin smartAbs " cpid="72358" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="True" pvid="tem_149_3" tareaId="Area3"  re-direction="all" daxis="All" isdeletable="True" style="height: 98px; width: 305px; left: 680px; top: 22px;z-index:1019;"><div class="yibuFrameContent tem_170_10  area_Style1  " style="overflow:visible;;" ><div class="w-container" data-effect-name="enterTop">
+    <div class="smAreaC" id="smc_Area0" cid="tem_170_10">
+        <div id="smv_tem_167_22" ctype="text"  class="esmartMargin smartAbs " cpid="72358" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="False" pvid="tem_170_10" tareaId="Area3"  re-direction="all" daxis="All" isdeletable="True" style="height: 141px; width: 513px; left: -238px; top: -11px;z-index:1018;"><div class="yibuFrameContent tem_167_22  text_Style1  " style="overflow:hidden;;" ><div id='txt_tem_167_22' style="height: 100%;">
+    <div class="editableContent" id="txtc_tem_167_22" style="height: 100%; word-wrap:break-word;">
+        <p><strong><span style="font-size:16px"><span style="color:#cccccc"><span style="line-height:1.5"><span style="font-family:Source Han Sans,Geneva,sans-serif">联系我们</span></span></span></span></strong></p>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#cccccc"><span style="line-height:1.5"><span style="font-size:14px"><span style="font-family:Source Han Sans,Geneva,sans-serif">邮编：100160</span></span></span></span></p>
+
+<p><span style="color:#cccccc"><span style="line-height:1.5"><span style="font-size:14px"><span style="font-family:Source Han Sans,Geneva,sans-serif">邮箱：songhuaqin@evcipa.org.cn</span></span></span></span></p>
+
+<p><span style="color:#cccccc"><span style="line-height:1.5"><span style="font-size:14px"><span style="font-family:Source Han Sans,Geneva,sans-serif">地址：北京市丰台区汽车博物馆东路诺德中心11号楼33层</span></span></span></span></p>
+
+<p><span style="color:#cccccc"><span style="line-height:1.5"><span style="font-size:14px"><span style="font-family:Source Han Sans,Geneva,sans-serif">开放服务平台运营团队地址：上海市嘉定区安拓路56弄汽车创新港9号楼三单元</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+    </div>
+</div>
+
+<script>
+    var tables = $(' #smv_tem_167_22').find('table')
+    for (var i = 0; i < tables.length; i++) {
+        var tab = tables[i]
+        var borderWidth = $(tab).attr('border')
+        if (borderWidth <= 0 || !borderWidth) {
+            console.log(tab)
+            $(tab).addClass('hidden-border')
+            $(tab).children("tbody").children("tr").children("td").addClass('hidden-border')
+            $(tab).children("tbody").children("tr").children("th").addClass('hidden-border')
+            $(tab).children("thead").children("tr").children("td").addClass('hidden-border')
+            $(tab).children("thead").children("tr").children("th").addClass('hidden-border')
+            $(tab).children("tfoot").children("tr").children("td").addClass('hidden-border')
+            $(tab).children("tfoot").children("tr").children("th").addClass('hidden-border')
+        }
+    }
+</script></div></div>    </div>
+</div></div></div>    </div>
+</div></div></div><div id="smv_tem_154_56" ctype="area"  class="esmartMargin smartAbs " cpid="72358" cstyle="Style1" ccolor="Item0" areaId="Area3" isContainer="True" pvid="" tareaId="Area3"  re-direction="all" daxis="All" isdeletable="True" style="height: 158px; width: 227px; left: 992px; top: 30px;z-index:1020;"><div class="yibuFrameContent tem_154_56  area_Style1  " style="overflow:visible;;" ><div class="w-container" data-effect-name="enterTop">
+    <div class="smAreaC" id="smc_Area0" cid="tem_154_56">
+        <div id="smv_tem_153_54" ctype="area"  class="esmartMargin smartAbs " cpid="72358" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="True" pvid="tem_154_56" tareaId="Area3"  re-direction="all" daxis="All" isdeletable="True" style="height: 151px; width: 98px; left: 10px; top: 0px;z-index:1019;"><div class="yibuFrameContent tem_153_54  area_Style1  " style="overflow:visible;;" ><div class="w-container" data-effect-name="enterTop">
+    <div class="smAreaC" id="smc_Area0" cid="tem_153_54">
+        <div id="smv_tem_143_25" ctype="image"  class="esmartMargin smartAbs " cpid="72358" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="False" pvid="tem_153_54" tareaId="Area3"  re-direction="all" daxis="All" isdeletable="True" style="height: 97px; width: 97px; left: 0px; top: 0px;z-index:1;"><div class="yibuFrameContent tem_143_25  image_Style1  " style="overflow:visible;;" >
+    <div class="w-image-box image-clip-wrap" data-fillType="0" id="div_tem_143_25">
+        <a target="_self" href="">
+            <img loading="lazy" 
+                 src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/55917779.png" 
+                 alt="" 
+                 title="" 
+                 id="img_smv_tem_143_25" 
+                 style="width: 95px; height:95px;"
+                 class=""
+             >
+        </a>
+    </div>
+
+    <script type="text/javascript">
+        $(function () {
+            
+                InitImageSmv("tem_143_25", "95", "97", "0");
+            
+                 });
+    </script>
+
+</div></div><div id="smv_tem_147_44" ctype="text"  class="esmartMargin smartAbs " cpid="72358" cstyle="Style1" ccolor="Item3" areaId="Area0" isContainer="False" pvid="tem_153_54" tareaId="Area3"  re-direction="all" daxis="All" isdeletable="True" style="height: 38px; width: 98px; left: 0px; top: 105px;z-index:1016;"><div class="yibuFrameContent tem_147_44  text_Style1  " style="overflow:hidden;;" ><div id='txt_tem_147_44' style="height: 100%;">
+    <div class="editableContent" id="txtc_tem_147_44" style="height: 100%; word-wrap:break-word;">
+        <p style="text-align:center"><span style="font-size:12px"><span style="line-height:1.5"><span style="color:#dddddd"><span style="font-family:Source Han Sans,Geneva,sans-serif">中国充电联盟</span></span></span></span></p>
+
+<p style="text-align:center"><span style="font-size:12px"><span style="line-height:1.5"><span style="color:#dddddd"><span style="font-family:Source Han Sans,Geneva,sans-serif">公众号</span></span></span></span></p>
+
+    </div>
+</div>
+
+<script>
+    var tables = $(' #smv_tem_147_44').find('table')
+    for (var i = 0; i < tables.length; i++) {
+        var tab = tables[i]
+        var borderWidth = $(tab).attr('border')
+        if (borderWidth <= 0 || !borderWidth) {
+            console.log(tab)
+            $(tab).addClass('hidden-border')
+            $(tab).children("tbody").children("tr").children("td").addClass('hidden-border')
+            $(tab).children("tbody").children("tr").children("th").addClass('hidden-border')
+            $(tab).children("thead").children("tr").children("td").addClass('hidden-border')
+            $(tab).children("thead").children("tr").children("th").addClass('hidden-border')
+            $(tab).children("tfoot").children("tr").children("td").addClass('hidden-border')
+            $(tab).children("tfoot").children("tr").children("th").addClass('hidden-border')
+        }
+    }
+</script></div></div>    </div>
+</div></div></div><div id="smv_tem_176_38" ctype="area"  class="esmartMargin smartAbs " cpid="72358" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="True" pvid="tem_154_56" tareaId="Area3"  re-direction="all" daxis="All" isdeletable="True" style="height: 160px; width: 98px; left: 121px; top: 0px;z-index:1019;"><div class="yibuFrameContent tem_176_38  area_Style1  " style="overflow:visible;;" ><div class="w-container" data-effect-name="enterTop">
+    <div class="smAreaC" id="smc_Area0" cid="tem_176_38">
+        <div id="smv_tem_177_38" ctype="image"  class="esmartMargin smartAbs " cpid="72358" cstyle="Style1" ccolor="Item0" areaId="Area0" isContainer="False" pvid="tem_176_38" tareaId="Area3"  re-direction="all" daxis="All" isdeletable="True" style="height: 97px; width: 97px; left: 0px; top: 0px;z-index:1;"><div class="yibuFrameContent tem_177_38  image_Style1  " style="overflow:visible;;" >
+    <div class="w-image-box image-clip-wrap" data-fillType="0" id="div_tem_177_38">
+        <a target="_self" href="">
+            <img loading="lazy" 
+                 src="//img.wanwang.xin/contents/sitefiles2072/10361753/images/56056866.jpg" 
+                 alt="" 
+                 title="" 
+                 id="img_smv_tem_177_38" 
+                 style="width: 95px; height:95px;"
+                 class=""
+             >
+        </a>
+    </div>
+
+    <script type="text/javascript">
+        $(function () {
+            
+                InitImageSmv("tem_177_38", "95", "97", "0");
+            
+                 });
+    </script>
+
+</div></div><div id="smv_tem_178_38" ctype="text"  class="esmartMargin smartAbs " cpid="72358" cstyle="Style1" ccolor="Item3" areaId="Area0" isContainer="False" pvid="tem_176_38" tareaId="Area3"  re-direction="all" daxis="All" isdeletable="True" style="height: 40px; width: 98px; left: 0px; top: 104px;z-index:1016;"><div class="yibuFrameContent tem_178_38  text_Style1  " style="overflow:hidden;;" ><div id='txt_tem_178_38' style="height: 100%;">
+    <div class="editableContent" id="txtc_tem_178_38" style="height: 100%; word-wrap:break-word;">
+        <p style="text-align:center"><span style="font-size:12px"><span style="line-height:1.5"><span style="color:#dddddd"><span style="font-family:Source Han Sans,Geneva,sans-serif">充换电生态大会</span></span></span></span></p>
+
+<p style="text-align:center"><span style="font-size:12px"><span style="line-height:1.5"><span style="color:#dddddd"><span style="font-family:Source Han Sans,Geneva,sans-serif">公众号</span></span></span></span></p>
+
+    </div>
+</div>
+
+<script>
+    var tables = $(' #smv_tem_178_38').find('table')
+    for (var i = 0; i < tables.length; i++) {
+        var tab = tables[i]
+        var borderWidth = $(tab).attr('border')
+        if (borderWidth <= 0 || !borderWidth) {
+            console.log(tab)
+            $(tab).addClass('hidden-border')
+            $(tab).children("tbody").children("tr").children("td").addClass('hidden-border')
+            $(tab).children("tbody").children("tr").children("th").addClass('hidden-border')
+            $(tab).children("thead").children("tr").children("td").addClass('hidden-border')
+            $(tab).children("thead").children("tr").children("th").addClass('hidden-border')
+            $(tab).children("tfoot").children("tr").children("td").addClass('hidden-border')
+            $(tab).children("tfoot").children("tr").children("th").addClass('hidden-border')
+        }
+    }
+</script></div></div>    </div>
+</div></div></div>    </div>
+</div></div></div>
+        </div>
+    </div>
+
+</div>
+
+
+
+        <div style="text-align:center;width: 100%;padding-top: 4px;font-size: 12; background-color: #ffffff;font-family:Tahoma;opacity:1;position: relative; z-index: 3;" id="all-icp-bottom">
+            <div class="page-bottom--area style1" id="b_style1" style="display:none">
+                <div class="bottom-content">
+                    <div class="top-area">
+                        <div class="icp-area display-style common-style bottom-words" style="margin-bottom: 1px;">
+                            <a target="_blank" class="bottom-words" href="https://beian.miit.gov.cn">
+                                <span class="icp-words bottom-words"></span>
+                            </a>
+                        </div>
+                        <div class="divider display-style common-style bottom-border" style="vertical-align:-7px;"></div>
+                        <div class="ga-area display-style common-style bottom-words">
+                            <a target="_blank" class="bottom-words ga_link" href="#">
+                                <img src="https://img.wanwang.xin/Designer/Content/images/ga_icon.png?_version=20250709210035" alt="" /><span class="ga-words bottom-words"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bottom-area">
+                        <div class="ali-area display-style common-style bottom-words" style="">
+                            <a class="bottom-words" target="_blank" href="#">
+                                <?xml version="1.0" encoding="UTF-8" ?>
+                                <svg width="55px"
+                                     height="13px"
+                                     viewBox="0 0 55 13"
+                                     version="1.1"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="备案信息优化"
+                                       stroke="none"
+                                       stroke-width="1"
+                                       fill="none"
+                                       fill-rule="evenodd">
+                                        <g id="底部样式4-没有ipv6"
+                                           transform="translate(-562.000000, -366.000000)"
+                                           fill="#989898"
+                                           fill-rule="nonzero">
+                                            <g id="编组-2备份"
+                                               transform="translate(57.000000, 301.000000)">
+                                                <g id="编组-5"
+                                                   transform="translate(505.000000, 49.000000)">
+                                                    <g id="编组" transform="translate(0.000000, 16.000000)">
+                                                        <path d="M30.4355785,11.3507179 C32.2713894,11.2986909 32.9105785,10.0128801 32.9105785,8.9203125 L32.9105785,2.23112331 L33.1558488,2.23112331 L33.4011191,1.2426098 L28.0051731,1.2426098 L28.2504434,2.23112331 L31.9146326,2.23112331 L31.9146326,8.82369088 C31.9146326,9.7676098 31.2234164,10.406799 30.1828758,10.406799 L30.4355785,11.3507179 L30.4355785,11.3507179 Z"
+                                                              id="路径"></path>
+                                                        <path d="M30.6288218,9.06896115 C30.8740921,8.82369088 30.9781461,8.47436655 30.9781461,7.87977196 L30.9781461,3.1230152 L28.0572002,3.1230152 L28.0572002,9.41828547 L29.6923353,9.41828547 C30.0862542,9.41828547 30.4355785,9.32166385 30.6288218,9.06896115 Z M29.0977407,8.32571791 L29.0977407,4.11896115 L29.9896326,4.11896115 L29.9896326,7.78315034 C29.9896326,8.17706926 29.840984,8.32571791 29.4916596,8.32571791 L29.0977407,8.32571791 Z M23.9396326,1.14598818 L23.9396326,11.3061233 L24.9281461,11.3061233 L24.9281461,2.23855574 L26.1693623,2.23855574 L25.4261191,5.41220439 C25.7234164,5.65747466 26.265984,6.30409628 26.265984,7.44125845 C26.265984,8.57842061 25.6193623,8.97977196 25.4261191,9.07639358 L25.4261191,10.1169341 C25.9686867,10.0649071 27.3585515,9.32166385 27.3585515,7.49328547 C27.3585515,6.40071791 26.9646326,5.61288007 26.6153083,5.11490709 L27.5072002,1.15342061 C27.5072002,1.14598818 23.9396326,1.14598818 23.9396326,1.14598818 L23.9396326,1.14598818 Z M35.340984,10.3101774 L35.1403083,11.2986909 L44.1558488,11.2986909 L43.9105785,10.3101774 L40.1423353,10.3101774 L40.1423353,9.02436655 L43.6132812,9.02436655 L43.368011,8.03585304 L40.1497677,8.03585304 L40.1497677,6.7426098 L42.4761191,6.7426098 C43.5686867,6.7426098 44.1632813,6.20004223 44.1632813,5.05544764 L44.1632813,1.09396115 L35.1403083,1.09396115 L35.1403083,6.69058277 L39.1017948,6.69058277 L39.1017948,7.93179899 L35.8835515,7.93179899 L35.6382812,8.9203125 L39.1092272,8.9203125 L39.1092272,10.2581503 L35.340984,10.2581503 L35.340984,10.3101774 Z M40.1423353,4.51288007 L42.5207137,4.51288007 L42.2754434,3.52436655 L40.1423353,3.52436655 L40.1423353,2.23112331 L43.1153083,2.23112331 L43.1153083,5.05544764 C43.1153083,5.55342061 42.9146326,5.74666385 42.5207137,5.74666385 L40.1423353,5.74666385 L40.1423353,4.51288007 Z M36.2328758,5.75409628 L36.2328758,2.23112331 L39.1538218,2.23112331 L39.1538218,3.47233953 L37.0207137,3.47233953 L36.7754434,4.46085304 L39.1538218,4.46085304 L39.1538218,5.74666385 L36.2328758,5.74666385 L36.2328758,5.75409628 Z M53.922065,1.14598818 L46.8389569,1.14598818 L46.5862542,2.23112331 L54.2193623,2.23112331 L53.922065,1.14598818 Z M46.4376056,11.2540963 L46.3855785,11.3507179 L53.320038,11.3507179 C53.7139569,11.3507179 54.0112542,11.2540963 54.2119299,11.0013936 C54.4126056,10.7040963 54.3605785,10.354772 54.2639569,10.1615287 C54.1673353,9.66355574 53.765984,7.87977196 53.6693623,7.63450169 L53.6693623,7.58247466 L52.6288218,7.58247466 L52.6808488,7.67909628 C52.7328758,7.92436655 53.1788218,9.76017736 53.2754434,10.354772 L47.7234164,10.354772 C47.9686867,9.16558277 48.4146326,7.18112331 48.6673353,6.1926098 L54.9105785,6.1926098 L54.6653083,5.20409628 L46.1403083,5.20409628 L45.895038,6.1926098 L47.6267948,6.1926098 C47.4261191,7.09193412 46.7869299,9.61896115 46.4376056,11.2540963 L46.4376056,11.2540963 Z M3.72341639,9.86423142 C3.27747044,9.7676098 2.98017314,9.41828547 2.98017314,8.9203125 L2.98017314,3.91828547 C3.03220017,3.47233953 3.32949747,3.1230152 3.72341639,3.02639358 L8.38355152,2.03788007 L8.88152449,0.0534206081 L3.47814611,0.0534206081 C1.54571368,0.00139358108 0.00720016892,1.53990709 0.00720016892,3.4203125 L0.00720016892,9.36625845 C0.00720016892,11.2466639 1.59030828,12.8372044 3.47814611,12.8372044 L8.88152449,12.8372044 L8.38355152,10.8527449 L3.72341639,9.86423142 Z M17.3024704,0.00139358108 L11.8544975,0.00139358108 L12.3524704,1.98585304 L17.0051731,2.97436655 C17.4511191,3.07098818 17.7484164,3.4203125 17.7484164,3.86625845 L17.7484164,8.86828547 C17.6963894,9.31423142 17.3990921,9.66355574 17.0051731,9.76017736 L12.345038,10.7561233 L11.847065,12.7405828 L17.3024704,12.7405828 C19.1828758,12.7405828 20.7734164,11.2020693 20.7734164,9.26963682 L20.7734164,3.32369088 C20.7213894,1.53990709 19.1828758,0.00139358108 17.3024704,0.00139358108 Z"
+                                                              id="形状"></path>
+                                                        <polygon id="路径"
+                                                                 points="8.38355152 6.1480152 12.345038 6.1480152 12.345038 6.64598818 8.38355152 6.64598818"></polygon>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg><span class="bottom-words"> &nbsp;本网站由阿里云提供云计算及安全服务</span>
+                            </a>
+                        </div>
+                        <div class="divider display-style common-style bottom-border" style=""></div>
+                        <div class="ipv-area display-style common-style bottom-words">
+                            <span class="bottom-words">本网站支持</span>
+                            <span class="ipv6-box bottom-words">IPv6</span>
+                        </div>
+                        <div class="divider display-style common-style bottom-border" style=""></div>
+                        <div class="powerby-area display-style common-style bottom-words" style="">
+                            <a class="bottom-words" target="_blank" href="#">
+                                <span class="bottom-words" style="display: block;"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page-bottom--area style2" id="b_style2" style="display:none">
+                <div class="bottom-content">
+                    <div class="top-area">
+                        <div class="ga-area display-style common-style bottom-words">
+                            <a target="_blank" class="bottom-words ga_link" href="#">
+                                <img src="https://img.wanwang.xin/Designer/Content/images/ga_icon.png?_version=20250709210035" alt="" /><span class="ga-words bottom-words"></span>
+                            </a>
+                        </div>
+                        <div class="divider display-style common-style bottom-border" style="vertical-align:-7px;"></div>
+                        <div class="icp-area display-style common-style bottom-words" style="margin-bottom: 1px;">
+                            <a target="_blank" class="bottom-words" href="https://beian.miit.gov.cn">
+                                <span class="icp-words bottom-words"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bottom-area">
+                        <div class="ali-area display-style common-style bottom-words" style="">
+                            <a class="bottom-words" target="_blank" href="#">
+                                <?xml version="1.0" encoding="UTF-8" ?>
+                                <svg width="55px"
+                                     height="13px"
+                                     viewBox="0 0 55 13"
+                                     version="1.1"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="备案信息优化"
+                                       stroke="none"
+                                       stroke-width="1"
+                                       fill="none"
+                                       fill-rule="evenodd">
+                                        <g id="底部样式4-没有ipv6"
+                                           transform="translate(-562.000000, -366.000000)"
+                                           fill="#989898"
+                                           fill-rule="nonzero">
+                                            <g id="编组-2备份"
+                                               transform="translate(57.000000, 301.000000)">
+                                                <g id="编组-5"
+                                                   transform="translate(505.000000, 49.000000)">
+                                                    <g id="编组" transform="translate(0.000000, 16.000000)">
+                                                        <path d="M30.4355785,11.3507179 C32.2713894,11.2986909 32.9105785,10.0128801 32.9105785,8.9203125 L32.9105785,2.23112331 L33.1558488,2.23112331 L33.4011191,1.2426098 L28.0051731,1.2426098 L28.2504434,2.23112331 L31.9146326,2.23112331 L31.9146326,8.82369088 C31.9146326,9.7676098 31.2234164,10.406799 30.1828758,10.406799 L30.4355785,11.3507179 L30.4355785,11.3507179 Z"
+                                                              id="路径"></path>
+                                                        <path d="M30.6288218,9.06896115 C30.8740921,8.82369088 30.9781461,8.47436655 30.9781461,7.87977196 L30.9781461,3.1230152 L28.0572002,3.1230152 L28.0572002,9.41828547 L29.6923353,9.41828547 C30.0862542,9.41828547 30.4355785,9.32166385 30.6288218,9.06896115 Z M29.0977407,8.32571791 L29.0977407,4.11896115 L29.9896326,4.11896115 L29.9896326,7.78315034 C29.9896326,8.17706926 29.840984,8.32571791 29.4916596,8.32571791 L29.0977407,8.32571791 Z M23.9396326,1.14598818 L23.9396326,11.3061233 L24.9281461,11.3061233 L24.9281461,2.23855574 L26.1693623,2.23855574 L25.4261191,5.41220439 C25.7234164,5.65747466 26.265984,6.30409628 26.265984,7.44125845 C26.265984,8.57842061 25.6193623,8.97977196 25.4261191,9.07639358 L25.4261191,10.1169341 C25.9686867,10.0649071 27.3585515,9.32166385 27.3585515,7.49328547 C27.3585515,6.40071791 26.9646326,5.61288007 26.6153083,5.11490709 L27.5072002,1.15342061 C27.5072002,1.14598818 23.9396326,1.14598818 23.9396326,1.14598818 L23.9396326,1.14598818 Z M35.340984,10.3101774 L35.1403083,11.2986909 L44.1558488,11.2986909 L43.9105785,10.3101774 L40.1423353,10.3101774 L40.1423353,9.02436655 L43.6132812,9.02436655 L43.368011,8.03585304 L40.1497677,8.03585304 L40.1497677,6.7426098 L42.4761191,6.7426098 C43.5686867,6.7426098 44.1632813,6.20004223 44.1632813,5.05544764 L44.1632813,1.09396115 L35.1403083,1.09396115 L35.1403083,6.69058277 L39.1017948,6.69058277 L39.1017948,7.93179899 L35.8835515,7.93179899 L35.6382812,8.9203125 L39.1092272,8.9203125 L39.1092272,10.2581503 L35.340984,10.2581503 L35.340984,10.3101774 Z M40.1423353,4.51288007 L42.5207137,4.51288007 L42.2754434,3.52436655 L40.1423353,3.52436655 L40.1423353,2.23112331 L43.1153083,2.23112331 L43.1153083,5.05544764 C43.1153083,5.55342061 42.9146326,5.74666385 42.5207137,5.74666385 L40.1423353,5.74666385 L40.1423353,4.51288007 Z M36.2328758,5.75409628 L36.2328758,2.23112331 L39.1538218,2.23112331 L39.1538218,3.47233953 L37.0207137,3.47233953 L36.7754434,4.46085304 L39.1538218,4.46085304 L39.1538218,5.74666385 L36.2328758,5.74666385 L36.2328758,5.75409628 Z M53.922065,1.14598818 L46.8389569,1.14598818 L46.5862542,2.23112331 L54.2193623,2.23112331 L53.922065,1.14598818 Z M46.4376056,11.2540963 L46.3855785,11.3507179 L53.320038,11.3507179 C53.7139569,11.3507179 54.0112542,11.2540963 54.2119299,11.0013936 C54.4126056,10.7040963 54.3605785,10.354772 54.2639569,10.1615287 C54.1673353,9.66355574 53.765984,7.87977196 53.6693623,7.63450169 L53.6693623,7.58247466 L52.6288218,7.58247466 L52.6808488,7.67909628 C52.7328758,7.92436655 53.1788218,9.76017736 53.2754434,10.354772 L47.7234164,10.354772 C47.9686867,9.16558277 48.4146326,7.18112331 48.6673353,6.1926098 L54.9105785,6.1926098 L54.6653083,5.20409628 L46.1403083,5.20409628 L45.895038,6.1926098 L47.6267948,6.1926098 C47.4261191,7.09193412 46.7869299,9.61896115 46.4376056,11.2540963 L46.4376056,11.2540963 Z M3.72341639,9.86423142 C3.27747044,9.7676098 2.98017314,9.41828547 2.98017314,8.9203125 L2.98017314,3.91828547 C3.03220017,3.47233953 3.32949747,3.1230152 3.72341639,3.02639358 L8.38355152,2.03788007 L8.88152449,0.0534206081 L3.47814611,0.0534206081 C1.54571368,0.00139358108 0.00720016892,1.53990709 0.00720016892,3.4203125 L0.00720016892,9.36625845 C0.00720016892,11.2466639 1.59030828,12.8372044 3.47814611,12.8372044 L8.88152449,12.8372044 L8.38355152,10.8527449 L3.72341639,9.86423142 Z M17.3024704,0.00139358108 L11.8544975,0.00139358108 L12.3524704,1.98585304 L17.0051731,2.97436655 C17.4511191,3.07098818 17.7484164,3.4203125 17.7484164,3.86625845 L17.7484164,8.86828547 C17.6963894,9.31423142 17.3990921,9.66355574 17.0051731,9.76017736 L12.345038,10.7561233 L11.847065,12.7405828 L17.3024704,12.7405828 C19.1828758,12.7405828 20.7734164,11.2020693 20.7734164,9.26963682 L20.7734164,3.32369088 C20.7213894,1.53990709 19.1828758,0.00139358108 17.3024704,0.00139358108 Z"
+                                                              id="形状"></path>
+                                                        <polygon id="路径"
+                                                                 points="8.38355152 6.1480152 12.345038 6.1480152 12.345038 6.64598818 8.38355152 6.64598818"></polygon>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg><span class="bottom-words">&nbsp;本网站由阿里云提供云计算及安全服务</span>
+                            </a>
+                        </div>
+                        <div class="divider display-style common-style bottom-border" style=""></div>
+                        <div class="ipv-area display-style common-style bottom-words">
+                            <span class="bottom-words">本网站支持</span>
+                            <span class="ipv6-box bottom-words">IPv6</span>
+                        </div>
+                        <div class="divider display-style common-style bottom-border" style=""></div>
+                        <div class="powerby-area display-style common-style bottom-words" style="">
+                            <a class="bottom-words" target="_blank" href="#">
+                                <span class="bottom-words" style="display: block;"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page-bottom--area style3" id="b_style3" style="display:none">
+                <div class="bottom-content">
+                    <div class="top-area">
+                        <div class="ga-area display-style common-style bottom-words">
+                            <a target="_blank" class="bottom-words ga_link" href="#">
+                                <img src="https://img.wanwang.xin/Designer/Content/images/ga_icon.png?_version=20250709210035" alt="" /><span class="ga-words bottom-words"></span>
+                            </a>
+                        </div>
+                        <div class="divider display-style common-style bottom-border" style="vertical-align:-7px;"></div>
+                        <div class="copyright-area display-style common-style bottom-words" style="margin-top:2px;"></div>
+                        <div class="divider display-style common-style bottom-border" style="vertical-align:-7px;"></div>
+                        <div class="icp-area display-style common-style bottom-words" style="margin-bottom: 1px;">
+                            <a target="_blank" class="bottom-words" href="https://beian.miit.gov.cn">
+                                <span class="icp-words bottom-words"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bottom-area">
+                        <div class="ali-area display-style common-style bottom-words" style="">
+                            <a class="bottom-words" target="_blank" href="#">
+                                <?xml version="1.0" encoding="UTF-8" ?>
+                                <svg width="55px"
+                                     height="13px"
+                                     viewBox="0 0 55 13"
+                                     version="1.1"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="备案信息优化"
+                                       stroke="none"
+                                       stroke-width="1"
+                                       fill="none"
+                                       fill-rule="evenodd">
+                                        <g id="底部样式4-没有ipv6"
+                                           transform="translate(-562.000000, -366.000000)"
+                                           fill="#989898"
+                                           fill-rule="nonzero">
+                                            <g id="编组-2备份"
+                                               transform="translate(57.000000, 301.000000)">
+                                                <g id="编组-5"
+                                                   transform="translate(505.000000, 49.000000)">
+                                                    <g id="编组" transform="translate(0.000000, 16.000000)">
+                                                        <path d="M30.4355785,11.3507179 C32.2713894,11.2986909 32.9105785,10.0128801 32.9105785,8.9203125 L32.9105785,2.23112331 L33.1558488,2.23112331 L33.4011191,1.2426098 L28.0051731,1.2426098 L28.2504434,2.23112331 L31.9146326,2.23112331 L31.9146326,8.82369088 C31.9146326,9.7676098 31.2234164,10.406799 30.1828758,10.406799 L30.4355785,11.3507179 L30.4355785,11.3507179 Z"
+                                                              id="路径"></path>
+                                                        <path d="M30.6288218,9.06896115 C30.8740921,8.82369088 30.9781461,8.47436655 30.9781461,7.87977196 L30.9781461,3.1230152 L28.0572002,3.1230152 L28.0572002,9.41828547 L29.6923353,9.41828547 C30.0862542,9.41828547 30.4355785,9.32166385 30.6288218,9.06896115 Z M29.0977407,8.32571791 L29.0977407,4.11896115 L29.9896326,4.11896115 L29.9896326,7.78315034 C29.9896326,8.17706926 29.840984,8.32571791 29.4916596,8.32571791 L29.0977407,8.32571791 Z M23.9396326,1.14598818 L23.9396326,11.3061233 L24.9281461,11.3061233 L24.9281461,2.23855574 L26.1693623,2.23855574 L25.4261191,5.41220439 C25.7234164,5.65747466 26.265984,6.30409628 26.265984,7.44125845 C26.265984,8.57842061 25.6193623,8.97977196 25.4261191,9.07639358 L25.4261191,10.1169341 C25.9686867,10.0649071 27.3585515,9.32166385 27.3585515,7.49328547 C27.3585515,6.40071791 26.9646326,5.61288007 26.6153083,5.11490709 L27.5072002,1.15342061 C27.5072002,1.14598818 23.9396326,1.14598818 23.9396326,1.14598818 L23.9396326,1.14598818 Z M35.340984,10.3101774 L35.1403083,11.2986909 L44.1558488,11.2986909 L43.9105785,10.3101774 L40.1423353,10.3101774 L40.1423353,9.02436655 L43.6132812,9.02436655 L43.368011,8.03585304 L40.1497677,8.03585304 L40.1497677,6.7426098 L42.4761191,6.7426098 C43.5686867,6.7426098 44.1632813,6.20004223 44.1632813,5.05544764 L44.1632813,1.09396115 L35.1403083,1.09396115 L35.1403083,6.69058277 L39.1017948,6.69058277 L39.1017948,7.93179899 L35.8835515,7.93179899 L35.6382812,8.9203125 L39.1092272,8.9203125 L39.1092272,10.2581503 L35.340984,10.2581503 L35.340984,10.3101774 Z M40.1423353,4.51288007 L42.5207137,4.51288007 L42.2754434,3.52436655 L40.1423353,3.52436655 L40.1423353,2.23112331 L43.1153083,2.23112331 L43.1153083,5.05544764 C43.1153083,5.55342061 42.9146326,5.74666385 42.5207137,5.74666385 L40.1423353,5.74666385 L40.1423353,4.51288007 Z M36.2328758,5.75409628 L36.2328758,2.23112331 L39.1538218,2.23112331 L39.1538218,3.47233953 L37.0207137,3.47233953 L36.7754434,4.46085304 L39.1538218,4.46085304 L39.1538218,5.74666385 L36.2328758,5.74666385 L36.2328758,5.75409628 Z M53.922065,1.14598818 L46.8389569,1.14598818 L46.5862542,2.23112331 L54.2193623,2.23112331 L53.922065,1.14598818 Z M46.4376056,11.2540963 L46.3855785,11.3507179 L53.320038,11.3507179 C53.7139569,11.3507179 54.0112542,11.2540963 54.2119299,11.0013936 C54.4126056,10.7040963 54.3605785,10.354772 54.2639569,10.1615287 C54.1673353,9.66355574 53.765984,7.87977196 53.6693623,7.63450169 L53.6693623,7.58247466 L52.6288218,7.58247466 L52.6808488,7.67909628 C52.7328758,7.92436655 53.1788218,9.76017736 53.2754434,10.354772 L47.7234164,10.354772 C47.9686867,9.16558277 48.4146326,7.18112331 48.6673353,6.1926098 L54.9105785,6.1926098 L54.6653083,5.20409628 L46.1403083,5.20409628 L45.895038,6.1926098 L47.6267948,6.1926098 C47.4261191,7.09193412 46.7869299,9.61896115 46.4376056,11.2540963 L46.4376056,11.2540963 Z M3.72341639,9.86423142 C3.27747044,9.7676098 2.98017314,9.41828547 2.98017314,8.9203125 L2.98017314,3.91828547 C3.03220017,3.47233953 3.32949747,3.1230152 3.72341639,3.02639358 L8.38355152,2.03788007 L8.88152449,0.0534206081 L3.47814611,0.0534206081 C1.54571368,0.00139358108 0.00720016892,1.53990709 0.00720016892,3.4203125 L0.00720016892,9.36625845 C0.00720016892,11.2466639 1.59030828,12.8372044 3.47814611,12.8372044 L8.88152449,12.8372044 L8.38355152,10.8527449 L3.72341639,9.86423142 Z M17.3024704,0.00139358108 L11.8544975,0.00139358108 L12.3524704,1.98585304 L17.0051731,2.97436655 C17.4511191,3.07098818 17.7484164,3.4203125 17.7484164,3.86625845 L17.7484164,8.86828547 C17.6963894,9.31423142 17.3990921,9.66355574 17.0051731,9.76017736 L12.345038,10.7561233 L11.847065,12.7405828 L17.3024704,12.7405828 C19.1828758,12.7405828 20.7734164,11.2020693 20.7734164,9.26963682 L20.7734164,3.32369088 C20.7213894,1.53990709 19.1828758,0.00139358108 17.3024704,0.00139358108 Z"
+                                                              id="形状"></path>
+                                                        <polygon id="路径"
+                                                                 points="8.38355152 6.1480152 12.345038 6.1480152 12.345038 6.64598818 8.38355152 6.64598818"></polygon>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg><span class="bottom-words">&nbsp;本网站由阿里云提供云计算及安全服务</span>
+                            </a>
+                        </div>
+                        <div class="divider display-style common-style bottom-border" style=""></div>
+                        <div class="ipv-area display-style common-style bottom-words">
+                            <span class="bottom-words">本网站支持</span>
+                            <span class="ipv6-box bottom-words">IPv6</span>
+                        </div>
+                        <div class="divider display-style common-style bottom-border" style=""></div>
+                        <div class="powerby-area display-style common-style bottom-words" style="">
+                            <a class="bottom-words" target="_blank" href="#">
+                                <span class="bottom-words" style="display: block;"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page-bottom--area style4" id="b_style4" style="display:none">
+                <div class="bottom-content">
+                    <div class="top-area">
+                        <div class="copyright-area display-style common-style bottom-words" style="margin-top:2px;"></div>
+                        <div class="divider display-style common-style bottom-border" style="vertical-align:-7px;"></div>
+                        <div class="icp-area display-style common-style bottom-words" style="margin-bottom: 1px;">
+                            <a target="_blank" class="bottom-words" href="https://beian.miit.gov.cn">
+                                <span class="icp-words bottom-words"></span>
+                            </a>
+                        </div>
+                        <div class="divider display-style common-style bottom-border" style="vertical-align:-7px;"></div>
+                        <div class="ga-area display-style common-style bottom-words">
+                            <a target="_blank" class="bottom-words ga_link" href="#">
+                                <img src="https://img.wanwang.xin/Designer/Content/images/ga_icon.png?_version=20250709210035" alt="" /><span class="ga-words bottom-words"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bottom-area">
+                        <div class="ali-area display-style common-style bottom-words" style="">
+                            <a class="bottom-words" target="_blank" href="#">
+                                <?xml version="1.0" encoding="UTF-8" ?>
+                                <svg width="55px"
+                                     height="13px"
+                                     viewBox="0 0 55 13"
+                                     version="1.1"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="备案信息优化"
+                                       stroke="none"
+                                       stroke-width="1"
+                                       fill="none"
+                                       fill-rule="evenodd">
+                                        <g id="底部样式4-没有ipv6"
+                                           transform="translate(-562.000000, -366.000000)"
+                                           fill="#989898"
+                                           fill-rule="nonzero">
+                                            <g id="编组-2备份"
+                                               transform="translate(57.000000, 301.000000)">
+                                                <g id="编组-5"
+                                                   transform="translate(505.000000, 49.000000)">
+                                                    <g id="编组" transform="translate(0.000000, 16.000000)">
+                                                        <path d="M30.4355785,11.3507179 C32.2713894,11.2986909 32.9105785,10.0128801 32.9105785,8.9203125 L32.9105785,2.23112331 L33.1558488,2.23112331 L33.4011191,1.2426098 L28.0051731,1.2426098 L28.2504434,2.23112331 L31.9146326,2.23112331 L31.9146326,8.82369088 C31.9146326,9.7676098 31.2234164,10.406799 30.1828758,10.406799 L30.4355785,11.3507179 L30.4355785,11.3507179 Z"
+                                                              id="路径"></path>
+                                                        <path d="M30.6288218,9.06896115 C30.8740921,8.82369088 30.9781461,8.47436655 30.9781461,7.87977196 L30.9781461,3.1230152 L28.0572002,3.1230152 L28.0572002,9.41828547 L29.6923353,9.41828547 C30.0862542,9.41828547 30.4355785,9.32166385 30.6288218,9.06896115 Z M29.0977407,8.32571791 L29.0977407,4.11896115 L29.9896326,4.11896115 L29.9896326,7.78315034 C29.9896326,8.17706926 29.840984,8.32571791 29.4916596,8.32571791 L29.0977407,8.32571791 Z M23.9396326,1.14598818 L23.9396326,11.3061233 L24.9281461,11.3061233 L24.9281461,2.23855574 L26.1693623,2.23855574 L25.4261191,5.41220439 C25.7234164,5.65747466 26.265984,6.30409628 26.265984,7.44125845 C26.265984,8.57842061 25.6193623,8.97977196 25.4261191,9.07639358 L25.4261191,10.1169341 C25.9686867,10.0649071 27.3585515,9.32166385 27.3585515,7.49328547 C27.3585515,6.40071791 26.9646326,5.61288007 26.6153083,5.11490709 L27.5072002,1.15342061 C27.5072002,1.14598818 23.9396326,1.14598818 23.9396326,1.14598818 L23.9396326,1.14598818 Z M35.340984,10.3101774 L35.1403083,11.2986909 L44.1558488,11.2986909 L43.9105785,10.3101774 L40.1423353,10.3101774 L40.1423353,9.02436655 L43.6132812,9.02436655 L43.368011,8.03585304 L40.1497677,8.03585304 L40.1497677,6.7426098 L42.4761191,6.7426098 C43.5686867,6.7426098 44.1632813,6.20004223 44.1632813,5.05544764 L44.1632813,1.09396115 L35.1403083,1.09396115 L35.1403083,6.69058277 L39.1017948,6.69058277 L39.1017948,7.93179899 L35.8835515,7.93179899 L35.6382812,8.9203125 L39.1092272,8.9203125 L39.1092272,10.2581503 L35.340984,10.2581503 L35.340984,10.3101774 Z M40.1423353,4.51288007 L42.5207137,4.51288007 L42.2754434,3.52436655 L40.1423353,3.52436655 L40.1423353,2.23112331 L43.1153083,2.23112331 L43.1153083,5.05544764 C43.1153083,5.55342061 42.9146326,5.74666385 42.5207137,5.74666385 L40.1423353,5.74666385 L40.1423353,4.51288007 Z M36.2328758,5.75409628 L36.2328758,2.23112331 L39.1538218,2.23112331 L39.1538218,3.47233953 L37.0207137,3.47233953 L36.7754434,4.46085304 L39.1538218,4.46085304 L39.1538218,5.74666385 L36.2328758,5.74666385 L36.2328758,5.75409628 Z M53.922065,1.14598818 L46.8389569,1.14598818 L46.5862542,2.23112331 L54.2193623,2.23112331 L53.922065,1.14598818 Z M46.4376056,11.2540963 L46.3855785,11.3507179 L53.320038,11.3507179 C53.7139569,11.3507179 54.0112542,11.2540963 54.2119299,11.0013936 C54.4126056,10.7040963 54.3605785,10.354772 54.2639569,10.1615287 C54.1673353,9.66355574 53.765984,7.87977196 53.6693623,7.63450169 L53.6693623,7.58247466 L52.6288218,7.58247466 L52.6808488,7.67909628 C52.7328758,7.92436655 53.1788218,9.76017736 53.2754434,10.354772 L47.7234164,10.354772 C47.9686867,9.16558277 48.4146326,7.18112331 48.6673353,6.1926098 L54.9105785,6.1926098 L54.6653083,5.20409628 L46.1403083,5.20409628 L45.895038,6.1926098 L47.6267948,6.1926098 C47.4261191,7.09193412 46.7869299,9.61896115 46.4376056,11.2540963 L46.4376056,11.2540963 Z M3.72341639,9.86423142 C3.27747044,9.7676098 2.98017314,9.41828547 2.98017314,8.9203125 L2.98017314,3.91828547 C3.03220017,3.47233953 3.32949747,3.1230152 3.72341639,3.02639358 L8.38355152,2.03788007 L8.88152449,0.0534206081 L3.47814611,0.0534206081 C1.54571368,0.00139358108 0.00720016892,1.53990709 0.00720016892,3.4203125 L0.00720016892,9.36625845 C0.00720016892,11.2466639 1.59030828,12.8372044 3.47814611,12.8372044 L8.88152449,12.8372044 L8.38355152,10.8527449 L3.72341639,9.86423142 Z M17.3024704,0.00139358108 L11.8544975,0.00139358108 L12.3524704,1.98585304 L17.0051731,2.97436655 C17.4511191,3.07098818 17.7484164,3.4203125 17.7484164,3.86625845 L17.7484164,8.86828547 C17.6963894,9.31423142 17.3990921,9.66355574 17.0051731,9.76017736 L12.345038,10.7561233 L11.847065,12.7405828 L17.3024704,12.7405828 C19.1828758,12.7405828 20.7734164,11.2020693 20.7734164,9.26963682 L20.7734164,3.32369088 C20.7213894,1.53990709 19.1828758,0.00139358108 17.3024704,0.00139358108 Z"
+                                                              id="形状"></path>
+                                                        <polygon id="路径"
+                                                                 points="8.38355152 6.1480152 12.345038 6.1480152 12.345038 6.64598818 8.38355152 6.64598818"></polygon>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg><span class="bottom-words">&nbsp;本网站由阿里云提供云计算及安全服务</span>
+                            </a>
+                        </div>
+                        <div class="divider display-style common-style bottom-border" style=""></div>
+                        <div class="ipv-area display-style common-style bottom-words">
+                            <span class="bottom-words">本网站支持</span>
+                            <span class="ipv6-box bottom-words">IPv6</span>
+                        </div>
+                        <div class="divider display-style common-style bottom-border" style=""></div>
+                        <div class="powerby-area display-style common-style bottom-words" style="">
+                            <a class="bottom-words" target="_blank" href="#">
+                                <span class="bottom-words" style="display: block;"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script type="text/javascript">
+
+
+
+        $(function () {
+            // 延迟加载之后移除延迟属性，以便于被其他代码加载
+            $("img[loading='lazy']").on('load', function () {
+                $(this).removeAttr('loading')
+            }).each(function () {
+                if (this.complete) {
+                   $(this).removeAttr('loading')
+                }
+            })
+
+            $("img.lazyload").lazyload({ skip_invisible: false, effect: "fadeIn", failure_limit: 15, threshold: 100 });
+            // 推后到OnAdjustFinished 中开启动画
+            // 非响应式正常初始化
+            if (typeof (LayoutConverter) === "undefined") {
+                $('.animated').smanimate();
+                // 轮播图除了第一页，控制其他页第二次再次播放时处于停止状态
+                $('[ctype="slideset"]').each(function () {
+                    $(this).find('.content-box:gt(0) .animated').smanimate('stop');
+                })
+            }
+            $('.smartRecpt').smrecompute();
+            setCurrentPageTitle('信息发布丨2025年12月中国汽车工业经济运行情况', 2);
+            xwezhan.initWz();
+            
+            recordPageAccess(
+                1133604,
+                10361753,
+                '10944358',
+                '1');
+            
+
+            if ($("#txtDeviceSwitchEnabled").val() == "hide") {
+                $(".m-deviceSwitch").css("display", "none");
+            }
+
+            // 隐藏备案信息展示
+            $('div[ctype=companyinfo]').find('.company-info-title').each(function (i, it) {
+                if ($(it).text().indexOf('备案') > -1 || $(it).next().text().toLowerCase().indexOf('icp') > -1) {
+                    $(it).parent().parent().css('display', 'none');
+                }
+            })
+            var info = {
+                icp: "沪ICP备2025130339号",
+                ga: '',
+                copyright: '中国电动汽车充电基础设施促进联盟' != "" ? '版权所有© ' + '中国电动汽车充电基础设施促进联盟' : "",
+                color: '#989898',
+                background: '#ffffff',
+                powerby: 'Powered by ' + '万网',
+                ipv6: 'False' == 'True',
+                ali: "False" == "True",
+                style: 'style1',
+                align: 'center',
+                fontsize:12
+        };
+
+            _initData()
+            _initShow()
+
+            function _initData() {
+                var linkUrl = "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode="
+                if (info.ga != "") {
+                    linkUrl = linkUrl + info.ga.substring(5, 19);
+                }
+                $('.ga_link').attr('href', linkUrl);
+                $('.bottom-content').css({ 'text-align': info.align })
+                $('.icp-area .icp-words').text(info.icp)
+                $('.ga-area .ga-words').text(info.ga)
+                $('.copyright-area').text(info.copyright)
+                $('.powerby-area').find('span').text(info.powerby)
+                $('.page-bottom--area').css({ background: info.background })
+                $('.bottom-words').css({ color: info.color })
+                $('.bottom-border').css({ background: info.color })
+                $('.ipv6-box').css({ 'border-color': info.color })
+                $('.ali-area').find('svg g').css({ 'fill': info.color, height: info.fontsize, width: parseInt(info.fontsize * 55 / 13 + 'px') })
+                $('.ga-area').find('img').css({ width: info.fontszie + 'px' })
+
+                $('.ipv-area').css({ 'line-height': info.fontsize + 'px' })
+                $('.ali-area').find('svg g').css({ 'fill': info.color })
+                $('.divider').css({ height: info.fontsize + 'px' })
+                $('.ali-area').find('svg').css({ height: info.fontsize, width: parseInt(info.fontsize * 55 / 13 + 'px') })
+                $('.ga-area').find('img').css({ width: info.fontsize + 'px', height: info.fontsize + 'px' })
+                $('.page-bottom--area').find('.common-style').css({ fontSize: info.fontsize + 'px' })
+            }
+
+            function _initShow() {
+                if ("True" == "False") {
+                    $('.top-area').css('display', 'none');
+                }
+                if (info.style === 'style1') {
+                    $('#b_style1').css('display', 'block');
+                    if (!info.ga) {
+                        $('.ga-area').hide()
+                        $('.ga-area')
+                            .prev('.divider')
+                            .hide()
+                    }
+                    if (!info.icp) {
+                        $('.icp-area').hide()
+                        $('.icp-area')
+                            .next('.divider')
+                            .hide()
+                    }
+                }
+                if (info.style === 'style2') {
+                    $('#b_style2').css('display', 'block');
+                    if (!info.ga) {
+                        $('.ga-area').hide()
+                        $('.ga-area')
+                            .next('.divider')
+                            .hide()
+                    }
+                    if (!info.icp) {
+                        $('.icp-area').hide()
+                        $('.icp-area')
+                            .prev('.divider')
+                            .hide()
+                    }
+                }
+                if (info.style === 'style3') {
+                    $('#b_style3').css('display', 'block');
+                    if (!info.ga) {
+                        $('.ga-area').hide()
+                        $('.ga-area')
+                            .next('.divider')
+                            .hide()
+                    }
+                    if (!info.copyright) {
+                        $('.copyright-area').hide()
+                        $('.copyright-area')
+                            .prev('.divider')
+                            .hide()
+                    }
+                    if (!info.icp) {
+                        $('.icp-area').hide()
+                        $('.icp-area')
+                            .prev('.divider')
+                            .hide()
+                        $('.copyright-area').hide()
+                        $('.copyright-area')
+                            .prev('.divider')
+                            .hide()
+                    }
+                    if (!info.ga && !info.copyright) {
+                        $('.copyright-area').hide()
+                        $('.copyright-area')
+                            .next('.divider')
+                            .hide()
+                    }
+                }
+                if (info.style === 'style4') {
+                    $('#b_style4').css('display', 'block');
+                    if (!info.icp) {
+                        $('.icp-area').hide()
+                        $('.icp-area')
+                            .prev('.divider')
+                            .hide()
+                        $('.copyright-area').hide()
+                        $('.copyright-area')
+                            .next('.divider')
+                            .hide()
+                    }
+                    if (!info.copyright) {
+                        $('.copyright-area').hide()
+                        $('.copyright-area')
+                            .next('.divider')
+                            .hide()
+                    }
+                    if (!info.ga) {
+                        $('.ga-area').hide()
+                        $('.ga-area')
+                            .prev('.divider')
+                            .hide()
+                    }
+                    if (!info.icp && !info.copyright) {
+                        $('.icp-area').hide()
+                        $('.icp-area')
+                            .next('.divider')
+                            .hide()
+                    }
+                }
+                if ("False".toLowerCase() == "false") {
+                    $('.ali-area').hide()
+                    $('.ali-area')
+                        .next('.divider')
+                        .hide()
+                }
+                if ("False".toLowerCase() == "false") {
+                    $('.ipv-area').hide()
+                    $('.ipv-area')
+                        .prev('.divider')
+                        .hide()
+                }
+                if ("False".toLowerCase() == "false") {
+                    $('.powerby-area').hide()
+                    $('.powerby-area')
+                        .prev('.divider')
+                        .hide()
+                }
+                if ("False".toLowerCase() == "false" && "False".toLowerCase() == "false") {
+                    $('.ipv-area').hide()
+                    $('.ipv-area')
+                        .next('.divider')
+                        .hide()
+                }
+                if ((!info.ga && !info.icp) || ("False".toLowerCase() == "false" && "False".toLowerCase() == "false" && "False".toLowerCase() == "false")) {
+                    $('.top-area').css({ 'margin-bottom': 0 })
+                }
+                if (!info.ga && !info.icp && "False".toLowerCase() == "false" && "False".toLowerCase() == "false" && "False".toLowerCase() == "false") {
+                    $('#all-icp-bottom').css({ 'display': 'none' });
+                }
+            }
+        });
+    </script>
+
+    <div id="systemDialogLayer" style="position:relative;z-index:999999"></div>
+
+        <div style='display: none'>
+            <script type='text/javascript' src='https://v1.cnzz.com/z_stat.php?id=&web_id='>
+            </script>
+        </div>
+
+        <!--CDN限流-->
+        <script type="text/javascript">
+            $.get('/Designer/Common/IsShowVerificationCode', function (res) {
+                if (res.IsSuccess && res.IsShowVerificationCode) {
+                    var script = document.createElement('script')
+                    script.src = "https://img.wanwang.xin" + "/Scripts/sliderCaptcha/slider-captcha.min.js?_version=20250613165900"
+                    script.onload = function () {
+                        createSliderCaptcha()
+                    }
+                    document.head.appendChild(script)
+                }
+            })
+        </script>
+
+<script src="https://img.wanwang.xin/Designer/Scripts/Responsive/Plugins/polyfill.min.js?_version=20250709210035" type="text/javascript"></script><link href="https://img.wanwang.xin/Designer/Scripts/Responsive/Plugins/slicknav.css?_version=20250709210035" rel="stylesheet" type="text/css"/><script src="https://img.wanwang.xin/Designer/Scripts/Responsive/Plugins/jquery.slicknav.min.js?_version=20250709210035" type="text/javascript"></script><script src="https://img.wanwang.xin/Designer/Scripts/Responsive/Plugins/modernizr.min.js?_version=20250709210035" type="text/javascript"></script>            <script type="text/javascript" src="https://img.wanwang.xin/Designer/Scripts/Responsive/CtrlAdjuster/ResponsiveJsLoader.js?_version=20250528162138&nonce=183900" DynamicLoadPath="https://img.wanwang.xin/Designer/Scripts/Responsive/CtrlAdjuster/Core-Babeled.js?_version=20250929102029"></script>

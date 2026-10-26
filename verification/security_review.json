@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-26",
+  "credential_patterns_checked": [
+    "PEM private-key headers",
+    "GitHub personal-access token prefixes",
+    "OpenAI-style key prefixes",
+    "AWS access-key identifiers",
+    "quoted credential assignment patterns"
+  ],
+  "machine_paths": "No private home/workspace paths detected in included text or PDF metadata; local launch documentation rewritten in package copy. Test runtime logs excluded.",
+  "scope": "All delivered files inspected by filename; UTF-8-readable source/text files scanned, other non-PDF files scanned as decoded bytes, and metadata of all 14 PDFs checked. Image text and complete PDF page bodies were not OCR/privacy-audited.",
+  "credential_matches": 0,
+  "private_path_matches": 0,
+  "public_source_contact_details": "Source HTML/text contains publisher contact email addresses; a CSS package string resembles an email and is a false positive. Public reports may include directors, signatories and author metadata. These are source content, not requester credentials, and remain unchanged.",
+  "requester_information": "No student details, account settings, user credentials or local home paths deliberately copied. This is a bounded scan, not an exhaustive guarantee of absence of personal information in third-party source pages.",
+  "rights": "No open-source licence assigned. Third-party redistribution permission remains for the submitter to confirm.",
+  "core_files_byte_identical": 10,
+  "assets_omitted": [],
+  "publication_performed": false
+}

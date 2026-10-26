@@ -1,0 +1,12 @@
+{
+  "required_outputs": ["analysis.json", "claims.json", "report_en.md", "semantic_review.json", "appendices_en.md"],
+  "force_ids": ["RIV", "BUY", "SUP", "ENT", "SUB"],
+  "rating_values": ["Low", "Medium", "High"],
+  "analysis_required_fields": ["run_id", "input_digest", "five_forces", "industry_attractiveness", "catl_position", "overlap_review", "reasoning_origin"],
+  "force_required_fields": ["id", "rating", "confidence", "support", "counterweights", "alternative_explanations", "weighing", "limits"],
+  "claim_required_fields": ["claim_id", "kind", "text", "evidence_ids", "scope", "limitations"],
+  "claim_kinds": ["fact", "calculation", "inference", "judgment", "missing"],
+  "semantic_check_results": ["pass", "qualified", "fail"],
+  "body_sections": ["INTRO", "RIV", "BUY", "SUP", "ENT", "SUB", "CONCLUSION"],
+  "notice": "These are output schemas and permitted labels only, not desired answers. All substantive ratings and prose must be produced by the live model."
+}

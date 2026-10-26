@@ -1,0 +1,72 @@
+Global EV Outlook 2025 Electric vehicle batteries 
+PAGE | 138  
+    
+Battery pack prices fell in all markets, but the extent of the drop varied significantly, 
+with the fastest declines  seen in China, where prices fell nearly  30% in 2024, 
+compared to 10 -15% in Europe and the United States. This widened the gap 
+between battery prices in China and the rest of the world, increasing the 
+competitive advantage of Chinese EV and battery producers. The faster pace of 
+battery cost reduction and innovation in China  has been enabled by f ierce 
+competition that has driven down profit margins for most producers (though not 
+all), at the same time as driving up manufacturing efficiency and yields, as well as 
+access to a large skilled workforce, and battery supply chain integration. 
+Battery chemistry also plays an important role, with lithium iron phosphate (LFP) 
+batteries – the main battery chemistry used in China – being almost 30% cheaper 
+per kilowatt -hour (kWh) than lithium nickel cobalt manganese oxide (NMC) 
+batteries, which remain the most widely us ed batteries in the United  States and 
+Europe. NMC batteries still provide an energy density advantage, though the gap 
+has narrowed in recent years. The energy density of LFP battery packs is about 
+one-fifth lower by mass (Wh/kg) and about one-third lower by volume (Wh/L) than 
+that of NMC packs. This is, however, partially offset by LFP’s ability to reach 100% 
+state of charge when required without significant degradation, whereas NMC 
+batteries are typically limited to 80% to preserve long-term performance.  
+The higher energy density of NMC batteries remains an advantage for applications 
+requiring longer ranges or operation in cold climates, where LFP technology is 
+typically less effective. However, LFP batteries have now reached a performance 
+level sufficient for most EV applications, making their lower cost a key advantage 
+for automakers aiming to mass markets. 
+Average battery pack price per watt-hour index by selected battery chemistry, region 
+and mode, 2021-2024 
+ 
+IEA. CC BY 4.0. 
+Notes: LFP = lithium iron phosphate; NCA = lithium nickel cobalt aluminium oxide; NMC = lithium nickel manganese cobalt 
+oxide; BEV = battery electric vehicles; PHEV = plug-in hybrid electric vehicle; 2/3Ws = two- and three-wheelers. Battery 
+price refers to price per kWh for battery packs. Battery prices by region refer to the average battery price in a given region, 
+including locally produced batteries and imports across EVs and battery storage applications. Data for India is not available 
+between 2021 and 2023. Battery price by application refers to an average-sized vehicle. 
+Source: IEA analysis based on data from Bloomberg New Energy Finance. 
+ 
+0
+ 100
+ 200
+ 300
+ 400
+BEV PHEV BEV
+Cars 2/3Ws
+Index (BEV = 100)
+Cell Pack 2023
+Battery price per kWh 
+by application (World, 2024)
+0
+ 50
+ 100
+ 150
+ 200
+2021 2022 2023 2024
+Index (LFP 2021 = 100)
+Battery price per kWh by chemistry
+(World)
+LFP NCA NMC
+0
+ 30
+ 60
+ 90
+ 120
+ 150
+ 180
+2021 2022 2023 2024
+Index (China 2021 = 100)
+Battery price per kWh by region 
+(domestic and imports)
+China Europe
+India North America

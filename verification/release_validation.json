@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "python_version": "3.12.14",
+  "stdlib_dependencies_only": true,
+  "formal_paths": "passed",
+  "fact_records": 207,
+  "source_assets": 134,
+  "active_source_references_checked": 355,
+  "source_sha256": "all passed",
+  "calculation_records": 19,
+  "example_claims": 31,
+  "examples_in_formal_inputs": false,
+  "fresh_model_analysis_performed": false,
+  "missing_assets": []
+}

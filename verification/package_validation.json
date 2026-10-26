@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "date": "2026-10-26",
+  "python_version": "3.12.14",
+  "stdlib_dependencies_only": true,
+  "formal_paths": "passed",
+  "fact_records": 207,
+  "source_assets": 134,
+  "active_source_references_checked": 355,
+  "source_sha256": "all passed",
+  "calculation_records": 19,
+  "example_claims": 31,
+  "examples_in_formal_inputs": false,
+  "missing_assets": [],
+  "smoke_test": {
+    "run_id": "package_smoke_20261026_01",
+    "input_digest": "790702197ef95b957102b5e560309230bd26a6c4a1eb591780755b16ba0bb8af",
+    "prepare": "passed",
+    "show_IND_2025": "passed",
+    "snapshot_integrity": "passed",
+    "validate_without_model_outputs": "expected exit 2: five model outputs missing",
+    "finalize_without_model_outputs": "expected exit 2; no seal created",
+    "state": "AWAITING_MODEL",
+    "model_report_generated": false
+  },
+  "test_records": "Archived outside the upload folder; generated test runs and local runtime paths are not included in the delivery.",
+  "fresh_model_analysis_performed": false,
+  "evidence_retrieved_or_reextracted": false,
+  "published_or_uploaded": false
+}

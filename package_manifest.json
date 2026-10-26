@@ -1,0 +1,804 @@
+{
+  "hash_algorithm": "SHA-256",
+  "excluded_self_describing_files": [
+    "package_manifest.json",
+    "package_inventory.md"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 396,
+      "sha256": "5c5d709a4bae5f6f68d6fa9296079f666b4f6db02dd46955ced626db456cb38c"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 999,
+      "sha256": "42259f1fc615f664b9ebd37de41518c720b786fc88f6b4f5fa6734312445d7c5"
+    },
+    {
+      "path": "evidence/english/v001/facts.jsonl",
+      "bytes": 328878,
+      "sha256": "812b1dabd609d61ad47ea5f07fc67dec642f7d532f5be591e0630a9015567176"
+    },
+    {
+      "path": "evidence/english/v001/manifest.json",
+      "bytes": 41182,
+      "sha256": "1d06ca603e78217baaad6488e4f729d08076e44a64dd8ff3b74e8fa9972ce125"
+    },
+    {
+      "path": "evidence/english/v001/README_EN.md",
+      "bytes": 1124,
+      "sha256": "e64eff0dade87d1b4d4b949d85d743fe1b8f20c82a28356681897af42b5c9941"
+    },
+    {
+      "path": "evidence/english/v001/sources/00c3d1f6c81a26fa__page_015.txt",
+      "bytes": 3022,
+      "sha256": "00c3d1f6c81a26faad47341c357be16f657c010b01cff4a496849571a4ec950f"
+    },
+    {
+      "path": "evidence/english/v001/sources/02ddeff4d7227429__page_151.txt",
+      "bytes": 3520,
+      "sha256": "02ddeff4d722742970bdafb76cc763ca1bc14ff10be72b9dfc2d5954604651fe"
+    },
+    {
+      "path": "evidence/english/v001/sources/0684abece87428ab__page_018.txt",
+      "bytes": 3490,
+      "sha256": "0684abece87428ab8b6ed40b6c70f492690dc587c2737eb3c5eeabb2dbdb0434"
+    },
+    {
+      "path": "evidence/english/v001/sources/06be1a045d1ec713__亿纬锂能_2024年年度报告.pdf",
+      "bytes": 5988065,
+      "sha256": "06be1a045d1ec713113cdcf626abfa534e2068f358770d5940975818a5a538aa"
+    },
+    {
+      "path": "evidence/english/v001/sources/08c9231f504bdcc3__page_151.png",
+      "bytes": 430847,
+      "sha256": "08c9231f504bdcc3bfd8f22572b4837145cb48e1c81a21a7126bd0735a734139"
+    },
+    {
+      "path": "evidence/english/v001/sources/0aa7da38e57b3b72__page_018.png",
+      "bytes": 551689,
+      "sha256": "0aa7da38e57b3b72e553c9c430ec897004105ec6b77fdfd3eff8d657210a891d"
+    },
+    {
+      "path": "evidence/english/v001/sources/0cd5b951165a8637__page_021.png",
+      "bytes": 606925,
+      "sha256": "0cd5b951165a8637b6c3bc1893df0b112d3de95e0bc3ead0b6cf26dddfaa2a98"
+    },
+    {
+      "path": "evidence/english/v001/sources/0d7913ceaa60acfb__page_017.txt",
+      "bytes": 3360,
+      "sha256": "0d7913ceaa60acfb5a86a94604af9405417dd465798b55b4daab236b9bf4bbeb"
+    },
+    {
+      "path": "evidence/english/v001/sources/0e20c85b7224dd2b__page_120.png",
+      "bytes": 257999,
+      "sha256": "0e20c85b7224dd2b02af78c7c471e6c34d3fc461f1f5f720ad912b95b9a53ae1"
+    },
+    {
+      "path": "evidence/english/v001/sources/0f62069e43636d41__page_210.txt",
+      "bytes": 3738,
+      "sha256": "0f62069e43636d41117cd968ae7c4fc653a7e610af52184bd3b4fea360dec13c"
+    },
+    {
+      "path": "evidence/english/v001/sources/10b5953fe14b86d7__p069.txt",
+      "bytes": 2946,
+      "sha256": "10b5953fe14b86d7d6c904a8e48785ed3795ec7438724689b76a1ecd4576cbc2"
+    },
+    {
+      "path": "evidence/english/v001/sources/1318abe45a3f4f0f__page_017.png",
+      "bytes": 487598,
+      "sha256": "1318abe45a3f4f0f20893a664ad1e8ce1a11a665b179f30f234838fcb70b632e"
+    },
+    {
+      "path": "evidence/english/v001/sources/13ef518c7bf2409b__page_040.png",
+      "bytes": 509138,
+      "sha256": "13ef518c7bf2409bdc54e91f8d659710978f959a5c02e5579e5f5b06f56c3732"
+    },
+    {
+      "path": "evidence/english/v001/sources/18b657cb0cbb08dd__miit-01.png",
+      "bytes": 330576,
+      "sha256": "18b657cb0cbb08dd2594a58424dfcd3f14f814ef536e2346ee80ab39a8c0cb0c"
+    },
+    {
+      "path": "evidence/english/v001/sources/195f5aa4e10b36c2__page_025.png",
+      "bytes": 232222,
+      "sha256": "195f5aa4e10b36c28b310d26920d30f44fec2888af72d25da11140b4be06d835"
+    },
+    {
+      "path": "evidence/english/v001/sources/19cbdefe7230dfce__yutong_2024.rendered.html",
+      "bytes": 36413,
+      "sha256": "19cbdefe7230dfce2446cc93d9cf4096608e570d90953026f324eb58348801a7"
+    },
+    {
+      "path": "evidence/english/v001/sources/1a3c609154e8cc51__page_022.png",
+      "bytes": 308554,
+      "sha256": "1a3c609154e8cc51aebd338dbb93f6e4d1e5ede48a2d6af5c79d508031e6b8f0"
+    },
+    {
+      "path": "evidence/english/v001/sources/1b98fd566f915bcc__page_016.png",
+      "bytes": 513429,
+      "sha256": "1b98fd566f915bccd8f5f8a04dd46a3c0c06bae26a6fd5f3b5deceb0052c0d04"
+    },
+    {
+      "path": "evidence/english/v001/sources/1c96d24554fd2093__miit_page_008.txt",
+      "bytes": 1520,
+      "sha256": "1c96d24554fd209366b4803a69fff61fd5fbb436ca2069a595275c95de7802a0"
+    },
+    {
+      "path": "evidence/english/v001/sources/1cff8c7a78a9a696__page_028.txt",
+      "bytes": 7462,
+      "sha256": "1cff8c7a78a9a6969c98756d52333b5b597777f1b3e47ef3ac50ba2bf49cf8dd"
+    },
+    {
+      "path": "evidence/english/v001/sources/20b72ed7a4b89816__page_124.txt",
+      "bytes": 4273,
+      "sha256": "20b72ed7a4b898168011f89f3d4631f9f46f80164317cad88b423aa688e47c87"
+    },
+    {
+      "path": "evidence/english/v001/sources/21ef29ff66c6e13d__iea2024.pdf",
+      "bytes": 5227203,
+      "sha256": "21ef29ff66c6e13d705e041caafdb755f17f5b0194793fbc8023bb2c79229438"
+    },
+    {
+      "path": "evidence/english/v001/sources/2225ef80681fc521__2025_itdcw_rank.jpg",
+      "bytes": 345929,
+      "sha256": "2225ef80681fc521876202932ee5e2e1e526115504622d6d2c002d9ae9672103"
+    },
+    {
+      "path": "evidence/english/v001/sources/22ae60265573adfc__2024.html",
+      "bytes": 63767,
+      "sha256": "22ae60265573adfc9d0564e92860859fa95492dd37b9dcdd8a2e7920f057c9e3"
+    },
+    {
+      "path": "evidence/english/v001/sources/27758f9c19985b52__page_020.png",
+      "bytes": 434472,
+      "sha256": "27758f9c19985b528b8d945324d8dba92ead7563438af5317ac0e1ad643954f5"
+    },
+    {
+      "path": "evidence/english/v001/sources/28e8ac83ee149ff8__page_024.png",
+      "bytes": 292955,
+      "sha256": "28e8ac83ee149ff8e6a1a5637289748f3999b6d4554462ff614012082c45ff30"
+    },
+    {
+      "path": "evidence/english/v001/sources/2a255f70026f280d__国轩高科_2025年年度报告.pdf",
+      "bytes": 1557390,
+      "sha256": "2a255f70026f280deb60691a7937b662615a1b1addb2ce379a56e95698e358fb"
+    },
+    {
+      "path": "evidence/english/v001/sources/2a70942e661dae97__page_155.txt",
+      "bytes": 3096,
+      "sha256": "2a70942e661dae97f06a4dcdbaa0abe097ff4d3dd207869f5b5a90eba347d438"
+    },
+    {
+      "path": "evidence/english/v001/sources/2aad9e6f3ee42c08__page_123.txt",
+      "bytes": 5616,
+      "sha256": "2aad9e6f3ee42c0846dcdc3f638026c666c140a3e9d804df2ec7ad52fc451b04"
+    },
+    {
+      "path": "evidence/english/v001/sources/2b62404aca69ba11__page_018.png",
+      "bytes": 441115,
+      "sha256": "2b62404aca69ba11ffcead4259d37b54a50bef4fbb6c2f84149a17d458256b78"
+    },
+    {
+      "path": "evidence/english/v001/sources/2b65b3413544d1d4__page_098.png",
+      "bytes": 241908,
+      "sha256": "2b65b3413544d1d40a5ab0a14f4bd55ff7bd41d1dac7d0530adb87bdda3bee5b"
+    },
+    {
+      "path": "evidence/english/v001/sources/2bd7e9564cfef388__page_023.png",
+      "bytes": 325287,
+      "sha256": "2bd7e9564cfef3889cce17955925e49ecd779d5165e84f43864bd3e941425b08"
+    },
+    {
+      "path": "evidence/english/v001/sources/31b8439f3d75beee__page_023.png",
+      "bytes": 474913,
+      "sha256": "31b8439f3d75beeedca386f432d6663ba77b0d3785fa8b4d7c92cc9dc9db1120"
+    },
+    {
+      "path": "evidence/english/v001/sources/31f1b05fc8a6cafc__page_153.png",
+      "bytes": 493277,
+      "sha256": "31f1b05fc8a6cafcbca29bc1616c36be6d701213b33a895c0d34ada584927d0f"
+    },
+    {
+      "path": "evidence/english/v001/sources/346a7426f1268752__page_021.txt",
+      "bytes": 3936,
+      "sha256": "346a7426f12687529f1bd39c05364409180a4b2194ae70a9d629d486996b855c"
+    },
+    {
+      "path": "evidence/english/v001/sources/3745f96f8d2f87ad__page_035.txt",
+      "bytes": 3547,
+      "sha256": "3745f96f8d2f87adcfeebc1d133ea96a2c586bc24c870b8e9ee71b9a08a0c3ea"
+    },
+    {
+      "path": "evidence/english/v001/sources/394a644f86b25e8c__iea_executive_pages_opened.json",
+      "bytes": 36058,
+      "sha256": "394a644f86b25e8c51c250c340f425c82ab4f549cd8a3e493643a4fba9d7c606"
+    },
+    {
+      "path": "evidence/english/v001/sources/3bd710e37374c00a__page_014.txt",
+      "bytes": 3603,
+      "sha256": "3bd710e37374c00a302338076a906c6f00a9a8eef37421dae5a0cf5b0edf2a93"
+    },
+    {
+      "path": "evidence/english/v001/sources/3bee0ca9a6232c60__亿纬锂能_2025年年度报告.pdf",
+      "bytes": 5815598,
+      "sha256": "3bee0ca9a6232c60c53f195d078446a45fd4941bd997258b474cebe835eea3b8"
+    },
+    {
+      "path": "evidence/english/v001/sources/3bf90590315c00ff__page_015.txt",
+      "bytes": 3518,
+      "sha256": "3bf90590315c00fff865ce7e36ccd69fa1cc5165f13f31cd403816fe97dc8ef6"
+    },
+    {
+      "path": "evidence/english/v001/sources/402e772073e69b26__page_014.png",
+      "bytes": 557302,
+      "sha256": "402e772073e69b26e45bb153023becfa26744b2cda0b84d83f437c758311b177"
+    },
+    {
+      "path": "evidence/english/v001/sources/403f060e772d3e8f__page_030.txt",
+      "bytes": 3886,
+      "sha256": "403f060e772d3e8f47d7d656b5f1eda14670cc220e6abcc9d54b74eabb0ea32b"
+    },
+    {
+      "path": "evidence/english/v001/sources/406555469a82cc90__2023.html",
+      "bytes": 75861,
+      "sha256": "406555469a82cc90fed718f328cb458a937b1f54e53caa7136dbefcdb5d06f0f"
+    },
+    {
+      "path": "evidence/english/v001/sources/40e15efffe965c68__page_016.png",
+      "bytes": 516500,
+      "sha256": "40e15efffe965c682dd95fcf5b9668a120773524f46c5d34997c4fa5b7ef03e1"
+    },
+    {
+      "path": "evidence/english/v001/sources/459a65014238e19d__page_040.png",
+      "bytes": 444092,
+      "sha256": "459a65014238e19d9c1fe9b52cb25beaf5fdda897d792d7ee7e5614cd581a986"
+    },
+    {
+      "path": "evidence/english/v001/sources/49f967dec59b7b05__p033.txt",
+      "bytes": 3493,
+      "sha256": "49f967dec59b7b054c368ced2955986aae0d0f6437097aa81920d39081343207"
+    },
+    {
+      "path": "evidence/english/v001/sources/4a9b599f5571869b__p018.txt",
+      "bytes": 3389,
+      "sha256": "4a9b599f5571869bcaf5dcb7e1ee9dcd4fc260136a860e7a4c63202a46a1bf7f"
+    },
+    {
+      "path": "evidence/english/v001/sources/4b395d2a0ecddc6c__page_103.txt",
+      "bytes": 5802,
+      "sha256": "4b395d2a0ecddc6c439b8770981eecb3455786acafde54c5f831acabf3716c3b"
+    },
+    {
+      "path": "evidence/english/v001/sources/4d257e25745f8679__page_123.png",
+      "bytes": 257036,
+      "sha256": "4d257e25745f86793825a12941619fca6a551f351bf648b493ac65a967c62462"
+    },
+    {
+      "path": "evidence/english/v001/sources/532b897b0648630c__page_120.txt",
+      "bytes": 4101,
+      "sha256": "532b897b0648630ca63d2f4f8877c63255e119707534c81a3667857d4178cc00"
+    },
+    {
+      "path": "evidence/english/v001/sources/538ef2a05996d582__page_014.txt",
+      "bytes": 2563,
+      "sha256": "538ef2a05996d582fef37ff07469b23d6f1c69c4a78738f98cc166165e2cba53"
+    },
+    {
+      "path": "evidence/english/v001/sources/556a8d5ae8112714__page_018.png",
+      "bytes": 539568,
+      "sha256": "556a8d5ae81127146352604adab45a4a7ee5ac09cd38d77efccbccf2c36491db"
+    },
+    {
+      "path": "evidence/english/v001/sources/5b00511b3f412ce9__miit-02.png",
+      "bytes": 398638,
+      "sha256": "5b00511b3f412ce9630fafd81f140bb18134b082e7058834d248a10f7bf8215f"
+    },
+    {
+      "path": "evidence/english/v001/sources/5d3abaebb381af27__page_040.png",
+      "bytes": 481789,
+      "sha256": "5d3abaebb381af27452d88f966dc6d1ee79869bd1ba7a283778683e2ff1e9d4c"
+    },
+    {
+      "path": "evidence/english/v001/sources/5ddbb1a8d4018c8a__page_012.png",
+      "bytes": 477416,
+      "sha256": "5ddbb1a8d4018c8a8bbe9ad4fc857911f94b2447b2debb14211c2d9acdbc6c55"
+    },
+    {
+      "path": "evidence/english/v001/sources/6018649d14450e55__miit2024.html",
+      "bytes": 8542,
+      "sha256": "6018649d14450e558046f1ef2e63509ca68ab7ffcce508a40281fdfcdf7bca7f"
+    },
+    {
+      "path": "evidence/english/v001/sources/604b4c5cecf02d33__trendforce2023.txt",
+      "bytes": 6385,
+      "sha256": "604b4c5cecf02d33b8c5aa401b0627e9bae4197d848ccd540fe31b349edfb397"
+    },
+    {
+      "path": "evidence/english/v001/sources/6081f0377617dddb__宁德时代2023年度报告.pdf",
+      "bytes": 5986207,
+      "sha256": "6081f0377617dddb82f900569d6458c278a7ab26697b34c87684188eac083471"
+    },
+    {
+      "path": "evidence/english/v001/sources/61bb4b6f12505aad__2023_rank.png",
+      "bytes": 170109,
+      "sha256": "61bb4b6f12505aad9393c23a63ea099b0f1688d54e1523ed8fc3011c60522f8d"
+    },
+    {
+      "path": "evidence/english/v001/sources/65ec2ebb306ce54e__page_031.txt",
+      "bytes": 4591,
+      "sha256": "65ec2ebb306ce54ea44fcc08561e16a97672cc47ea38a96eaddb81d983ada5ee"
+    },
+    {
+      "path": "evidence/english/v001/sources/65f9d4199a2dd4c6__page_019.txt",
+      "bytes": 2993,
+      "sha256": "65f9d4199a2dd4c6cdc6ff58f766451fcca71b092c6a7f897db83be57a2f9c4c"
+    },
+    {
+      "path": "evidence/english/v001/sources/66199e6731293bc0__page_015.png",
+      "bytes": 424731,
+      "sha256": "66199e6731293bc05af5a38035c52a89867b7afed10b69f88dec9379e0fd5b91"
+    },
+    {
+      "path": "evidence/english/v001/sources/6850b3d22ec2427c__宁德时代2025年度报告.pdf",
+      "bytes": 2051998,
+      "sha256": "6850b3d22ec2427ceb8cccd8321ecf59658db21746dd99d330fcbe324efddd3f"
+    },
+    {
+      "path": "evidence/english/v001/sources/6b5af4a0b1d59e86__caam_2024.pdf",
+      "bytes": 1472004,
+      "sha256": "6b5af4a0b1d59e86a1b17f05c8b05c9f484bf02e14453673f3801071389fb3ad"
+    },
+    {
+      "path": "evidence/english/v001/sources/6f631961db52b68d__page_014.png",
+      "bytes": 449934,
+      "sha256": "6f631961db52b68dc77d017a950207c27467ef44f8855f6429c0456b148796af"
+    },
+    {
+      "path": "evidence/english/v001/sources/6ffddb4e7da89a7b__page_030.png",
+      "bytes": 249423,
+      "sha256": "6ffddb4e7da89a7b35c5a081d0b66aceb7b43c7b028333c6410dd89185fb7c30"
+    },
+    {
+      "path": "evidence/english/v001/sources/710d8b2e08e37ba5__比亚迪_2025年年度报告.pdf",
+      "bytes": 7533972,
+      "sha256": "710d8b2e08e37ba521f1c4071d2c3e2369d3cadabc21a45073215d9f72138b0b"
+    },
+    {
+      "path": "evidence/english/v001/sources/7522f23a3844c6a5__GlobalEVOutlook2025.pdf",
+      "bytes": 4996288,
+      "sha256": "7522f23a3844c6a51190d6a6b70dd348ff1cc8061b1f5d8be2eecb25d6c20ce6"
+    },
+    {
+      "path": "evidence/english/v001/sources/75ff7d1aa8ba4316__aion_timeline.html",
+      "bytes": 128584,
+      "sha256": "75ff7d1aa8ba4316a000ca498b1d415742a555d3bb11292f3531b06aa68a4040"
+    },
+    {
+      "path": "evidence/english/v001/sources/765a7331d04a58b9__miit2024.txt",
+      "bytes": 1334,
+      "sha256": "765a7331d04a58b92dcc74a74499863fdf5bd3cbd56b33ef70043b3c1d3373e6"
+    },
+    {
+      "path": "evidence/english/v001/sources/798ae9f0b6051e7c__page_025.txt",
+      "bytes": 3679,
+      "sha256": "798ae9f0b6051e7cbd7c44c94f8da9ba180e7e4f112c617d6a982353da24082f"
+    },
+    {
+      "path": "evidence/english/v001/sources/7a3cefae118b83fe__page_022.txt",
+      "bytes": 4166,
+      "sha256": "7a3cefae118b83fe8c5da268154b7ffebe0e20288611eaf150f9dd80a4a1e884"
+    },
+    {
+      "path": "evidence/english/v001/sources/7c1f8e0d9fe378c0__page_015.png",
+      "bytes": 538881,
+      "sha256": "7c1f8e0d9fe378c04784010073adfbaf838a018a3fdd20b4ef9dab1f58392a54"
+    },
+    {
+      "path": "evidence/english/v001/sources/7d0f8efd70d03bf7__page_015.txt",
+      "bytes": 3554,
+      "sha256": "7d0f8efd70d03bf7069b438f30d0d29d9368bb668f9bec73b3cf278d138341dd"
+    },
+    {
+      "path": "evidence/english/v001/sources/7d23b7847099a813__miit_page_001.txt",
+      "bytes": 1470,
+      "sha256": "7d23b7847099a81370e289445e59b06f7b61f7ffa1f75a5bf786e402b3fff94d"
+    },
+    {
+      "path": "evidence/english/v001/sources/7fbe6ad9d8204f69__miit_page_002.txt",
+      "bytes": 1718,
+      "sha256": "7fbe6ad9d8204f69e2b01a7df97803680286637cb5bd8073e2b90e1bf86c53f2"
+    },
+    {
+      "path": "evidence/english/v001/sources/865d69b0da6dfa05__国轩高科_2023年年度报告.pdf",
+      "bytes": 4063097,
+      "sha256": "865d69b0da6dfa059de2c924e16eb8a4e5b11fabc1b19c985769baf44c94739d"
+    },
+    {
+      "path": "evidence/english/v001/sources/87c6b9f468ef8620__p103.txt",
+      "bytes": 4643,
+      "sha256": "87c6b9f468ef862083e2277b1807d9f7e151a70d6b6e1fc15f4404496e5627e8"
+    },
+    {
+      "path": "evidence/english/v001/sources/8accd8a72c4a5cbf__page_022.png",
+      "bytes": 382411,
+      "sha256": "8accd8a72c4a5cbfac2186259d9b83f8edd95b45ecada1016ff1961d0fb410e5"
+    },
+    {
+      "path": "evidence/english/v001/sources/8d6bf98570f2d5b1__page_155.png",
+      "bytes": 477520,
+      "sha256": "8d6bf98570f2d5b11d3aef18bce8f95e590005a07582f27a2b628c96d3e34a62"
+    },
+    {
+      "path": "evidence/english/v001/sources/91686df49bec7042__page_028.png",
+      "bytes": 870022,
+      "sha256": "91686df49bec704260b06677ccf99332716ba3fd58740d8a4cb444e446150091"
+    },
+    {
+      "path": "evidence/english/v001/sources/9301b9dc3951f8b4__miit_page_010.txt",
+      "bytes": 1056,
+      "sha256": "9301b9dc3951f8b41424f58a1d0aa5c9575f24c7deb3e89faa23e378170c0f85"
+    },
+    {
+      "path": "evidence/english/v001/sources/944d54920c25fcd6__page_014.png",
+      "bytes": 575318,
+      "sha256": "944d54920c25fcd63aa0a83b2aebe7417c0c4f03eae9fa062443aceec87b52ab"
+    },
+    {
+      "path": "evidence/english/v001/sources/959d6d51d529fd51__亿纬锂能_2023年年度报告.pdf",
+      "bytes": 6280048,
+      "sha256": "959d6d51d529fd5129c829d1358ad41d384c95560ef2f8dc23caedd91e01f33e"
+    },
+    {
+      "path": "evidence/english/v001/sources/9f5b8a369e590adb__page_103.png",
+      "bytes": 503412,
+      "sha256": "9f5b8a369e590adb19bbfecb020a24ac48af8a1bf2e561095c6659ff9c56ddce"
+    },
+    {
+      "path": "evidence/english/v001/sources/a07d3f18d5f7af2c__2025_verified_web_excerpt.txt",
+      "bytes": 578,
+      "sha256": "a07d3f18d5f7af2c3ad27953d1351ddbbf698f7b355295ba58982afdde2aa31e"
+    },
+    {
+      "path": "evidence/english/v001/sources/a5d57574babb5536__page_031.png",
+      "bytes": 500840,
+      "sha256": "a5d57574babb5536aa1f7594d086ade80b6ba2e9c48f343aa0bef052115f04ee"
+    },
+    {
+      "path": "evidence/english/v001/sources/a7d6de66bb1d84a4__page_015.png",
+      "bytes": 531972,
+      "sha256": "a7d6de66bb1d84a4bef72dbbaaca83a055472b52f538ba1b3acc6a1fcbf87b1c"
+    },
+    {
+      "path": "evidence/english/v001/sources/a824b05a4e6de3a8__page_028.png",
+      "bytes": 253827,
+      "sha256": "a824b05a4e6de3a81ae2d76e07db82a65983ebcdc92652ab7b78d2c176e3fdcb"
+    },
+    {
+      "path": "evidence/english/v001/sources/addae77688d5bd0a__page_210.png",
+      "bytes": 456207,
+      "sha256": "addae77688d5bd0a01ae91e7a510abad8308c9937e972c60cbf83b8e70603d48"
+    },
+    {
+      "path": "evidence/english/v001/sources/aec4f16295058cf6__trendforce2023.html",
+      "bytes": 148174,
+      "sha256": "aec4f16295058cf6ecd38f3f300c41290b93cf013dc22bff2a5920772a0715be"
+    },
+    {
+      "path": "evidence/english/v001/sources/af67b2cf445d7391__page_027.txt",
+      "bytes": 3422,
+      "sha256": "af67b2cf445d7391909f37e5b222688c9b9723b8a95f95b6e46086c76c82b85c"
+    },
+    {
+      "path": "evidence/english/v001/sources/b0bfb94a0c2c5e7f__page_020.txt",
+      "bytes": 4696,
+      "sha256": "b0bfb94a0c2c5e7fe00253ab3866a67b6ceefa6c76fa2f257ac2227ddefd8aaa"
+    },
+    {
+      "path": "evidence/english/v001/sources/b4f1713d7b821eb0__宁德时代2024年度报告.pdf",
+      "bytes": 2070073,
+      "sha256": "b4f1713d7b821eb076c102711d177fe942ccc2bc8dd171ae5d7a95799a65b0ad"
+    },
+    {
+      "path": "evidence/english/v001/sources/bc075175746a6dd7__miit-05.png",
+      "bytes": 362653,
+      "sha256": "bc075175746a6dd77dd9ea963944609055975efe769252e102abdd4fbbe43ca9"
+    },
+    {
+      "path": "evidence/english/v001/sources/be3dbe793e31fb85__page_027.png",
+      "bytes": 271926,
+      "sha256": "be3dbe793e31fb855b75bc2ab29ed4d35d235d5f5c00219816fa1fefe997cba7"
+    },
+    {
+      "path": "evidence/english/v001/sources/bff44e74fc38d584__page_020.png",
+      "bytes": 380909,
+      "sha256": "bff44e74fc38d5844ea7a6525ccdd930a9b29f6c4825c1eb2f8874929c6958a8"
+    },
+    {
+      "path": "evidence/english/v001/sources/c13b55f54dc16ccc__page_021.png",
+      "bytes": 486760,
+      "sha256": "c13b55f54dc16ccc00a28b7ccf584cfe23d2381f64c04740d0f668b8456091e9"
+    },
+    {
+      "path": "evidence/english/v001/sources/c1eab76c266735d7__page_016.png",
+      "bytes": 406108,
+      "sha256": "c1eab76c266735d7abb24e659fa51de4646b16c0f449939fad257b5b4946baa6"
+    },
+    {
+      "path": "evidence/english/v001/sources/c66f96e157211bc9__page_029.txt",
+      "bytes": 4562,
+      "sha256": "c66f96e157211bc9c7930e9ed858526ca12de4bc86e46ad71e0620fafb5b100f"
+    },
+    {
+      "path": "evidence/english/v001/sources/cab2d0b70a534dc5__page_024.png",
+      "bytes": 339375,
+      "sha256": "cab2d0b70a534dc5aba7dd08786263a3e4af6a99a48461e8e439f8fa0ad49f8c"
+    },
+    {
+      "path": "evidence/english/v001/sources/cacf470f2dea6d0c__国轩高科_2024年年度报告.pdf",
+      "bytes": 4257494,
+      "sha256": "cacf470f2dea6d0cf64ed9aa61872c726f739129a3715876a0b1059d2a9168ba"
+    },
+    {
+      "path": "evidence/english/v001/sources/cbcf437addd8f0e0__miit_page_005.txt",
+      "bytes": 1627,
+      "sha256": "cbcf437addd8f0e029e575ee19584c1cfe017645bf27451ba0b23c1bc29771eb"
+    },
+    {
+      "path": "evidence/english/v001/sources/cc77a2001afd3066__page_022.txt",
+      "bytes": 4380,
+      "sha256": "cc77a2001afd3066e4ca23a950a81d47c3487b1fa5dc6927d03eb7230b199bd3"
+    },
+    {
+      "path": "evidence/english/v001/sources/cf2440d41e294ac3__page_035.png",
+      "bytes": 422793,
+      "sha256": "cf2440d41e294ac3d134d316e9f29b6871b8fea4097c0dfc0733c358b5ef09d7"
+    },
+    {
+      "path": "evidence/english/v001/sources/d286ccc015eda912__page_024.txt",
+      "bytes": 3106,
+      "sha256": "d286ccc015eda912d164074a40354ac9139e3a2c16432bea31a248b3c5edf543"
+    },
+    {
+      "path": "evidence/english/v001/sources/d33321bae4990732__p138.txt",
+      "bytes": 3235,
+      "sha256": "d33321bae4990732480ae0bf8f03402888f2b572e21da341448e0e71880bfc28"
+    },
+    {
+      "path": "evidence/english/v001/sources/d472a22656dc0fcb__page_040.txt",
+      "bytes": 3776,
+      "sha256": "d472a22656dc0fcbb0343d564fc2b43a7b8b3ae7a75cb30acc61e533e0e7ffe5"
+    },
+    {
+      "path": "evidence/english/v001/sources/d5c2aa597c340e09__page_016.txt",
+      "bytes": 3330,
+      "sha256": "d5c2aa597c340e095920dcc242bf15819ccd076030b4e8a7a66f04412e342215"
+    },
+    {
+      "path": "evidence/english/v001/sources/d9d24cd63d8ff550__page_040.txt",
+      "bytes": 3849,
+      "sha256": "d9d24cd63d8ff5507306bdb48b6c276be7da92a5d67f781c143fa293fa7df50f"
+    },
+    {
+      "path": "evidence/english/v001/sources/dd43d1c507e350cc__page_153.txt",
+      "bytes": 3193,
+      "sha256": "dd43d1c507e350ccf0fc73cadc39c55a5e348ff18cd694611a3e7f5aafada16b"
+    },
+    {
+      "path": "evidence/english/v001/sources/ddbf0e35164e48c5__page_027.txt",
+      "bytes": 2867,
+      "sha256": "ddbf0e35164e48c5101f028a64171d26660f9a9342da4808eb8f524b639e046f"
+    },
+    {
+      "path": "evidence/english/v001/sources/ded694a07faaf8b5__page_015.png",
+      "bytes": 475101,
+      "sha256": "ded694a07faaf8b57d2ceec3504ebcd48241f6cd6ca86b53efdde01dca26d673"
+    },
+    {
+      "path": "evidence/english/v001/sources/df02386ef41fe2a3__page_023.txt",
+      "bytes": 3983,
+      "sha256": "df02386ef41fe2a34fefe05f2f5fed85badda3f9f39b79ae30e720c390269867"
+    },
+    {
+      "path": "evidence/english/v001/sources/e037b318f2380826__page_027.png",
+      "bytes": 270498,
+      "sha256": "e037b318f23808260aa029a533ce81b9c51e0f4c2868ff63c07f262179367347"
+    },
+    {
+      "path": "evidence/english/v001/sources/e173b487bfc47cb8__page_029.png",
+      "bytes": 365110,
+      "sha256": "e173b487bfc47cb86a5c11535b0706346e0ae02265035f1f60e5a1e477a89d51"
+    },
+    {
+      "path": "evidence/english/v001/sources/e604cc6714e31275__page_040.txt",
+      "bytes": 3062,
+      "sha256": "e604cc6714e31275d90377810414ae4fde5e62258fcfabb8b7b7bbaaec1525a3"
+    },
+    {
+      "path": "evidence/english/v001/sources/e738002034916e7f__page_016.png",
+      "bytes": 410039,
+      "sha256": "e738002034916e7f58a93361b5d8f0e768534a6dd4ac5aaca05c92decf23b829"
+    },
+    {
+      "path": "evidence/english/v001/sources/e86a55af377e6103__page_016.txt",
+      "bytes": 3203,
+      "sha256": "e86a55af377e61037ffe942896b931749d8d125c5aaf8208c8b393155898b3d6"
+    },
+    {
+      "path": "evidence/english/v001/sources/e88874d666bda6ec__page_020.txt",
+      "bytes": 3471,
+      "sha256": "e88874d666bda6ec9db2e14e7c2c73ade88fd7d547d513f0d5b07c9e7047bcac"
+    },
+    {
+      "path": "evidence/english/v001/sources/e9006ff5447243ba__caam_2025.decoded.html",
+      "bytes": 123074,
+      "sha256": "e9006ff5447243ba7aac3cc9a885154aa3af0a1791ca60627268951681369e1c"
+    },
+    {
+      "path": "evidence/english/v001/sources/e9c2d7fdd088e151__比亚迪_2024年年度报告.pdf",
+      "bytes": 10092140,
+      "sha256": "e9c2d7fdd088e151ccb6c8ad3d95587b2b014b10f2c9731508d23ce07fde4de3"
+    },
+    {
+      "path": "evidence/english/v001/sources/ec5206b06f909a0c__page_013.png",
+      "bytes": 537236,
+      "sha256": "ec5206b06f909a0c70427dc035186e49590cc5103689852e110e33cc863d4de8"
+    },
+    {
+      "path": "evidence/english/v001/sources/ee6422ca08d4e702__p081.txt",
+      "bytes": 2053,
+      "sha256": "ee6422ca08d4e702b6682338019578514ac7847932c9b78db130a1000b98c3d4"
+    },
+    {
+      "path": "evidence/english/v001/sources/ee84134425f0ee02__page_012.txt",
+      "bytes": 3095,
+      "sha256": "ee84134425f0ee029bf8ed3283faef3aa738037163a9096f00844dc295aacfa4"
+    },
+    {
+      "path": "evidence/english/v001/sources/ef23adf6651aa823__page_098.txt",
+      "bytes": 2048,
+      "sha256": "ef23adf6651aa823b3b91aaea6b504a4bf67664eed15a37250fdcff7aff58eac"
+    },
+    {
+      "path": "evidence/english/v001/sources/f033f7e6a3a4d92a__page_018.txt",
+      "bytes": 3575,
+      "sha256": "f033f7e6a3a4d92ab02f3e2937a1ed14e6dba277d3b143190270dc492d226494"
+    },
+    {
+      "path": "evidence/english/v001/sources/f21e4c4f154bf795__page_024.png",
+      "bytes": 422730,
+      "sha256": "f21e4c4f154bf795c62b98da3170cd61472ba88e63487d844f43d031d2222130"
+    },
+    {
+      "path": "evidence/english/v001/sources/f3568fd831edd243__page_024.txt",
+      "bytes": 4499,
+      "sha256": "f3568fd831edd24300888027c03ed72caa48b3427940aae50f90de568839af54"
+    },
+    {
+      "path": "evidence/english/v001/sources/f52de04198a47ae6__2024_alliance_reprint.png",
+      "bytes": 275860,
+      "sha256": "f52de04198a47ae611e4f03ea3a13cf55b92c98cc1a141815c1363443ac6bd4d"
+    },
+    {
+      "path": "evidence/english/v001/sources/f5cf37f53bc209b2__page_124.png",
+      "bytes": 280449,
+      "sha256": "f5cf37f53bc209b265df4502ef8b752653baf73fe2d2aafd909be94dc2d5201d"
+    },
+    {
+      "path": "evidence/english/v001/sources/f6ce20963f4d41b4__page_019.png",
+      "bytes": 242802,
+      "sha256": "f6ce20963f4d41b434ebac36619a4d7d4e25110d6e347ec614fd08f304eb5b1a"
+    },
+    {
+      "path": "evidence/english/v001/sources/fa3e612ea13a7b79__page_021.png",
+      "bytes": 255891,
+      "sha256": "fa3e612ea13a7b79e561cc522c28dc0ba63ac72bc780378bddd36a07a52f3cc1"
+    },
+    {
+      "path": "evidence/english/v001/sources/fc0ed9979adfef26__page_013.txt",
+      "bytes": 3372,
+      "sha256": "fc0ed9979adfef26db45f894cd90fe337f9eddd7475b11791bc0020e7baa2df0"
+    },
+    {
+      "path": "examples/completed_english_report/claim_source_map.json",
+      "bytes": 105580,
+      "sha256": "35cbc6fbda9bfa8ebb100d27c54d08c549f68f4c6389d9edfd1cd85013a2816b"
+    },
+    {
+      "path": "examples/completed_english_report/EXAMPLE_README.md",
+      "bytes": 1122,
+      "sha256": "524dd013eebdc88653d7c5cfe69c792de0c0b2e0a0fa36abf442c8244c938568"
+    },
+    {
+      "path": "examples/completed_english_report/references_en.md",
+      "bytes": 14562,
+      "sha256": "dcfc5bf4591c4585be77ac37548359299e29f79914918f2f1f2228f8e360e939"
+    },
+    {
+      "path": "examples/completed_english_report/report_en.md",
+      "bytes": 19229,
+      "sha256": "2b869b2c39defe6b4e66dc77be9268d0e6caa0c3fc2503f6910b5aae98295ff7"
+    },
+    {
+      "path": "PACKAGE_NOTES.md",
+      "bytes": 2704,
+      "sha256": "7d57c0e6ddab6030076b027499610f58d71f373c84119b63ec5d4a74babd5850"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7893,
+      "sha256": "1c65060a4cf629e02478d4e1fdac956b7841773858e4df9ec8d95541d2c40338"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1464,
+      "sha256": "67ea867d55cdc7f50ada079df94e7ec7dbd9f4d3922ece72dd20b9f76f09f1d8"
+    },
+    {
+      "path": "verification/package_validation.json",
+      "bytes": 1142,
+      "sha256": "77c0cb8582e2074a424647376a702cd799a7bd73154433130448c4e2aa7aa49f"
+    },
+    {
+      "path": "verification/release_validation.json",
+      "bytes": 416,
+      "sha256": "e4d2d14d5dcdfcfdb4e73143df4405c447bd898f9abac6a10e5a425a891b0632"
+    },
+    {
+      "path": "verification/security_review.json",
+      "bytes": 1530,
+      "sha256": "946eaa79d76f9ef9e49cb542b5218edab7a6ce680c66afb81f134e5f5c1551fb"
+    },
+    {
+      "path": "verify_package.py",
+      "bytes": 7402,
+      "sha256": "bb5b72fb34ae990052029f371685c6f2fb52993e4d0ef9984c7df5281ab73f0c"
+    },
+    {
+      "path": "workflow/en/deterministic.py",
+      "bytes": 6689,
+      "sha256": "53c4bcc3cee434493a4769b16cf908d64d76467bca3e8b484cf9ed5e7fa4ed4c"
+    },
+    {
+      "path": "workflow/en/INPUT_FILES_EN.json",
+      "bytes": 1343,
+      "sha256": "cf236b932d4a351fe4638388030dcf5398f4e5d5911d6c7a350c8fedbd910790"
+    },
+    {
+      "path": "workflow/en/MASTER_PROMPT_EN.md",
+      "bytes": 9571,
+      "sha256": "1866a3ffeb73f2751a4f063ec4fba9c19222d0dcc0a576e6470bbac58dccd6f8"
+    },
+    {
+      "path": "workflow/en/METHOD_EN.md",
+      "bytes": 7183,
+      "sha256": "77733ace11ded1726b1fe49629e10e2f42ed0c96362f9086993d9f14271618d6"
+    },
+    {
+      "path": "workflow/en/output_contract_en.json",
+      "bytes": 981,
+      "sha256": "4d04fcc9d773c70c68d1ad1351a7aaf6d48afd23b7fa8bbb864321f2fa5e0a1e"
+    },
+    {
+      "path": "workflow/en/README_EN.md",
+      "bytes": 2240,
+      "sha256": "fd8836c2600aa5b0ba91c854984906134ed02802fb4b3a39c75e471e1b2a51ba"
+    },
+    {
+      "path": "workflow/en/run_en.py",
+      "bytes": 13350,
+      "sha256": "58fee9c69605dd51157d4476d7d7ee5f74012793864eaf17c62ce6d073e3fe88"
+    },
+    {
+      "path": "workflow/en/START_NEW_SESSION_EN.md",
+      "bytes": 567,
+      "sha256": "da263ba5bd858b1d72627505137268b9e61e0f7d664522bd4117d5d2479b4282"
+    },
+    {
+      "path": "workflow/en/task_en.json",
+      "bytes": 2727,
+      "sha256": "4acccded8bb515252daae127f5c648bab3b73553daf5e521e7e6378199109b30"
+    }
+  ]
+}
